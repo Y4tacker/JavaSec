@@ -5,7 +5,7 @@
 
 ## 1.基础篇
 
-基础篇有些可以写，但更多网上其实各个大佬都写了点，先偷个懒搬运链接，之后慢慢填坑写自己的东西
+基础篇有些可以写，但更多网上其实各个大佬都写了点，先偷个懒搬运链接，之后慢慢填坑写自己的东西，主要是节约点时间(偷懒)
 
 - [Java反射](https://github.com/Stakcery/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8F%8D%E5%B0%84/%E5%8F%8D%E5%B0%84.md)
 - [Java动态代理](https://github.com/Stakcery/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86.md)
