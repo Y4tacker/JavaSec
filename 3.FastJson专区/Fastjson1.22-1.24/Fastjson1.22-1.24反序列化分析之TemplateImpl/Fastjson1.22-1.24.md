@@ -136,4 +136,4 @@ FastJson提取byte[]数组字段值时会进行Base64解码，所以我们构造
 
 ## 关于Tempaltesimpl里面的一些知识
 
-看我另一篇文章
+看我另一篇文章，不必重复，[链接直达](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81.md)
