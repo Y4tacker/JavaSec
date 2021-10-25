@@ -1,5 +1,9 @@
 # CommonsCollections3
 
+## payload
+
+见ysoserial
+
 ## 分析
 
 为什么需要CC3，主要是绕过黑名单避免我们使⽤ `InvokerTransformer`⼿⼯调⽤ `newTransformer() `⽅法
