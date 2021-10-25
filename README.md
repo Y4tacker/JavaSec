@@ -41,6 +41,7 @@
 
 ## 4.Weblogic专区
 
+- [如何远程调试Weblogic](https://github.com/QAX-A-Team/WeblogicEnvironment)
 - T3协议学习
 
 ## 其他
