@@ -21,6 +21,7 @@
 很早前学了，后面补上，更多是说一点关键的东西，不会很详细
 
 - [CommonsCollections1笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections1/CommonsCollections1.md)
+- CommonsCollections2笔记
 
 ....to be continued
 
@@ -37,6 +38,10 @@
 - [一些有趣的Trick](https://github.com/Stakcery/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
 
 
+
+## 4.Weblogic专区
+
+- T3协议学习
 
 ## 其他
 
