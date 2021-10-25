@@ -21,7 +21,7 @@
 很早前学了，后面补上，更多是说一点关键的东西，不会很详细
 
 - [CommonsCollections1笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections1/CommonsCollections1.md)
-- CommonsCollections2笔记
+- [CommonsCollections2笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections2/CommonsCollections2.md)
 
 ....to be continued
 
