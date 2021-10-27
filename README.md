@@ -28,6 +28,7 @@
 - [CommonsCollections5笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections5/CommonsCollections5.md)
 - [CommonsCollections6-HashSet笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections6-HashSet/CommonsCollections6-HashSet.md)
 - [CommonsCollections6-HashMap笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections6-HashMap/CommonsCollections6-HashMap.md)
+- CommonsCollections6-Shiro1.2.4笔记
 
 ....to be continued
 
