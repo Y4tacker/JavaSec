@@ -95,3 +95,6 @@ public class test extends AbstractTranslet {
 }
 ```
 
+测试成功，弹出计算器
+
+![](img/8.png)
