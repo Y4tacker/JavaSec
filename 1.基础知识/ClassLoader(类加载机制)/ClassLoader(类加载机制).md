@@ -200,7 +200,9 @@ public class MyURLClassloader {
 
 ```
 
+## 类加载隔离
 
+[看这个阿里大佬写的足以](https://github.com/Stakcery/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E4%B8%A4%E7%A7%8D%E5%AE%9E%E7%8E%B0Java%E7%B1%BB%E9%9A%94%E7%A6%BB%E5%8A%A0%E8%BD%BD%E7%9A%84%E6%96%B9%E6%B3%95/%E4%B8%A4%E7%A7%8D%E5%AE%9E%E7%8E%B0Java%E7%B1%BB%E9%9A%94%E7%A6%BB%E5%8A%A0%E8%BD%BD%E7%9A%84%E6%96%B9%E6%B3%95.pdf)
 
 ## 参考文章
 
