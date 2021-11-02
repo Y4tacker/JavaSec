@@ -6,4 +6,9 @@ public class TestA {
         TestB testB = new TestB();
         testB.hello();
     }
+
+    public static void main(String[] args) {
+        TestA testA = new TestA();
+        testA.hello();
+    }
 }
