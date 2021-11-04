@@ -4,6 +4,7 @@ import sun.misc.Service;
 
 import java.util.Iterator;
 import java.util.ServiceLoader;
+import sun.net.www.protocol.http.AuthScheme;
 
 public class Test {
     public static void main(String[] args) {
