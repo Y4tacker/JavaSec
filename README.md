@@ -69,8 +69,8 @@
 ## 6.JavaAgent学习专区
 
 - [Java Instrument插桩技术初体验](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF.md)
-
 - [PreMain之addTransformer与redefineClasses用法学习](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0.md)
+- [AgentMain(JVM启动后动态Instrument)](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/AgentMain/AgentMain.md)
 
 ## 其他
 
