@@ -1,5 +1,9 @@
 # Java类字节码编辑
 
+## 写在前面
+
+这部分知识完全学习来自javasec.org，支持正版，单纯记个笔记，如果作者介意可以删了
+
 ## Javassist介绍
 
 `Javassist`是一个开源的分析、编辑和创建Java字节码的类库；相比ASM，`Javassist`提供了更加简单便捷的API，使用`Javassist`我们可以像写Java代码一样直接插入Java代码片段，让我们不再需要关注Java底层的字节码的和栈操作，仅需要学会如何使用`Javassist`的API即可实现字节码编辑
