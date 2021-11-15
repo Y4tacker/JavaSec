@@ -49,7 +49,7 @@
 - [Fastjson1.2.25-1.2.43补丁绕过(用左中括号绕过、需要开启autotype)](https://github.com/Stakcery/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Bypass/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
 - [Fastjson1.2.25-1.2.45补丁绕过(mybatis的3.x版本且<3.5.0、需要开启autotype)](https://github.com/Stakcery/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Bypass/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
 - [Fastjson1.2.25-1.2.47绕过(无需autotype)](https://github.com/Stakcery/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Bypass/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType.md)
-- [1.2.48-1.2.68反序列化漏洞](https://www.mi1k7ea.com/2021/02/08/Fastjson%E7%B3%BB%E5%88%97%E5%85%AD%E2%80%94%E2%80%941-2-48-1-2-68%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/#%E8%B0%83%E8%AF%95%E5%88%86%E6%9E%90-3)
+- [Fastjson1.2.48-1.2.68反序列化漏洞](https://www.anquanke.com/post/id/232774)
 - [一些有趣的Trick](https://github.com/Stakcery/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
 
 
