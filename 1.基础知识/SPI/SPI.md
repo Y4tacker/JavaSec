@@ -80,9 +80,3 @@ public class Test {
 如果在里面写一个恶意类，可能导致命令执行
 
 ![](img/4.png)![](img/5.png)
-
-为什么我写个staitc呢，因为这样只有类初始化的时候执行一次命令，没必要两次不是么
-
-至于为什么可以这样![](img/6.png)
-
-可以看到虽然Class.forName那里为false，但是后面调用了newInstance
