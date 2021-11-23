@@ -21,4 +21,6 @@ Fastjson反序列化的时候所用的是Parse而不是ParseObject，这里就�
     }:'b'
 }
 ```
+## parse触发get另一种思路
+https://mp.weixin.qq.com/s?__biz=MzAxNTg0ODU4OQ==&mid=2650358489&idx=1&sn=2d1f600da6f01b644544331a844139ae&chksm=83f0273bb487ae2d85984c541adc7a928bdca396aa6ad3c0c349e2ef044558539f2f7075ad1f&mpshare=1&scene=23&srcid=1123yB78GUjwHduKmaU9BGSa&sharer_sharetime=1637650532436&sharer_shareid=18ef5175242004180f2ee4dd9c244e8a#rd
 
