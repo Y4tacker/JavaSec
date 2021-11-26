@@ -89,7 +89,7 @@
 ## 7.Struts2学习专区
 
 - [Struts2简介与漏洞环境搭建](https://github.com/Stakcery/JavaSec/blob/main/7.Struts22%E4%B8%93%E5%8C%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
-- Struts2框架处理流程与Struts2-001漏洞分析
+- [Struts2框架处理流程与Struts2-001漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E4%B8%8EStruts2-001.md)
 
 ## 其他
 
