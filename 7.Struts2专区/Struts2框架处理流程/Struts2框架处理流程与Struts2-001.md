@@ -1,5 +1,7 @@
 # Struts2框架处理流程与Struts2-001
 
+## 流程分析
+
 还是上次的那张图片开始![](img/0.png)
 
 从上图，我们可以看出当一个 **HTTP** 请求被 **Struts2** 处理时，会经过一系列的 **拦截器(Interceptor)** ，这些拦截器可以是 **Struts2** 自带的，也可以是用户自定义的。例如下图 **struts.xml** 中的 **package** 继承自 **struts-default** ，而 **struts-default** 就使用了 **Struts2** 自带的拦截器。
@@ -29,3 +31,25 @@
 在最开始，我们传入 **translateVariables** 方法的表达式 **expression** 为 **%{username}** ，经过 **Ognl** 表达式解析，程序会获得其值 **%{1+1}** 。这个值在先前经过 **params** 拦截器的时候设置了，前面我们也说过。由于此处使用的是 **while** 循环来解析 **Ognl** ，所以获得的 **%{1+1}** 又会被再次执行，最终也就造成了任意代码执行。
 
 ![](img/9.png)
+
+弹出一个计算器也很简单
+
+```java
+%{(new java.lang.ProcessBuilder(new java.lang.String[]{"calc"})).start()}
+```
+
+或者
+
+```java
+%{#a=(new java.lang.ProcessBuilder(new java.lang.String[]{"cmd","-c","clac"})).redirectErrorStream(true).start(),#b=#a.getInputStream(),#c=new java.io.InputStreamReader(#b),#d=new java.io.BufferedReader(#c),#e=new char[50000],#d.read(#e),#f=#context.get("com.opensymphony.xwork2.dispatcher.HttpServletResponse"),#f.getWriter().println(new java.lang.String(#e)),#f.getWriter().flush(),#f.getWriter().close()}
+```
+
+## 漏洞修复
+
+在 `xwork 2.0.4` 中添加了一个maxLoopCount属性，限制了递归解析的最大数目。
+
+![](img/10.png)
+
+配合这个index.Of参数，看看这个偏移量pos是怎么来的，很通俗易懂
+
+![](img/11.png)
