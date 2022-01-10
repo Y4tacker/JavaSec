@@ -96,6 +96,8 @@
 
 ## 其他
 
+- [BypassSM](https://github.com/Stakcery/JavaSec/blob/main/8.BypassSM/bypasssm.md)
+
 - [JSP-Webshells集合](https://github.com/threedr3am/JSP-Webshells)
 
 - [Spring Boot FatJar任意写目录漏洞导致Getshell](https://www.cnblogs.com/wh4am1/p/14681335.html)
