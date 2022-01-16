@@ -166,6 +166,20 @@ if __name__ == '__main__':
     run()
 ```
 
+## 修复
+
+简单测试了一下，在下面这个版本开始
+
+```xml
+<dependency>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <version>8.0.20</version>
+</dependency>
+```
+
+不再直接调用getObject方法，从而实现了简单的修复
+
 ## 参考链接
 
 https://xz.aliyun.com/t/8159
