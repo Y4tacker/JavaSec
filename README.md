@@ -95,6 +95,12 @@
 - [Struts2框架处理流程与Struts2-001漏洞分析(Struts 2.0.0-Struts 2.0.8)](https://github.com/Stakcery/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E4%B8%8EStruts2-001.md)
 - [S2-002漏洞分析(Struts 2.0.0 - Struts 2.1.8.1)](https://github.com/Stakcery/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 
+## 8.关于Tomcat的一些小发现的分享
+
+- 一次jsp的奇异探索
+- Tomcat写文件新利用思路
+- 两个关于Tomcat的问题
+
 ## 其他
 
 - [BypassSM](https://github.com/Stakcery/JavaSec/blob/main/8.BypassSM/bypasssm.md)
