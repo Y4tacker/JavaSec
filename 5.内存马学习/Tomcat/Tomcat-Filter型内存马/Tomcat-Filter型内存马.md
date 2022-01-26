@@ -4,7 +4,7 @@
 
 当tomcat接收到请求时候，依次会经过Listener -> Filter -> Servlet，监听器的我们已经实现了相对简单一点，过滤器的则相对复杂一点
 
-## 流程分析
+## 简单实现一个过滤器
 
 首先需要简单写个filter
 
@@ -42,6 +42,10 @@ public class TestFilter implements Filter {
     <url-pattern>/*</url-pattern>
 </filter-mapping>
 ```
+
+
+
+## 流程分析
 
 从调用链当中我们可以看到一个filterChain
 
