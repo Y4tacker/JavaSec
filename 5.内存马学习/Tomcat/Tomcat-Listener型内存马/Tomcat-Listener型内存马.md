@@ -1,26 +1,6 @@
 # Tomcat-Listener型内存马
 
-## 流程分析
-
-我们知道监听器的过程：Listener -> Filter -> Servlet
-
-Listener是最先被加载的, 所以可以利用动态注册恶意的Listener内存马。而Listener分为以下几种：
-
-- ServletContext，服务器启动和终止时触发
-- Session，有关Session操作时触发
-- Request，访问服务时触发
-
-不难想到，其中关于监听Request对象的监听器是最适合做内存马的，只要我们访问服务就能触发相应操作
-
-如果在Tomcat要引入listener，需要实现两种接口，分别是`LifecycleListener`和原生`EvenListener`。
-
-实现了`LifecycleListener`接口的监听器一般作用于tomcat初始化启动阶段，此时客户端的请求还没进入解析阶段，不适合用于内存马。
-
-另一个`EventListener`接口，在Tomcat中，自定义了很多继承于`EventListener`的接口，应用于各个对象的监听，idea下用快捷键`Ctrl+H`查看所有实现接口的类
-
-![](img/1.png)
-
-重点来看`ServletRequestListener`接口，`ServletRequestListener`用于监听`ServletRequest`对象的创建和销毁，当我们访问任意资源，无论是servlet、jsp还是静态资源，都会触发`requestInitialized`方法
+## 初步体验监听器创建
 
 其中要实现两个方法：
 
@@ -51,6 +31,30 @@ public class TestListener implements ServletRequestListener {
     <listener-class>com.yyds.TestListener</listener-class>
 </listener>
 ```
+
+
+
+## 流程分析
+
+我们知道监听器的过程：Listener -> Filter -> Servlet
+
+Listener是最先被加载的, 所以可以利用动态注册恶意的Listener内存马。而Listener分为以下几种：
+
+- ServletContext，服务器启动和终止时触发
+- Session，有关Session操作时触发
+- Request，访问服务时触发
+
+不难想到，其中关于监听Request对象的监听器是最适合做内存马的，只要我们访问服务就能触发相应操作
+
+如果在Tomcat要引入listener，需要实现两种接口，分别是`LifecycleListener`和原生`EvenListener`。
+
+实现了`LifecycleListener`接口的监听器一般作用于tomcat初始化启动阶段，此时客户端的请求还没进入解析阶段，不适合用于内存马。
+
+另一个`EventListener`接口，在Tomcat中，自定义了很多继承于`EventListener`的接口，应用于各个对象的监听，idea下用快捷键`Ctrl+H`查看所有实现接口的类
+
+![](img/1.png)
+
+重点来看`ServletRequestListener`接口，`ServletRequestListener`用于监听`ServletRequest`对象的创建和销毁，当我们访问任意资源，无论是servlet、jsp还是静态资源，都会触发`requestInitialized`方法
 
 在`requestInitialized`处下断点，清楚看到调用链
 
