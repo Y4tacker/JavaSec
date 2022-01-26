@@ -1,5 +1,9 @@
 # Tomcat-Filter型内存马
 
+<center>@Y4tacker</center>
+
+
+
 
 
 当tomcat接收到请求时候，依次会经过Listener -> Filter -> Servlet，监听器的我们已经实现了相对简单一点，过滤器的则相对复杂一点
@@ -43,67 +47,106 @@ public class TestFilter implements Filter {
 </filter-mapping>
 ```
 
+## 如何自己添加一个新的自定义FIlter呢
 
+实现了这个那么我们的内存马问题也就解决了
 
-## 流程分析
+首先在init方法打上断点，它是通过调用具体的过滤器的init，毕竟很容易想到，初始化的时候就是添加的时候
 
-从调用链当中我们可以看到一个filterChain
+在`org.apache.catalina.core.StandardContext#filterStart`
 
-![](img/3.png)
-
-可以看到是通过ApplicationFilterFactory.createFilterChain获得
+首先对filterDefs进行foreach，可以看到这是一个HashMap，对应是<key,Object>，具体是过滤器名称和FilterDef对象
 
 ![](img/4.png)
 
-这里获得了filterMaps![](img/5.png)
+从这里不难看出我们需要对FilterDef对象设置的属性![](img/5.png)
 
-看看哪里可以添加![](img/6.png)
+不急着往下走，filterDefs如何添加值我们还没说，当然也很简单
 
-找到了个addFilterMap还有个addFilterMapBefore，经过具体跟踪确定是addFilterMap，这里添加了一个filterMap
+![](img/8.png)
 
-![](img/2.png)
+再往下，对filterConfigs这个HashMap设置ApplicationFilterConfig
 
-看看这个filterMap里面存了什么FilterName、URLPattern、Dispatcher，并且这个Dispatcher根据类型我们只需要设置一个DispatcherType.REQUEST.name()
+```java
+ApplicationFilterConfig filterConfig =
+new ApplicationFilterConfig(this, entry.getValue());
+filterConfigs.put(name, filterConfig);
+```
 
-![](img/17.png)![](img/18.png)
+具体跟入看看，这里有两种方式，
 
-从调用上可以看到在web.xml当中解析并添加`FilterDef`和`FilterMap`![](img/1.png)
+1.`filterDef.getFilter()`如果为空，则会去调用`getFilter();`实例化
 
-接下来再往下去尝试获取了filterConfig![](img/8.png)
+![](img/6.png)
 
-跟入找到了
+2.`filterDef.getFilter()`条件不为空
 
-![](img/9.png)
+简单跟入，有get则也有set，并且是public方法也比较方便
 
-再来看filterConfigs在哪里设置的，发现在filterStart中有调用
+![](img/7.png)
 
-![](img/10.png)
+以上两种都可以，简单对这部分写出伪代码
 
-可以看到这里建立了一个映射，这个filterConfig是通过entry.getValue()获得，跟踪下发现是filterDefs
+```java
+FilterDef filterDef = new FilterDef();
+filterDef.setFilter(filter);
+filterDef.setFilterName(name);
+filterDef.setFilterClass(filter.getClass().getName());
+standardContext.addFilterDef(filterDef);
+```
 
-![](img/11.png)
+但这样还远远不够，为什么呢，继续往下看
 
-是一个HashMap
+接下来就是调用了，我们在之前自定义的Filter的doFilter上打断点，为什么呢，因为这是监听器的核心功能，我们从这里需要知道具体取得了监听器的哪个参数
 
-![](img/12.png)
+不难看出从filterConfig中取得了这个Filter，这个filterConfig可以通过StandardConfig取得
 
-通过addFilterDef设置值
+![](img/3.png)
 
-![](img/13.png)
+从调用链当中我们可以看到一个filterChain![](img/9.png)
 
-看到这里设置了一个name与一个class
+往上看可以看到这个是通过下面这行代码取得
 
-![](img/14.png)
+```java
+ApplicationFilterChain filterChain = ApplicationFilterFactory.createFilterChain(request, wrapper, servlet);
+```
 
-设置好后添加进filterDefs即可
+跟入发现这里还有一个通过上下文取得的FilterMap，刚刚上面的伪代码并没有这一个，所需要参数如下![](img/10.png)
 
-![](img/15.png)
+这里有个坑就是别忘了设置Dispatcher，这里我们设置DispatcherType.REQUEST.name()即可
 
-接下来再回到ApplicationFilterConfig，看到将StandardContext与filterdef添加进去
+```java
+public void setDispatcher(String dispatcherString) {
+String dispatcher = dispatcherString.toUpperCase(Locale.ENGLISH);
 
-![](img/16.png)
+if (dispatcher.equals(DispatcherType.FORWARD.name())) {
+// apply FORWARD to the global dispatcherMapping.
+dispatcherMapping |= FORWARD;
+} else if (dispatcher.equals(DispatcherType.INCLUDE.name())) {
+// apply INCLUDE to the global dispatcherMapping.
+dispatcherMapping |= INCLUDE;
+} else if (dispatcher.equals(DispatcherType.REQUEST.name())) {
+// apply REQUEST to the global dispatcherMapping.
+dispatcherMapping |= REQUEST;
+}  else if (dispatcher.equals(DispatcherType.ERROR.name())) {
+// apply ERROR to the global dispatcherMapping.
+dispatcherMapping |= ERROR;
+}  else if (dispatcher.equals(DispatcherType.ASYNC.name())) {
+// apply ERROR to the global dispatcherMapping.
+dispatcherMapping |= ASYNC;
+}
+}
+```
 
-## 实现内存马
+
+
+之后关于设置FilterMap，在StandardContext中找到了个addFilterMap还有个addFilterMapBefore这里我们随便来一个`org.apache.catalina.core.StandardContext#addFilterMapBefore`就好
+
+
+
+## 具体实现内存马
+
+接下来整理下流程
 
 根据上面流程我们只需要设置filterMaps、filterConfigs、filterDefs就可以注入恶意的filter
 
@@ -173,9 +216,6 @@ public class TestFilter implements Filter {
         filterDef.setFilter(filter);
         filterDef.setFilterName(name);
         filterDef.setFilterClass(filter.getClass().getName());
-        /**
-         * 将filterDef添加到filterDefs中
-         */
         standardContext.addFilterDef(filterDef);
 
         FilterMap filterMap = new FilterMap();
