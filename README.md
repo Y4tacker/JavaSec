@@ -103,7 +103,7 @@
 
 ## 其他
 
-- [BypassSM]([JavaSec/bypasssm.md at main · Stakcery/JavaSec (github.com)](https://github.com/Stakcery/JavaSec/blob/main/其他/BypassSM/bypasssm.md))
+- [BypassSM](https://github.com/Stakcery/JavaSec/blob/main/其他/BypassSM/bypasssm.md)
 - [如何绕过高版本 JDK 的限制进行 JNDI 注入利用](https://paper.seebug.org/942/#classreference-factory)
 
 - [JSP-Webshells集合](https://github.com/threedr3am/JSP-Webshells)
