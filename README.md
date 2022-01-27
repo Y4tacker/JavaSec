@@ -102,7 +102,7 @@
 
 ## 其他
 
-- [Spirng下结合Tomcat实现无OOB方式下的回显](https://github.com/Stakcery/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/springboot-tomcat%E5%9B%9E%E6%98%BE/index.md)
+- [SpirngBoot下结合Tomcat实现无OOB方式下的回显](https://github.com/Stakcery/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/springboot-tomcat%E5%9B%9E%E6%98%BE/index.md)
 
 - [BypassSM](https://github.com/Stakcery/JavaSec/blob/main/其他/BypassSM/bypasssm.md)
 - [如何绕过高版本 JDK 的限制进行 JNDI 注入利用](https://paper.seebug.org/942/#classreference-factory)
