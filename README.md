@@ -102,14 +102,20 @@
 - [Tomcat写文件新利用思路](https://github.com/Stakcery/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E5%86%99%E6%96%87%E4%BB%B6%E6%96%B0%E5%88%A9%E7%94%A8%E6%80%9D%E8%B7%AF/DC.md)
 - [两个关于Tomcat的问题](https://github.com/Stakcery/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/%E4%B8%A4%E4%B8%AA%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E9%97%AE%E9%A2%98/1.md)
 
-## 9.关于JNDI的整理
+
+
+## 9.JDBC Attack
+
+
+
+## 10.关于JNDI的整理
 
 因为比较重要单独列出来了
 
 - [Java RMI 攻击由浅入深(深入源码，师傅写的很好)](https://su18.org/post/rmi-attack/)
-
 - [如何绕过高版本 JDK 的限制进行 JNDI 注入利用](https://paper.seebug.org/942/#classreference-factory)
 - [探索高版本 JDK 下 JNDI 漏洞的利用方法](https://tttang.com/archive/1405/)
+- [JNDI jdk高版本绕过—— Druid](https://xz.aliyun.com/t/10656)
 
 ## 其他分享
 
