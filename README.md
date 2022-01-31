@@ -110,6 +110,7 @@
 
 - [MySQL-JDBC-反序列化漏洞](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/MySQL-JDBC-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/MySQL%20JDBC-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E.md)
   - (补充各版本区别)[MySQL JDBC 客户端反序列化漏洞分析](https://www.anquanke.com/post/id/203086)
+- [H2-RCE](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/h2/index.md)
 
 
 
