@@ -6,7 +6,7 @@
 
 <p align="right">@Y4tacker</p>
 
-<p align="right">From 18 Oct 2021</p>
+<p align="right">2021年10月18日，梦的开始</p>
 
 
 
@@ -119,6 +119,7 @@
 
 - [Java RMI 攻击由浅入深(深入源码，师傅写的很好)](https://su18.org/post/rmi-attack/)
 - [如何绕过高版本 JDK 的限制进行 JNDI 注入利用](https://paper.seebug.org/942/#classreference-factory)
+  - (自己写的流程补充)[高低版JDK下的JNDI注入绕过流程跟踪(Jdk8u191+)](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%AB%98%E4%BD%8E%E7%89%88JDK%E4%B8%8B%E7%9A%84JNDI%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E6%B5%81%E7%A8%8B%E8%B7%9F%E8%B8%AA/%E9%AB%98%E4%BD%8E%E7%89%88JDK%E4%B8%8B%E7%9A%84JNDI%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E6%B5%81%E7%A8%8B%E8%B7%9F%E8%B8%AA.md)
 - [探索高版本 JDK 下 JNDI 漏洞的利用方法](https://tttang.com/archive/1405/)
 - [JNDI jdk高版本绕过—— Druid](https://xz.aliyun.com/t/10656)
 
@@ -130,7 +131,6 @@
 - [Spring Boot FatJar任意写目录漏洞导致Getshell](https://www.cnblogs.com/wh4am1/p/14681335.html)
 - [利用TemplatesImpl执行字节码](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81.md)
 - [为什么补丁都喜欢打在resolveClass](https://github.com/Stakcery/JavaSec/blob/main/4.Weblogic%E4%B8%93%E5%8C%BA/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass.md)
-- [高低版JDK下的JNDI注入绕过流程跟踪(Jdk8u191+)](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%AB%98%E4%BD%8E%E7%89%88JDK%E4%B8%8B%E7%9A%84JNDI%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E6%B5%81%E7%A8%8B%E8%B7%9F%E8%B8%AA/%E9%AB%98%E4%BD%8E%E7%89%88JDK%E4%B8%8B%E7%9A%84JNDI%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87%E6%B5%81%E7%A8%8B%E8%B7%9F%E8%B8%AA.md)
 - [Java沙箱绕过](https://www.anquanke.com/post/id/151398)
 
 ## 漏洞复现与分析
