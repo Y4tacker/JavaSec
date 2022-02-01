@@ -47,3 +47,13 @@ public static void main(String[] args) throws Exception{
 	}
 ```
 
+给出依赖便于测试
+
+```xml
+<dependency>
+  <groupId>org.apache.derby</groupId>
+  <artifactId>derby</artifactId>
+  <version>10.10.1.1</version>
+</dependency>
+```
+
