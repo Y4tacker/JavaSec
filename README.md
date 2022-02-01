@@ -112,6 +112,9 @@
   - (补充各版本区别)[MySQL JDBC 客户端反序列化漏洞分析](https://www.anquanke.com/post/id/203086)
 - [H2-RCE](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/h2/index.md)
 - [ModeShape-JNDI](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/ModeShape/index.md)
+- [IBM DB2-JNDI](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/IBM-DB2/index.md)
+- [Apache Derby可触发反序列化](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/Apache-Derby/index.md)
+- [SQLite SSRF](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/SQLite/index.md)
 
 
 
