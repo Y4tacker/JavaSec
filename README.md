@@ -26,7 +26,7 @@
 
 ## 2.CC专区(Ysoserial专区)
 
-很早前学了，后面补上，更多是说一点关键的东西，不会很详细
+很早前学了，后面补上，更多是说一点关键的东西，不会很详细，好吧这里再拓展成反序列化专区好了
 
 - [Java反序列化之URLDNS](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS.md)
 - [CommonsCollections1笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections1/CommonsCollections1.md)
@@ -44,6 +44,7 @@
 - [C3P0Tomcat不出网利用(思路就是之前高版本JNDI注入的思路)](http://www.yulegeyu.com/2021/10/10/JAVA%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BC3P0%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/)
 - [反制Ysoserial0.0.6版本-JRMP(打个标签weblogic搞定后看看)](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP.md)
 - [网上看到的神秘套娃CommonsCollections11](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsCollections11/CommonsCollections11.md)
+- [SnakeYAML反序列化及可利用Gadget](https://y4tacker.github.io/2022/02/08/year/2022/2/SnakeYAML%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%8F%8A%E5%8F%AF%E5%88%A9%E7%94%A8Gadget%E5%88%86%E6%9E%90/)
 
 ....to be continued
 
