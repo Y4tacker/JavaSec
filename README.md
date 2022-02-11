@@ -142,6 +142,7 @@
 - [低版本SpringBoot-SpEL表达式注入漏洞复现分析](https://y4tacker.github.io/2022/02/07/year/2022/2/%E4%BD%8E%E7%89%88%E6%9C%ACSpringBoot-SpEL%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/)
 - [SpringCloud-SnakeYAML-RCE(高版本不可用)](https://y4tacker.github.io/2022/02/08/year/2022/2/SpringCloud-SnakeYAML-RCE/)
 - [Spring Boot Vulnerability Exploit Check List](https://github.com/LandGrey/SpringBootVulExploit)
+- [Ssrf to Rce with Jolokia and Mbeans](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/SSRF%20to%20RCE%20with%20Jolokia%20and%20MBeans%20%E2%80%A2%20Think%20Love%20Share.pdf)
 
 ## 其他分享
 
