@@ -133,6 +133,6 @@ public class Student {
 
 ## parse与parseObject区别
 
-parse只会调用set方法
+parse他会去优先去匹配调用字段的set方法，如果没有set方法，就会去寻找字段的get方法(有条返回值要是Collection|Map|AtomicBoolean|AtomicInteger|AtomicLong，这就是TemplatesImpl调用链的触发原因)
 
 parseObject会调用set与get方法
