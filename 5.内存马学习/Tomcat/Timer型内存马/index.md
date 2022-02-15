@@ -6,6 +6,8 @@
 
 ## 实现代码
 
+下面获取request的自己配合工具去根据自己对应Tomcat的版本运行获得，工具在配合工具栏
+
 ```java
 <%@ page import="java.lang.reflect.Field" %>
 <%@ page import="java.util.Iterator" %>
