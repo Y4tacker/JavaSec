@@ -40,6 +40,7 @@
 - [使用TemplatesImpl改造CommonsCollections2](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2.md)
 - [CommonsBeanutils1笔记](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsBeanutils1/CommonsBeanutils1%E7%AC%94%E8%AE%B0.md)
 - [CommonsBeanutils1-Shiro(无CC依赖)](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/CommonsBeanutils1-Shiro(%E6%97%A0CC%E4%BE%9D%E8%B5%96)/CommonsBeanutils1-Shiro(%E6%97%A0CC%E4%BE%9D%E8%B5%96).md)
+- [FileUpload1-写文件\删除文件](https://github.com/Y4tacker/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/FileUpload/index.md)
 - [C3P0利用链简单分析](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/C3P0/C3P0.md)
 - [C3P0Tomcat不出网利用(思路就是之前高版本JNDI注入的思路)](http://www.yulegeyu.com/2021/10/10/JAVA%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BC3P0%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/)
 - [反制Ysoserial0.0.6版本-JRMP(打个标签weblogic搞定后看看)](https://github.com/Stakcery/JavaSec/blob/main/2.CC%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP.md)
