@@ -8,7 +8,7 @@
 
 ![](img/2.png)
 
-这意味着如果我们准备一个连接，如jdbc:sqlite::resource:http://127.0.0.1:8888/poc.db，SQLite将连接该地址并从中获取内容。这确实会导致SSRF
+这意味着如果我们准备一个连接，如`jdbc:sqlite::resource:http://127.0.0.1:8888/poc.db`，SQLite将连接该地址并从中获取内容。这确实会导致SSRF
 
 
 
