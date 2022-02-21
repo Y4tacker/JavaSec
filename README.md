@@ -142,11 +142,24 @@
 ## 11.Spring
 
 - [SpirngBoot下结合Tomcat实现无OOB方式下的回显](https://github.com/Stakcery/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/springboot-tomcat%E5%9B%9E%E6%98%BE/index.md)
-
 - [低版本SpringBoot-SpEL表达式注入漏洞复现分析](https://y4tacker.github.io/2022/02/07/year/2022/2/%E4%BD%8E%E7%89%88%E6%9C%ACSpringBoot-SpEL%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/)
 - [SpringCloud-SnakeYAML-RCE(高版本不可用)](https://y4tacker.github.io/2022/02/08/year/2022/2/SpringCloud-SnakeYAML-RCE/)
 - [Spring Boot Vulnerability Exploit Check List](https://github.com/LandGrey/SpringBootVulExploit)
 - [Ssrf to Rce with Jolokia and Mbeans](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/SSRF%20to%20RCE%20with%20Jolokia%20and%20MBeans%20%E2%80%A2%20Think%20Love%20Share.pdf)
+
+
+
+## 12.Shiro
+
+最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
+
+
+
+这里再贴一个小笔记：`Class.forName`不支持原生类型，但其他类型都是ok。`Class.loadClass`不能加载原生类型和数组类型，其他类型也都ok
+
+
+
+
 
 ## 其他分享
 
