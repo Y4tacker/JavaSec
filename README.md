@@ -124,7 +124,7 @@
 - [IBM DB2-JNDI](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/IBM-DB2/index.md)
 - [Apache Derby可触发反序列化](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/Apache-Derby/index.md)
 - [SQLite SSRF](https://github.com/Stakcery/JavaSec/blob/main/9.JDBC%20Attack/SQLite/index.md)
-- PostgreSQL-RCE(敌不动我不动，你先发poc我放心)
+- [PostgreSQL-RCE(敌不动我不动，你先发poc我放心)](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/PostGreSQL/index.md)
 
 
 
