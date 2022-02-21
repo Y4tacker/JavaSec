@@ -6,7 +6,15 @@
 
 直接从`org.apache.shiro.io.ClassResolvingObjectInputStream#resolveClass`开始，实际上最终调用了`org.apache.catalina.loader.WebappClassLoaderBase#loadClass`去加载，到了这里很多人就直接飙出了上面那个错误的观点
 
-但其实不是，简单记录下加载的流程，首先调用findLoadedClass发现之前没有加载到jvm，之后尝试使用标准扩展类加载器去加载，最后是在tomcat的上下文环境中调用`Class.forName(name, false, parent)`，使用了`URLClassLoader`作为`ClassLoader`，但在`URLClassLoader`中没有包含`[Lorg.apache.commons.collections.Transformer;`位置![](img/1.png)
+但其实不是，简单记录下加载的流程，首先调用findLoadedClass发现之前没有加载到jvm，之后尝试使用标准扩展类加载器去加载，接下来调用org.apache.catalina.loader.WebappClassLoaderBase#findClass去查找这个类，但是吧这个findClass的逻辑只是把`.`替换成`/`，实现调用的是`binaryNameToPath`
+
+![](img/5.png)
+
+因此我们的`[Lxxx；`也会把这个L以及;带进去就是`/[Lorg/apache/commons/collections/Transformer;.class`,难怪找不到怪我咯，所以才有p牛那个优化的无数组的链子
+
+![](img/6.png)
+
+最后是在tomcat的上下文环境中调用`Class.forName(name, false, parent)`，使用了`URLClassLoader`作为`ClassLoader`，但在`URLClassLoader`中没有包含`[Lorg.apache.commons.collections.Transformer;`位置![](img/1.png)
 
 如何解决这个问题，这里我发现两种解决办法
 
