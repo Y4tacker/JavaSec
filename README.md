@@ -151,9 +151,11 @@
 
 ## 12.Shiro
 
-最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
+- 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
 
+- [Shiro550-TemplatesImpl(CC6-Shiro)](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsCollectionsShiro.java)
 
+  
 
 这里再贴一个小笔记：`Class.forName`不支持原生类型，但其他类型都是ok。`Class.loadClass`不能加载原生类型和数组类型，其他类型也都ok
 
