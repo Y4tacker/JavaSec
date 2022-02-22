@@ -175,6 +175,7 @@
 - [为什么补丁都喜欢打在resolveClass](https://github.com/Stakcery/JavaSec/blob/main/4.Weblogic%E4%B8%93%E5%8C%BA/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass.md)
 - [Java沙箱绕过](https://www.anquanke.com/post/id/151398)
 - [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
+- [一种普遍存在于java系统的缺陷 - Memory DoS](https://threedr3am.github.io/2021/11/18/%E4%B8%80%E7%A7%8D%E6%99%AE%E9%81%8D%E5%AD%98%E5%9C%A8%E4%BA%8Ejava%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BC%BA%E9%99%B7-Memory%20DoS/#more)
 
 ## 漏洞复现与分析
 
