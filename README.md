@@ -24,6 +24,7 @@
 - [Java 类字节码编辑](https://github.com/Stakcery/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%20%E7%B1%BB%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%BE%91/Java%20%E7%B1%BB%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%BE%91.md)
 - [JavaAgent](http://wjlshare.com/archives/1582)
 - [JMX](https://zhuanlan.zhihu.com/p/166530442)
+- [Tomcat中容器的pipeline机制(学了以后更好帮助Tomcat-Valve类型内存马理解)](https://www.cnblogs.com/coldridgeValley/p/5816414.html)
 - [ASM相关学习(最近慢慢在看，持续学习ing)](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ASM%E5%AD%A6%E4%B9%A0)
 
 ## 2.反序列化
@@ -97,17 +98,23 @@
 
 - [看不见的 Jsp-WebShell 第二式增强之无痕](https://mp.weixin.qq.com/s/7b3Fyu_K6ZRgKlp6RkdYoA)
 
+
+
 ## 6.JavaAgent学习专区
 
 - [Java Instrument插桩技术初体验](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF.md)
 - [PreMain之addTransformer与redefineClasses用法学习](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0.md)
 - [AgentMain(JVM启动后动态Instrument)](https://github.com/Stakcery/JavaSec/blob/main/6.JavaAgent/AgentMain/AgentMain.md)
 
+
+
 ## 7.Struts2学习专区(暂时决定停止学习)
 
 - [Struts2简介与漏洞环境搭建](https://github.com/Stakcery/JavaSec/blob/main/7.Struts22%E4%B8%93%E5%8C%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 - [Struts2框架处理流程与Struts2-001漏洞分析(Struts 2.0.0-Struts 2.0.8)](https://github.com/Stakcery/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E4%B8%8EStruts2-001.md)
 - [S2-002漏洞分析(Struts 2.0.0 - Struts 2.1.8.1)](https://github.com/Stakcery/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
+
+
 
 ## 8.关于Tomcat的一些小发现的分享(个人小研究)
 
@@ -180,11 +187,15 @@
 - [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
 - [一种普遍存在于java系统的缺陷 - Memory DoS](https://threedr3am.github.io/2021/11/18/%E4%B8%80%E7%A7%8D%E6%99%AE%E9%81%8D%E5%AD%98%E5%9C%A8%E4%BA%8Ejava%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BC%BA%E9%99%B7-Memory%20DoS/#more)
 
+
+
 ## 漏洞复现与分析
 
 - [CVE-2021-2471 JDBC-XXE漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [spring-messaging 远程代码执行漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [CVE-2020-9484 Tomcat-RCE漏洞分析报告(备注:三梦师傅的文章，提升了我对Tomcat配置的了解)](https://threedr3am.github.io/2020/06/12/CVE-2020-9484%20Tomcat-RCE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/)
+
+
 
 ## 环境
 
@@ -193,8 +204,6 @@
 - [使用idea进行tomcat源码调试](https://zhuanlan.zhihu.com/p/35454131)
 
  
-
-
 
 ## Todolist
 
