@@ -92,6 +92,7 @@
 - [SpringBoot内存马学习-通过添加新路由](https://github.com/Stakcery/JavaSec/tree/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E9%92%88%E5%AF%B9springboot%E7%9A%84controller%E5%86%85%E5%AD%98%E9%A9%AC)
 - [利用intercetor注入Spring内存马](https://github.com/Stakcery/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E5%88%A9%E7%94%A8intercetor%E6%B3%A8%E5%85%A5Spring%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
 - [Timer型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Timer%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
+- [看不见的Jsp-Webshell(有点像平时CTF里面php的不死马的效果)](https://mp.weixin.qq.com/s/1ZiLD396088TxiW_dUOFsQ)
 
 
 
