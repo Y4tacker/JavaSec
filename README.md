@@ -161,7 +161,7 @@
 
 
 
-## 12.Shiro
+## 12.Shiro(暂时暂停学习之后继续)
 
 - 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
 
@@ -175,6 +175,9 @@
 ## 13.回显相关技术学习
 
 - [通杀漏洞利用回显方法-linux平台](https://www.00theway.org/2020/01/17/java-god-s-eye/)
+
+- [linux下java反序列化通杀回显方法的低配版实现](https://xz.aliyun.com/t/7307)
+- [Tomcat中一种半通用回显方法](https://xz.aliyun.com/t/7348)
 
 
 
