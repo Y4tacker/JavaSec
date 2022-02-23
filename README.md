@@ -24,6 +24,7 @@
 - [Java 类字节码编辑](https://github.com/Stakcery/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%20%E7%B1%BB%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%BE%91/Java%20%E7%B1%BB%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E8%BE%91.md)
 - [JavaAgent](http://wjlshare.com/archives/1582)
 - [JMX](https://zhuanlan.zhihu.com/p/166530442)
+- [ASM相关学习(最近慢慢在看，持续学习ing)](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ASM%E5%AD%A6%E4%B9%A0)
 
 ## 2.反序列化
 
@@ -190,4 +191,15 @@
 - [使用idea进行tomcat源码调试](https://zhuanlan.zhihu.com/p/35454131)
 
  
+
+
+
+## Todolist
+
+- 
+
+- 解决反序列化serialVesionUID不一致问题
+
+- JEP290
+- [无文件落地Agent型内存马植入](https://xz.aliyun.com/t/10075#toc-5)
 
