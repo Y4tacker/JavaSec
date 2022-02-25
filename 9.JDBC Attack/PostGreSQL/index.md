@@ -60,3 +60,8 @@ https://github.com/pgjdbc/pgjdbc/commit/f4d0ed69c0b3aae8531d83d6af4c57f22312c813
 
 https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters
 
+## 其他
+
+看到有人发了我也发了，但是赛博少女写的更好，我只是简单写写
+
+https://mp.weixin.qq.com/s/jb7mbPWdMp1vlgF8F1mshg
