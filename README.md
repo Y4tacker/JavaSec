@@ -165,7 +165,7 @@
 ## 12.Shiro(暂时暂停学习之后继续)
 
 - 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
-
+- [shiro<=1.5.2通用后门利用(个人小研究发现)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/shiro1.5.2%E9%80%9A%E7%94%A8%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/index.md)
 - [Shiro550-TemplatesImpl(CC6-Shiro)](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsCollectionsShiro.java)
 - [CommonsBeanutils与无 commons-collections的Shiro反序列化利用](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsBeanutils1Shiro.java)
 
