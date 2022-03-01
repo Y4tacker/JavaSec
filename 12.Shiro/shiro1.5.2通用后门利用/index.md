@@ -6,7 +6,7 @@
 
 ## 环境
 
-shiro版本小于等于1.5.2
+shiro版本小于等于1.5.2，各个版本有一些小细节不同，但是最终触发原理一致
 
 ## 简单分析
 
@@ -70,3 +70,31 @@ URLDecoder.decode(source, enc);
 ## 测试截图
 
 ![](img/1.png)
+
+## 为什么高版本不行
+
+在1.5.3起，在处理uri时候，没有再调用`org.apache.shiro.web.util.WebUtils#getRequestUri`
+
+1.5.3
+
+```java
+    public static String getPathWithinApplication(HttpServletRequest request) {
+        return normalize(removeSemicolon(getServletPath(request) + getPathInfo(request)));
+    }
+```
+
+1.5.2
+
+```java
+    public static String getPathWithinApplication(HttpServletRequest request) {
+        String contextPath = getContextPath(request);
+        String requestUri = getRequestUri(request);
+        if (StringUtils.startsWithIgnoreCase(requestUri, contextPath)) {
+            String path = requestUri.substring(contextPath.length());
+            return StringUtils.hasText(path) ? path : "/";
+        } else {
+            return requestUri;
+        }
+    }
+```
+
