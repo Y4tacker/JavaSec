@@ -167,6 +167,7 @@
 - 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
 - [shiro<=1.5.2通用后门利用(个人小研究发现)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/shiro1.5.2%E9%80%9A%E7%94%A8%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
+- [CVE-2016-6802权限绕过(通过/abc/../y4tacker/admin绕过)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2016-6802%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [Shiro550-TemplatesImpl(CC6-Shiro)](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsCollectionsShiro.java)
 - [CommonsBeanutils与无 commons-collections的Shiro反序列化利用](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsBeanutils1Shiro.java)
 
@@ -185,6 +186,10 @@
 
 ## 其他分享
 
+- [CVE-2021-2471 JDBC-XXE漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
+- [spring-messaging 远程代码执行漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
+- [CVE-2020-9484 Tomcat-RCE漏洞分析报告(备注:三梦师傅的文章，提升了我对Tomcat配置的了解)](https://threedr3am.github.io/2020/06/12/CVE-2020-9484%20Tomcat-RCE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/)
+
 - [Java “后反序列化漏洞” 利用思路](https://paper.seebug.org/1133/)
 - [关于Servlet的线程安全问题](https://y4tacker.github.io/2022/02/03/year/2022/2/Servlet%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98/)
 - [BypassSM](https://github.com/Stakcery/JavaSec/blob/main/其他/BypassSM/bypasssm.md)
@@ -199,13 +204,14 @@
 - [如何关闭百度的Rasp](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E7%9A%84Rasp/index.md)
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
 
-## 漏洞复现与分析
-
-- [CVE-2021-2471 JDBC-XXE漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
-- [spring-messaging 远程代码执行漏洞分析](https://github.com/Stakcery/JavaSec/blob/main/%E5%85%B6%E4%BB%96/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
-- [CVE-2020-9484 Tomcat-RCE漏洞分析报告(备注:三梦师傅的文章，提升了我对Tomcat配置的了解)](https://threedr3am.github.io/2020/06/12/CVE-2020-9484%20Tomcat-RCE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/)
 
 
+## 比赛反思
+
+特地加了一栏吧，最近发现学了那么多到实际阵地还是放不开手脚，以后还是多打打比赛做做Java相关的东西积累实战经验！
+
+- Codegate2022(关键词:绕过开头file协议读文件、xpath注入读系统配置)
+- SUSCTF2022(关键词:绕rasp、fastjson、xxe)
 
 ## 环境
 
