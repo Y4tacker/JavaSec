@@ -56,7 +56,7 @@
 - [Java反序列化数据绕WAF之加大量脏数据 | 回忆飘如雪 (gv7.me)](https://gv7.me/articles/2021/java-deserialize-data-bypass-waf-by-adding-a-lot-of-dirty-data/)
 - [Java反序列化脏数据新姿势-对大师傅的姿势补充(个人的小研究)](https://y4tacker.github.io/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/)
 
-- [解决反序列化serialVesionUID不一致问题](https://gv7.me/articles/2020/deserialization-of-serialvesionuid-conflicts-using-a-custom-classloader/)
+- [解决反序列化serialVesionUID不一致问题(BestMatch：打破双亲委派对jbxz用工具最方便)](https://gv7.me/articles/2020/deserialization-of-serialvesionuid-conflicts-using-a-custom-classloader/)
 
 ## 3.Fastjson专区
 
