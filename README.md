@@ -228,4 +228,5 @@
 - JEP290(大概懂一点了后面再看看)
 - [Dubbo学习之后开启](https://xz.aliyun.com/t/10916)
 - [无文件落地Agent型内存马植入(Java内存攻击技术漫谈-Rebyond)](https://xz.aliyun.com/t/10075#toc-5)
+- 自己对所有文件上传框架Trick总结
 
