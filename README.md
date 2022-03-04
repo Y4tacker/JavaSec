@@ -143,7 +143,7 @@
 - [SQLite SSRF](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/SQLite/index.md)
 - [PostgreSQL-RCE(敌不动我不动，你先发poc我放心)](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/PostGreSQL/index.md)
 
-
+- [Make JDBC Attacks Brilliant Again 番外篇](https://tttang.com/archive/1462/)
 
 ## 10.关于JNDI的整理
 
