@@ -121,7 +121,7 @@
 
 ## 8.关于Tomcat的一些小发现(个人小研究)
 
-- JSTL的可利用点
+- [JSTL的可利用点](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/JSTL%E7%9A%84%E5%8F%AF%E5%88%A9%E7%94%A8%E7%82%B9/index.md)
 
 - [一次jsp的奇异探索](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/%E4%B8%80%E6%AC%A1jsp%E7%9A%84%E5%A5%87%E5%BC%82%E6%8E%A2%E7%B4%A2/1.md)
 - [Tomcat写文件新利用思路](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E5%86%99%E6%96%87%E4%BB%B6%E6%96%B0%E5%88%A9%E7%94%A8%E6%80%9D%E8%B7%AF/DC.md)
@@ -235,4 +235,3 @@
 - [无文件落地Agent型内存马植入(Java内存攻击技术漫谈-Rebyond)](https://xz.aliyun.com/t/10075#toc-5)
 - 自己对所有文件上传框架Trick总结
 - 消化腾讯大师傅写的关于文件上传waf
-- 
