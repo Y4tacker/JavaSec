@@ -28,6 +28,7 @@
 - [Tomcat中容器的pipeline机制(学了以后更好帮助Tomcat-Valve类型内存马理解)](https://www.cnblogs.com/coldridgeValley/p/5816414.html)
 - [ASM相关学习(最近慢慢在看，持续学习ing)](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ASM%E5%AD%A6%E4%B9%A0)
 - [Xpath注入](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Xpath%E6%B3%A8%E5%85%A5/index.md)
+- [JSTL(看菜鸟教程即可)](https://www.runoob.com/jsp/jsp-jstl.html)
 
 ## 2.反序列化
 
@@ -118,7 +119,9 @@
 
 
 
-## 8.关于Tomcat的一些小发现的分享(个人小研究)
+## 8.关于Tomcat的一些小发现(个人小研究)
+
+- JSTL的可利用点
 
 - [一次jsp的奇异探索](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/%E4%B8%80%E6%AC%A1jsp%E7%9A%84%E5%A5%87%E5%BC%82%E6%8E%A2%E7%B4%A2/1.md)
 - [Tomcat写文件新利用思路](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E5%86%99%E6%96%87%E4%BB%B6%E6%96%B0%E5%88%A9%E7%94%A8%E6%80%9D%E8%B7%AF/DC.md)
@@ -226,10 +229,10 @@
 
 ## Todolist
 
-- 解决反序列化serialVesionUID不一致问题
+- 解决反序列化serialVesionUID不一致问题--已经拿下
 - JEP290(大概懂一点了后面再看看)
 - [Dubbo学习之后开启](https://xz.aliyun.com/t/10916)
 - [无文件落地Agent型内存马植入(Java内存攻击技术漫谈-Rebyond)](https://xz.aliyun.com/t/10075#toc-5)
 - 自己对所有文件上传框架Trick总结
-
-- 消化大师傅写的关于文件上传waf
+- 消化腾讯大师傅写的关于文件上传waf
+- 
