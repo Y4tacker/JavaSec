@@ -222,6 +222,7 @@
 
 - [Codegate2022(关键词:绕过开头file协议读文件、xpath注入读系统配置)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/Codegate2022/index.md)
 - [SUSCTF2022(关键词:绕rasp、fastjson、xxe)](https://github.com/Y4tacker/JavaSec/tree/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/SUSCTF2022)
+- [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/D%5E3CTF/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92.pdf)
 
 ## 环境
 
