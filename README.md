@@ -169,6 +169,8 @@
 
 - [SSRF to Rce with Jolokia and Mbeans](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/SSRF%20to%20RCE%20with%20Jolokia%20and%20MBeans%20%E2%80%A2%20Think%20Love%20Share.pdf)
 
+- [CVE-2022-22947 SpringCloudGateWay 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/CVE-2022-22947%20SpringCloudGateWay%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/index.md)
+
   
 
 ## 12.Shiro(暂时暂停学习之后继续)
