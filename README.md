@@ -100,8 +100,8 @@ Ps：最近看到挺多大师傅给我的仓库star的，本来打算做自我�
 - [利用intercetor注入Spring内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E5%88%A9%E7%94%A8intercetor%E6%B3%A8%E5%85%A5Spring%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
 - [Timer型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Timer%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
 - [看不见的Jsp-Webshell(有点像平时CTF里面php的不死马的效果)](https://mp.weixin.qq.com/s/1ZiLD396088TxiW_dUOFsQ)
-
 - [看不见的 Jsp-WebShell 第二式增强之无痕](https://mp.weixin.qq.com/s/7b3Fyu_K6ZRgKlp6RkdYoA)
+- [Spring cloud gateway通过SPEL注入内存马](https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/)
 
 
 
@@ -227,7 +227,7 @@ Ps：最近看到挺多大师傅给我的仓库star的，本来打算做自我�
 
 - [Codegate2022(关键词:绕过开头file协议读文件、xpath注入读系统配置)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/Codegate2022/index.md)
 - [SUSCTF2022(关键词:绕rasp、fastjson、xxe)](https://github.com/Y4tacker/JavaSec/tree/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/SUSCTF2022)
-- [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/D%5E3CTF/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92.pdf)
+- [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 
 ## 环境
 
