@@ -10,8 +10,6 @@
 
 <br/>
 
-Ps：最近看到挺多大师傅给我的仓库star的，本来打算做自我学习仓库的，后面也慢慢完善吧，如果有哪里写得不太清楚或者不准确的地方欢迎提issue
-
 ## 1.基础篇
 
 - [Java反射](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8F%8D%E5%B0%84/%E5%8F%8D%E5%B0%84.md)
@@ -61,7 +59,11 @@ Ps：最近看到挺多大师傅给我的仓库star的，本来打算做自我�
 - [解决反序列化serialVesionUID不一致问题(BestMatch：打破双亲委派对jbxz用工具最方便)](https://gv7.me/articles/2020/deserialization-of-serialvesionuid-conflicts-using-a-custom-classloader/)
 - [自己搞的把ROME利用链长度缩小4400-1320(Base64)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 
-## 3.Fastjson专区
+## 3.Fastjson/Jackson专区
+
+可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
+
+- Jackson的利用触发及小细节
 
 - [Fastjson基本用法](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
 - [Fastjson1.1.15-1.2.4与BCEL字节码加载](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD.md)
