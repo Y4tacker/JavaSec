@@ -63,7 +63,7 @@
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
 
-- Jackson的利用触发及小细节
+- [Jackson的利用触发及小细节](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E7%9A%84%E5%88%A9%E7%94%A8%E8%A7%A6%E5%8F%91/index.md)
 
 - [Fastjson基本用法](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
 - [Fastjson1.1.15-1.2.4与BCEL字节码加载](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD.md)
