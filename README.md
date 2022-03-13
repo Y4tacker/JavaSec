@@ -115,11 +115,12 @@
 
 
 
-## 7.Struts2学习专区(暂时决定停止学习)
+## 7.Struts2学习专区(正在学习)
+
+一开始不想搞这个是因为很少人用了，后面想了一下作为学习者还是不要太趋利的好，作为安全学习者就是靠不断的积累未来某一刻才能真正绽放，之前有些部分没写好重新写下，太难看了！
 
 - [Struts2简介与漏洞环境搭建](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
-- [Struts2框架处理流程与Struts2-001漏洞分析(Struts 2.0.0-Struts 2.0.8)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2专区/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B/Struts2%E6%A1%86%E6%9E%B6%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E4%B8%8EStruts2-001.md)
-- [S2-002漏洞分析(Struts 2.0.0 - Struts 2.1.8.1)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2专区/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
+- S2-001学习
 
 
 
