@@ -223,8 +223,7 @@
 - [如何关闭百度的Rasp](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E7%9A%84Rasp/index.md)
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
 - [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
-
-
+- [Java Web —— 从内存中Dump JDBC数据库明文密码(还挺好玩的)](https://mp.weixin.qq.com/s/QCfqO2BJuhSOr58rldZzxA)
 
 ## 比赛反思
 
