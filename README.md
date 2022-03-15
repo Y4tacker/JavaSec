@@ -124,7 +124,7 @@
 - [S2-002学习(太鸡肋了感觉实战也比较难出现)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [S2-003学习(比较有趣的一个洞很多小细节)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-003%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 
-
+- [S2-005学习(通过Ognl将上下文_memberAccess中的acceptProperties设为空绕过)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-005%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 
 ## 8.关于Tomcat的一些小发现(个人小研究)
 
