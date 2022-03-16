@@ -1,6 +1,10 @@
 # JEP290的基本概念
 
-本文转载自我的偶像panda：https://www.cnpanda.net/sec/968.html，建议直接点开看，我只是做个学习仓库的备份，免得哪天站突然不在了
+本文转载自我的偶像panda：https://www.cnpanda.net/sec/968.html 
+
+
+
+建议直接点开看，我只是做个学习仓库的备份，免得哪天站突然不在了
 
 ## 什么是JEP？
 
