@@ -226,6 +226,7 @@
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
 - [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
 - [Java Web —— 从内存中Dump JDBC数据库明文密码(还挺好玩的)](https://mp.weixin.qq.com/s/QCfqO2BJuhSOr58rldZzxA)
+- [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
 
 ## 比赛反思
 
@@ -234,7 +235,7 @@
 - [Codegate2022(关键词:绕过开头file协议读文件、xpath注入读系统配置)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/Codegate2022/index.md)
 - [SUSCTF2022(关键词:绕rasp、fastjson、xxe)](https://github.com/Y4tacker/JavaSec/tree/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/SUSCTF2022)
 - [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
-- [虎符CTF2022(关键词:Hessian反序列化、Rome二次反序列化、java.security.SignedObject#getObject、UnixPrintService命令执行、Tab by)](https://y4tacker.github.io/2022/03/21/year/2022/3/2022%E8%99%8E%E7%AC%A6CTF-Java%E9%83%A8%E5%88%86/)
+- [虎符CTF2022(关键词:Hessian反序列化、Rome二次反序列化、java.security.SignedObject#getObject、UnixPrintService命令执行、Tabby)](https://y4tacker.github.io/2022/03/21/year/2022/3/2022%E8%99%8E%E7%AC%A6CTF-Java%E9%83%A8%E5%88%86/)
 
 ## 环境
 
