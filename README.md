@@ -180,7 +180,7 @@
 
 - [CVE-2022-22947 SpringCloudGateWay 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/CVE-2022-22947%20SpringCloudGateWay%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/index.md)
 
-  
+- [Spring Cloud Function-SPEL(利用面不大)](https://hosch3n.github.io/2022/03/26/SpringCloudFunction%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/)
 
 ## 12.Shiro(暂时暂停学习之后继续)
 
