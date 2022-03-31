@@ -64,6 +64,8 @@
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
 
+- [Fastjson词法引擎绕waf](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/)
+
 - [Jackson的利用触发及小细节](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E7%9A%84%E5%88%A9%E7%94%A8%E8%A7%A6%E5%8F%91/index.md)
 
 - [Fastjson基本用法](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
