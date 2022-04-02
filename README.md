@@ -184,6 +184,10 @@
 
 - [Spring Cloud Function-SPEL(利用面不大)](https://hosch3n.github.io/2022/03/26/SpringCloudFunction%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/)
 
+- [SpringMVC框架任意代码执行漏洞(CVE-2010-1622)分析](http://rui0.cn/archives/1158)
+
+- [Spring Beans RCE分析(自己懒得写了，这篇还凑合看，稍微注意下AccessLogValve这个类WBS)](https://xz.aliyun.com/t/11129)
+
 ## 12.Shiro(暂时暂停学习之后继续)
 
 - 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
