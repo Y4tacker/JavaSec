@@ -186,7 +186,7 @@
 
 - [SpringMVC框架任意代码执行漏洞(CVE-2010-1622)分析](http://rui0.cn/archives/1158)
 
-- [Spring Beans RCE分析(自己懒得写了，这篇还凑合看，稍微注意下AccessLogValve这个类WBS)](https://xz.aliyun.com/t/11129)
+- [Spring Beans RCE分析(CVE-2022-22965)(我还是喜欢叫Spring4shell，自己懒得写了，这篇还可以，稍微注意下AccessLogValve这个类WBS)](https://xz.aliyun.com/t/11129)
 
 ## 12.Shiro(暂时暂停学习之后继续)
 
