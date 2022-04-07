@@ -2,7 +2,7 @@
 
 ## 简单记录几个我自己觉得关键即可
 
-1. 通过修改 Tomcat Header 的 maxsize 来进行绕过不太通用，一方面似乎需要配合爆破，另一方面不能通杀所有版本，我高版本tomcat8与低版本tomcat8都有一些很大区别，这里不谈
+1. 通过修改 Tomcat Header 的 maxsize 来进行绕过不太通用，通过多个线程发送payload来确保request的inputbuffer会复用不太稳定
 2. 记住classLoader可能是TemplatesImpl的
 3. 记得Burp发包的时候记得给payload用url编码
 
