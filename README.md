@@ -192,7 +192,6 @@
 
 ## 12.Shiro(暂时暂停学习之后继续)
 
-- 最近重新研究了下shiro550，发现网上我看过的基本都是错的(没看过的另说)，具体看：[对网上观点的修正，欢迎指正](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E7%BD%91%E4%B8%8A%E7%9A%84%E8%AF%AF%E8%A7%A3/index.md)
 - [shiro<=1.5.2通用后门利用(个人小研究发现)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/shiro1.5.2%E9%80%9A%E7%94%A8%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [CVE-2016-6802权限绕过(通过/abc/../y4tacker/admin绕过)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2016-6802%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
