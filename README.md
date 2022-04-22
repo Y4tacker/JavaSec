@@ -59,6 +59,7 @@
 - [Java反序列化脏数据新姿势-对大师傅的姿势补充(个人的小研究)](https://y4tacker.github.io/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/)
 - [解决反序列化serialVesionUID不一致问题(BestMatch：打破双亲委派对jbxz用工具最方便)](https://gv7.me/articles/2020/deserialization-of-serialvesionuid-conflicts-using-a-custom-classloader/)
 - [自己搞的把ROME利用链长度缩小4400-1320(Base64)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
+- [JDK7u21](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/JDK7u21/index.md)
 
 ## 3.Fastjson/Jackson专区
 
