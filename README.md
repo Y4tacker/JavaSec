@@ -217,6 +217,8 @@
 
 ## 其他分享
 
+- [GadgetInspector源码分析](https://y4tacker.github.io/2022/05/09/year/2022/5/GadgetInspector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
+
 - [CVE-2021-2471 JDBC-XXE漏洞分析](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [spring-messaging 远程代码执行漏洞分析](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [CVE-2020-9484 Tomcat-RCE漏洞分析报告(备注:三梦师傅的文章，提升了我对Tomcat配置的了解)](https://threedr3am.github.io/2020/06/12/CVE-2020-9484%20Tomcat-RCE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/)

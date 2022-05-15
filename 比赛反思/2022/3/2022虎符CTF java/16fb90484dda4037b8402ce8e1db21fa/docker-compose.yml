@@ -1,0 +1,27 @@
+version: '2.4'
+services:
+  nginx:
+    image: nginx:1.15
+    ports:
+      - "0.0.0.0:8090:80"
+    restart: always
+    volumes:
+        - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - internal_network
+      - out_network
+  web:
+    build: ./
+    restart: always
+    volumes:
+        - ./flag:/flag:ro
+    networks:
+      - internal_network
+networks:
+    internal_network:
+        internal: true
+        ipam:
+            driver: default
+    out_network:
+        ipam:
+            driver: default

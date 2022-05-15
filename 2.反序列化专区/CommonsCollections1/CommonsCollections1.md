@@ -2,9 +2,29 @@
 
 代码在github搜索ysoserial即可，这里一个比较好玩的是动态代理，这里给一篇参考文章，https://www.liaoxuefeng.com/wiki/1252599548343744/1264804593397984
 
-## 流程
+## TransformedMap利用链触发流程
 
-LazyMap 的作用是“懒加载”，在get找不到值的时候，它会调用 factory.transform 方法去获取一个值，我们可以利用此来执行整个transform的整个利用过程
+​	经过TransformedMap.decorate修饰后的触发其实不在于put方法的触发，而在于org.apache.commons.collections.map.TransformedMap#checkSetValue
+
+至于为什么，这里我来简单说两句这里memberValues也就是TransformedMap对象，其entrySet方法返回的是org.apache.commons.collections.map.AbstractInputCheckedMapDecorator.MapEntry
+
+![](img/2.png)
+
+之后在调用setValue方法的时候，就会调用org.apache.commons.collections4.map.TransformedMap#checkSetValue，后面不必多说了
+
+```java
+    protected V checkSetValue(V value) {
+        return this.valueTransformer.transform(value);
+    }
+```
+
+![](img/3.png)
+
+后面LazyMap其实就是对这个的绕过
+
+## LazyMap利用链触发流程
+
+​	LazyMap 的作用是“懒加载”，在get找不到值的时候，它会调用 factory.transform 方法去获取一个值，我们可以利用此来执行整个transform的整个利用过程
 
 然后关于如何触发到get方法，其实在`AnnotationInvocationHandler`类的`invoke`方法有调用到get
 
@@ -85,4 +105,48 @@ public class CC1 {
 }
 
 ```
+
+## 为什么高版本不行了
+
+主要是sun.reflect.annotation.AnnotationInvocationHandler#readObject的逻辑变了，http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/rev/f8a528d0379d
+
+从原来的defaultReadObject改为了下面的
+
+```java
+-        s.defaultReadObject();
++        ObjectInputStream.GetField fields = s.readFields();
+```
+
+看下更改后的readFields的调用栈，在读取恢复field的时候会调用sun.reflect.annotation.AnnotationInvocationHandler#readObjec
+
+```java
+readObject:452, AnnotationInvocationHandler (sun.reflect.annotation) [2]
+invoke0:-1, NativeMethodAccessorImpl (sun.reflect)
+invoke:62, NativeMethodAccessorImpl (sun.reflect)
+invoke:43, DelegatingMethodAccessorImpl (sun.reflect)
+invoke:498, Method (java.lang.reflect)
+invokeReadObject:1058, ObjectStreamClass (java.io)
+readSerialData:1900, ObjectInputStream (java.io)
+readOrdinaryObject:1801, ObjectInputStream (java.io)
+readObject0:1351, ObjectInputStream (java.io)
+defaultReadFields:2000, ObjectInputStream (java.io)
+readSerialData:1924, ObjectInputStream (java.io)
+readOrdinaryObject:1801, ObjectInputStream (java.io)
+readObject0:1351, ObjectInputStream (java.io)
+access$300:206, ObjectInputStream (java.io)
+readFields:2164, ObjectInputStream$GetFieldImpl (java.io)
+readFields:541, ObjectInputStream (java.io)
+```
+
+这里对Lazymap当中的key与value取出来，重新用LinkedHashMap进行了包装
+
+![](img/4.png)
+
+导致了之后在readFields之后，在调用entrySet的时候，通过动态代理调用后不再能触发LazyMap的get方法
+
+![](img/5.png)
+
+
+
+
 
