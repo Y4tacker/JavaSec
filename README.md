@@ -60,6 +60,7 @@
 - [解决反序列化serialVesionUID不一致问题(BestMatch：打破双亲委派对jbxz用工具最方便)](https://gv7.me/articles/2020/deserialization-of-serialvesionuid-conflicts-using-a-custom-classloader/)
 - [自己搞的把ROME利用链长度缩小4400-1320(Base64)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 - [JDK7u21](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/JDK7u21/index.md)
+- [AspectJWeaver写文件](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/AspectJWeaver/AspectJWeaver.md)
 
 ## 3.Fastjson/Jackson专区
 
