@@ -99,7 +99,7 @@
 - [CVE-2015-4852复现分析](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90.md)
 - [Weblogic使用ClassLoader和RMI来回显命令执行结果](https://xz.aliyun.com/t/7228)
 
-
+- [Weblogic SSRF Involving Deserialized JDBC Connection](https://pyn3rd.github.io/2022/06/18/Weblogic-SSRF-Involving-Deserialized-JDBC-Connection/)
 
 ## 5.内存马学习专区
 
