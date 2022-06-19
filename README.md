@@ -150,6 +150,8 @@
 
 - [Java文件上传大杀器-绕waf(针对commons-fileupload组件)](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Common-fileupload%E7%BB%84%E4%BB%B6%E7%BB%95%E8%BF%87/Java%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%A7%E6%9D%80%E5%99%A8-%E7%BB%95waf(%E9%92%88%E5%AF%B9commons-fileupload%E7%BB%84%E4%BB%B6).md)
 
+- [探寻Tomcat文件上传流量层面绕waf新姿势](https://y4tacker.github.io/2022/06/19/year/2022/6/%E6%8E%A2%E5%AF%BBTomcat%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2%E7%BB%95waf%E6%96%B0%E5%A7%BF%E5%8A%BF/)
+
 ## 9.JDBC Attack
 
 关于Make JDBC Attacks Brilliant Again的简单记录，当我们在 JDBC Connection URL可控的情况下，攻击者可以进行什么样的攻击？这部分可以配合[探索高版本 JDK 下 JNDI 漏洞的利用方法](https://tttang.com/archive/1405/)来进行拓展攻击
