@@ -16,6 +16,11 @@
                 <descriptorRefs>
                     <descriptorRef>jar-with-dependencies</descriptorRef>
                 </descriptorRefs>
+                <archive>
+                    <manifest>
+                      <mainClass>com.xxx.YourMainClass</mainClass>
+                    </manifest>
+                 </archive>
             </configuration>
             <executions>
                 <execution>
