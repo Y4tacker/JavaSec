@@ -36,6 +36,7 @@
 - [Xpath注入](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Xpath%E6%B3%A8%E5%85%A5/index.md)
 - [JSTL(看菜鸟教程即可)](https://www.runoob.com/jsp/jsp-jstl.html)
 - [JEP290基础概念](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/JEP290%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.md)
+- [Java中的XXE](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%E4%B8%AD%E7%9A%84XXE/index.md)
 
 ## 2.反序列化
 
