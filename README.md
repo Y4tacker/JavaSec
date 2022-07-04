@@ -165,6 +165,8 @@
 
 - [Make JDBC Attacks Brilliant Again 番外篇](https://tttang.com/archive/1462/)
 
+- [Hive-RCE](https://github.com/Y4tacker/hue-hive-rce)
+
 ## 10.关于JNDI的整理
 
 因为比较重要单独列出来了
