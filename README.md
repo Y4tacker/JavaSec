@@ -66,6 +66,7 @@
 - [自己搞的把ROME利用链长度缩小4400-1320(Base64)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 - [JDK7u21](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/JDK7u21/index.md)
 - [AspectJWeaver写文件](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/AspectJWeaver/AspectJWeaver.md)
+- [反序列化在渗透测试当中值得关注的点](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%BD%93%E4%B8%AD%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%E7%9A%84%E7%82%B9/index.md)
 
 ## 3.Fastjson/Jackson专区
 
