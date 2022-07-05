@@ -8,7 +8,7 @@
 
 仅仅只是想写给自己看
 
-一个记录我Java安全学习过程的仓库，本仓库不是教学仓库，单纯简单记笔记，顺便见证自己从0到0.1的过程吧，少了很多介绍性的东西，以后等厉害了再慢慢补充吧
+一个记录我Java安全学习过程的仓库，本仓库不是教学仓库(rep中的内容都是我在平时的一些笔记没有很强逻辑性，内容水平自然也是参差不齐，可能有些对我来说很简单的便忽略不计对其他人来说却是难点，因此作为一个学习目录的话可能会好很多)，单纯简单记笔记，顺便见证自己从0到0.1的过程吧，少了很多介绍性的东西，以后等厉害了再慢慢补充吧，
 
 <p align="right">@Y4tacker</p>
 
@@ -41,6 +41,8 @@
 ## 2.反序列化
 
 很早前学了，后面补上，更多是说一点关键的东西，不会很详细，好吧这里再拓展成反序列化专区好了
+
+如果想系统学习的话这部分还是更推荐p牛的Java安全漫谈，我只是简单写写便于自己复习而已
 
 - [Java反序列化之URLDNS](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS.md)
 - [CommonsCollections1笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections1/CommonsCollections1.md)
