@@ -8,7 +8,7 @@
 
 仅仅只是想写给自己看
 
-一个记录我Java安全学习过程的仓库，本仓库不是教学仓库(rep中的内容都是我在平时的一些笔记没有很强逻辑性，内容水平自然也是参差不齐，可能有些对我来说很简单的便忽略不计对其他人来说却是难点，因此作为一个学习目录的话可能会好很多)，单纯简单记笔记，顺便见证自己从0到0.1的过程吧，少了很多介绍性的东西，以后等厉害了再慢慢补充吧，
+一个记录我Java安全学习过程的仓库，本仓库不是真正意义上的教学仓库(rep中的内容都是我在平时的一些笔记没有很强逻辑性，内容水平自然也是参差不齐，可能有些对我来说很简单的便忽略不计对其他人来说却是难点，因此作为一个学习目录的话可能会好很多)，单纯这是笔者简单记一些笔记，顺便见证自己从0到0.1的过程吧，另外后面如果看到一些好的东西在学习完之后也会贴上链接，少了很多介绍性的东西，以后等厉害了再慢慢补充吧.
 
 <p align="right">@Y4tacker</p>
 
@@ -108,6 +108,7 @@
 - [Tomcat-Filter型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
 - [Tomcat-Servlet型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
 - [Tomcat-Valve内存马](https://mp.weixin.qq.com/s/x4pxmeqC1DvRi9AdxZ-0Lw)
+- [WebSocket代理内存马](https://github.com/veo/wsMemShell)
 - [浅谈 Java Agent 内存马(网上看到大师傅写的很详细直接搬运工了)](http://wjlshare.com/archives/1582)
 - [SpringBoot内存马学习-通过添加新路由](https://github.com/Y4tacker/JavaSec/tree/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E9%92%88%E5%AF%B9springboot%E7%9A%84controller%E5%86%85%E5%AD%98%E9%A9%AC)
 - [利用intercetor注入Spring内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E5%88%A9%E7%94%A8intercetor%E6%B3%A8%E5%85%A5Spring%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
@@ -124,13 +125,11 @@
 - [PreMain之addTransformer与redefineClasses用法学习](https://github.com/Y4tacker/JavaSec/blob/main/6.JavaAgent/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0.md)
 - [AgentMain(JVM启动后动态Instrument)](https://github.com/Y4tacker/JavaSec/blob/main/6.JavaAgent/AgentMain/AgentMain.md)
 
-后面因为一些原因打算更系统学习，感觉在这里面直接添加有点臃肿，故开了一个新的repo来记录整个学习阶段，移步[RaspLearning](https://github.com/Y4tacker/RaspLearning)项目
-
-
+后面因为一些原因打算更系统学习，感觉在这里面直接添加有点臃肿，故开了一个新的repo来记录整个学习阶段，移步[RaspLearning](https://github.com/Y4tacker/RaspLearning)
 
 ## 7.Struts2学习专区(正在学习)
 
-一开始不想搞这个是因为很少人用了，后面想了一下作为学习者还是不要太趋利的好，作为安全学习者就是靠不断的积累未来某一刻才能真正绽放，之前有些部分没写好重新写下，太难看了！
+一开始不想搞这个是因为很少人用了，后面想了一下作为学习者还是不要太趋利的好，作为安全学习者就是靠不断的积累未来某一刻才能真正绽放，之前有些部分没写好重新写下，太难看了！(好吧又不想看这个东西了有空再看)
 
 - [Struts2简介与漏洞环境搭建](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 - [S2-001学习(由于是第一篇我还是分析的比较详细，后面不会重复本篇里面的一些流程内容)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-001%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/Struts2-001.md)
