@@ -277,6 +277,7 @@
 - [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 - [虎符CTF2022(关键词:Hessian反序列化、Rome二次反序列化、java.security.SignedObject#getObject、UnixPrintService命令执行、Tabby)](https://y4tacker.github.io/2022/03/21/year/2022/3/2022%E8%99%8E%E7%AC%A6CTF-Java%E9%83%A8%E5%88%86/)
 - [MRCTF2022(关键词:Kryo反序列化、Rome二次反序列化、内存马、Bypass SerialKiller黑名单-找替代类)](https://y4tacker.github.io/2022/04/24/year/2022/4/2022MRCTF-Java%E9%83%A8%E5%88%86/)
+- GoogleCTF2022(关键词：Log4j2、Bundle)
 
 ## 环境
 
