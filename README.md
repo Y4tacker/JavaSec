@@ -69,6 +69,8 @@
 - [JDK7u21](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/JDK7u21/index.md)
 - [AspectJWeaver写文件](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/AspectJWeaver/AspectJWeaver.md)
 - [反序列化在渗透测试当中值得关注的点](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%BD%93%E4%B8%AD%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%E7%9A%84%E7%82%B9/index.md)
+- [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
+  - [对URLDNS探测class的补充(为什么本地明明没有这个类却有"DNS解析")](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/URLDNS%E6%8E%A2%E6%B5%8Bclass%E7%9A%84%E8%A1%A5%E5%85%85/index.md)
 
 ## 3.Fastjson/Jackson专区
 
@@ -260,7 +262,6 @@
 - [一种普遍存在于java系统的缺陷 - Memory DoS](https://threedr3am.github.io/2021/11/18/%E4%B8%80%E7%A7%8D%E6%99%AE%E9%81%8D%E5%AD%98%E5%9C%A8%E4%BA%8Ejava%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BC%BA%E9%99%B7-Memory%20DoS/#more)
 - [如何关闭百度的Rasp](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E7%9A%84Rasp/index.md)
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
-- [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
 - [Java Web —— 从内存中Dump JDBC数据库明文密码(还挺好玩的)](https://mp.weixin.qq.com/s/QCfqO2BJuhSOr58rldZzxA)
 - [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
 - [如何带依赖打包Jar](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Maven/index.md)
