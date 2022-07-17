@@ -137,10 +137,13 @@
 - [S2-001学习(由于是第一篇我还是分析的比较详细，后面不会重复本篇里面的一些流程内容)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-001%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/Struts2-001.md)
 - [S2-002学习(太鸡肋了感觉实战也比较难出现)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/S2-002%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [S2-003学习(比较有趣的一个洞很多小细节)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-003%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
-
 - [S2-005学习(通过Ognl将上下文_memberAccess中的acceptProperties设为空绕过)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/s2-005%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 - [S2-007学习(字符串拼接导致OGNL解析)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-007%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 - [S2-008学习(很鸡肋，稍微有点用的有开启devMode解析任意Ognl)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-008%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
+
+后面突然觉得调试的过程很无聊我也不感兴趣，更感兴趣的是关于Struts当中Ognl的攻防所以后面更偏向于这方面研究，而不再具体跟踪中间的调用过程
+
+- [S2-015学习(静态方法受限制以及没有setAllowStaticMethodAccess后如何绕过)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-015%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 
 ## 8.关于Tomcat的一些小发现(个人小研究)
 
