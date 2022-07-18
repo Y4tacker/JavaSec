@@ -144,9 +144,9 @@
 后面突然觉得调试的过程很无聊我也不感兴趣，更感兴趣的是关于Struts当中Ognl的攻防所以后面更偏向于这方面研究，而不再具体跟踪中间的调用过程
 
 - [S2-015学习(静态方法受限制以及没有setAllowStaticMethodAccess后如何绕过)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-015%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
-- S2-032学习(清空_memberAccess当中excludedXXX限制通过构造函数调用/使用DefaultMemberAccess覆盖SecurityMemberAccess绕过限制)
-- S2-045学习(通过container获取全局共享的OgnlUtil实例来清除SecurityMemberAccess当中属性的限制)
-- S2-057学习(突破#context被删除限制，从attr作用域获取context对象)
+- [S2-032学习(清空_memberAccess当中excludedXXX限制通过构造函数调用/使用DefaultMemberAccess覆盖SecurityMemberAccess绕过限制)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-032%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
+- [S2-045学习(通过container获取全局共享的OgnlUtil实例来清除SecurityMemberAccess当中属性的限制)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-045%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
+- [S2-057学习(突破#context被删除限制，从attr作用域获取context对象)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-057%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 
 ## 8.关于Tomcat的一些小发现(个人小研究)
 
@@ -286,7 +286,7 @@
 - [D^3CTF2022(关键词:ROME链缩短、Mybatis与Ognl)](https://y4tacker.github.io/2022/03/07/year/2022/3/ROME%E6%94%B9%E9%80%A0%E8%AE%A1%E5%88%92/)
 - [虎符CTF2022(关键词:Hessian反序列化、Rome二次反序列化、java.security.SignedObject#getObject、UnixPrintService命令执行、Tabby)](https://y4tacker.github.io/2022/03/21/year/2022/3/2022%E8%99%8E%E7%AC%A6CTF-Java%E9%83%A8%E5%88%86/)
 - [MRCTF2022(关键词:Kryo反序列化、Rome二次反序列化、内存马、Bypass SerialKiller黑名单-找替代类)](https://y4tacker.github.io/2022/04/24/year/2022/4/2022MRCTF-Java%E9%83%A8%E5%88%86/)
-- [GoogleCTF2022(关键词：Log4j2、Bundle、ReDos)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/2022GooGleCTF/index.md)
+- [GoogleCTF2022(关键词：Log4j2、Bundle、ReDoS)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/2022GooGleCTF/index.md)
 
 ## 环境
 
