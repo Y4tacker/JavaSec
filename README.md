@@ -32,11 +32,12 @@
 - [JMX](https://zhuanlan.zhihu.com/p/166530442)
 - [JDWP远程执行命令](https://www.mi1k7ea.com/2021/08/06/%E6%B5%85%E6%9E%90JDWP%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/)
 - [Tomcat中容器的pipeline机制(学了以后更好帮助Tomcat-Valve类型内存马理解)](https://www.cnblogs.com/coldridgeValley/p/5816414.html)
-- [ASM相关学习(最近慢慢在看，持续学习ing)](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ASM%E5%AD%A6%E4%B9%A0)
+- [ASM相关学习](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ASM%E5%AD%A6%E4%B9%A0)
 - [Xpath注入](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Xpath%E6%B3%A8%E5%85%A5/index.md)
 - [JSTL(看菜鸟教程即可)](https://www.runoob.com/jsp/jsp-jstl.html)
 - [JEP290基础概念](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/JEP290%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.md)
 - [Java中的XXE](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%E4%B8%AD%E7%9A%84XXE/index.md)
+- [通过反射扫描被注解修饰的类](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E6%89%AB%E6%8F%8F%E8%A2%AB%E6%B3%A8%E8%A7%A3%E4%BF%AE%E9%A5%B0%E7%9A%84%E7%B1%BB/index.md)
 
 ## 2.反序列化
 
@@ -275,7 +276,7 @@
 - [一些Java二次反序列化的点(持续收集)](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/Java%E8%A7%A6%E5%8F%91%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E7%9A%84%E7%82%B9.md)
 - [自己写的OpenRasp分析](https://y4tacker.github.io/2022/05/28/year/2022/5/OpenRasp%E5%88%86%E6%9E%90/)
 - [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://github.com/4ra1n/tomcat-jmxproxy-rce-exp)
-- [通过反射扫描被注解修饰的类](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E6%89%AB%E6%8F%8F%E8%A2%AB%E6%B3%A8%E8%A7%A3%E4%BF%AE%E9%A5%B0%E7%9A%84%E7%B1%BB/index.md)
+- [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
 
 ## 比赛反思
 
