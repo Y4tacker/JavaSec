@@ -252,6 +252,10 @@
 - [Java反序列化脏数据新姿势-对大师傅的姿势补充(个人的小研究)](https://y4tacker.github.io/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/)
 - [Fastjson词法引擎绕waf](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/)
 
+## 16.漏洞复现
+[Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
+
+
 ## 其他分享
 
 - [GadgetInspector源码分析](https://y4tacker.github.io/2022/05/09/year/2022/5/GadgetInspector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
