@@ -1,4 +1,4 @@
-# shiro<=1.5.2通用后门利用
+# shiro<=1.5.2与Charset.forName利用
 
 
 
