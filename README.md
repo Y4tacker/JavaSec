@@ -174,8 +174,7 @@
 - [Apache Derby可触发反序列化](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/Apache-Derby/index.md)
 - [SQLite SSRF](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/SQLite/index.md)
 - [PostgreSQL-RCE(敌不动我不动，你先发poc我放心)](https://github.com/Y4tacker/JavaSec/blob/main/9.JDBC%20Attack/PostGreSQL/index.md)
-
-- [Make JDBC Attacks Brilliant Again 番外篇](https://tttang.com/archive/1462/)
+  - [Make JDBC Attacks Brilliant Again 番外篇(作为上面Postgresql的拓展)](https://tttang.com/archive/1462/)
 
 - [Hive-RCE](https://github.com/Y4tacker/hue-hive-rce)
 
