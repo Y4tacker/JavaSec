@@ -210,6 +210,9 @@
 
 - [Spring Beans RCE分析(CVE-2022-22965)(我还是喜欢叫Spring4shell，自己懒得写了，这篇还可以，稍微注意下AccessLogValve这个类WBS)](https://xz.aliyun.com/t/11129)
 
+- [Spring Data MongoDB SpEL表达式注入(CVE-2022-22980)(能看但是有些逻辑还是讲得很混乱总体而已还是好的作为参考即可)](https://xz.aliyun.com/t/11484)
+
+
 ## 12.Shiro(暂时暂停学习之后继续)
 
 - [shiro<=1.5.2通用后门利用(个人小研究发现)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/shiro1.5.2%E9%80%9A%E7%94%A8%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/index.md)
