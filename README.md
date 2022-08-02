@@ -324,6 +324,13 @@
 * 本工具中所涉及的漏洞均为网上已公开。
 
 
+## 优质博客
+- [Y4tacker(自己的能不写吗)](https://y4tacker.github.io/)
+- [三梦](https://threedr3am.github.io/)
+- [su18](https://su18.org/)
+- [landgrey](https://landgrey.me/)
+- [回忆飘如雪](https://gv7.me/)
+
 
 ## 更多
 
