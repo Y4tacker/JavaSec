@@ -288,6 +288,7 @@
 - [自己写的OpenRasp分析](https://y4tacker.github.io/2022/05/28/year/2022/5/OpenRasp%E5%88%86%E6%9E%90/)
 - [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://github.com/4ra1n/tomcat-jmxproxy-rce-exp)
 - [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
+- [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
 
 ## 比赛反思
 
