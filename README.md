@@ -300,7 +300,7 @@
 - [虎符CTF2022(关键词:Hessian反序列化、Rome二次反序列化、java.security.SignedObject#getObject、UnixPrintService命令执行、Tabby)](https://y4tacker.github.io/2022/03/21/year/2022/3/2022%E8%99%8E%E7%AC%A6CTF-Java%E9%83%A8%E5%88%86/)
 - [MRCTF2022(关键词:Kryo反序列化、Rome二次反序列化、内存马、Bypass SerialKiller黑名单-找替代类)](https://y4tacker.github.io/2022/04/24/year/2022/4/2022MRCTF-Java%E9%83%A8%E5%88%86/)
 - [GoogleCTF2022(关键词：Log4j2、Bundle、ReDoS)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/2022GooGleCTF/index.md)
-- [UIUCTF2022-Pebble(关键词：Pebble最新模板注入Bypass、Spring中类似PHP_SESSION_UPLOAD_PROGRESS的点)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
+- [UIUCTF2022-Spoink(关键词：Pebble最新模板注入Bypass、Spring中类似PHP_SESSION_UPLOAD_PROGRESS的点)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
 
 ## 环境
 
