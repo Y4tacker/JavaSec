@@ -292,7 +292,7 @@
 
 ## 比赛反思
 
-特地加了一栏吧，希望从比赛当中了解Java相关的东西积累实战经验！
+特地加了一栏吧，希望从比赛当中了解Java相关的东西学习一些新的点！
 
 - [Codegate2022(关键词:绕过开头file协议读文件、xpath注入读系统配置)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/Codegate2022/index.md)
 - [SUSCTF2022(关键词:绕rasp、fastjson、xxe)](https://github.com/Y4tacker/JavaSec/tree/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/SUSCTF2022)
