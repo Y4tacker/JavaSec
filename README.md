@@ -258,9 +258,11 @@
 ## 16.漏洞复现
 - [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
 
-## 17.模板注入
+## 17.模板引擎相关
 - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
 - [freemarker 模板注入](https://www.cnblogs.com/nice0e3/p/16217471.html)
+- [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
+- [thymeleaf](https://xz.aliyun.com/t/10514)
 
 
 ## 其他分享
