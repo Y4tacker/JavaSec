@@ -10,14 +10,14 @@
 
 ```xml
 <servlet-mapping>
-        <servlet-name>ExportServlet</servlet-name>
+        <servlet-name>TestServlet</servlet-name>
         <url-pattern>/export</url-pattern>
-    </servlet-mapping>
-    <servlet>
+</servlet-mapping>
+<servlet>
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>com.jbxz.TestServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
-    </servlet>
+</servlet>
 ```
 
 接下来随便写一个Servlet
