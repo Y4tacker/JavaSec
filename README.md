@@ -150,7 +150,7 @@
 - [S2-045学习(通过container获取全局共享的OgnlUtil实例来清除SecurityMemberAccess当中属性的限制)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-045%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 - [S2-057学习(突破#context被删除限制，从attr作用域获取context对象)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-057%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 
-## 8.关于Tomcat的一些小发现(个人小研究)
+## 8.关于Tomcat的一些小研究
 
 - [JSTL的可利用点](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/JSTL%E7%9A%84%E5%8F%AF%E5%88%A9%E7%94%A8%E7%82%B9/index.md)
 
@@ -161,6 +161,8 @@
 - [Java文件上传大杀器-绕waf(针对commons-fileupload组件)](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Common-fileupload%E7%BB%84%E4%BB%B6%E7%BB%95%E8%BF%87/Java%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%A7%E6%9D%80%E5%99%A8-%E7%BB%95waf(%E9%92%88%E5%AF%B9commons-fileupload%E7%BB%84%E4%BB%B6).md)
 
 - [探寻Tomcat文件上传流量层面绕waf新姿势](https://y4tacker.github.io/2022/06/19/year/2022/6/%E6%8E%A2%E5%AF%BBTomcat%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2%E7%BB%95waf%E6%96%B0%E5%A7%BF%E5%8A%BF/)
+
+- [Tomcat中url解析特性]()
 
 ## 9.JDBC Attack
 
