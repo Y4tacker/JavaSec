@@ -226,7 +226,7 @@
 - [另类的shiro检验key的检测方式](http://www.lmxspace.com/2020/08/24/%E4%B8%80%E7%A7%8D%E5%8F%A6%E7%B1%BB%E7%9A%84shiro%E6%A3%80%E6%B5%8B%E6%96%B9%E5%BC%8F/)
 - [shiro反序列化漏洞攻击拓展面--修改key](https://tttang.com/archive/1457/)
 - [Tomcat-Header长度受限突破shiro回显](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/Tomcat-Header%E9%95%BF%E5%BA%A6%E5%8F%97%E9%99%90%E7%AA%81%E7%A0%B4shiro%E5%9B%9E%E6%98%BE/index.md)
-- [CVE-2020-13933特殊场景权限绕过(通过//unauthorize/%3b)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2020-13933%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
+- [CVE-2020-13933特殊场景权限绕过(通过/unauthorize/%3b)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2020-13933%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 
 这里再贴一个小笔记：`Class.forName`不支持原生类型，但其他类型都是ok。`Class.loadClass`不能加载原生类型和数组类型，其他类型也都ok
 
