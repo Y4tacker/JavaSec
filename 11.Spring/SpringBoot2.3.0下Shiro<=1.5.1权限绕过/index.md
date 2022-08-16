@@ -101,6 +101,6 @@ public String getServletPath() {
 
 或者也可以通过`/;abcd/unauthorize`或者`/;/unauthorize`绕过访问
 
-原理一样的只是拓展下payload，毕竟上面这个
+原理一样的只是拓展下payload，毕竟上面这个访问的url
 
-第一次处理后变成`//unauthorize`再经过路径标准化后`/unauthorize`，而shiro是直接去掉了`;`后面的部分再做路由拦截
+对spring来说第一次处理后变成`//unauthorize`再经过路径标准化后`/unauthorize`，而shiro是直接去掉了`;`后面的部分再做路由拦截
