@@ -215,9 +215,8 @@
 - [Spring Data MongoDB SpEL表达式注入(CVE-2022-22980)(能看但是有些逻辑还是讲得很混乱总体而已还是好的作为参考即可)](https://xz.aliyun.com/t/11484)
 
 
-## 12.Shiro(暂时暂停学习之后继续)
+## 12.Shiro
 
-- [shiro<=1.5.2通用后门利用(个人小研究发现)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/shiro1.5.2%E9%80%9A%E7%94%A8%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [CVE-2016-6802权限绕过(通过/abc/../y4tacker/admin绕过)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2016-6802%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [Shiro550-TemplatesImpl(CC6-Shiro)](https://github.com/phith0n/JavaThings/blob/master/shiroattack/src/main/java/com/govuln/shiroattack/CommonsCollectionsShiro.java)
