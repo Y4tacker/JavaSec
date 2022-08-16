@@ -162,7 +162,6 @@
 
 - [探寻Tomcat文件上传流量层面绕waf新姿势](https://y4tacker.github.io/2022/06/19/year/2022/6/%E6%8E%A2%E5%AF%BBTomcat%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2%E7%BB%95waf%E6%96%B0%E5%A7%BF%E5%8A%BF/)
 
-- [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
 
 ## 9.JDBC Attack
 
@@ -268,6 +267,8 @@
 - [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
 - [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
 
+## 18.各框架对URI处理的特性及Trick
+- [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
 
 ## 其他分享
 
