@@ -6,6 +6,8 @@ SpringBoot<=2.3.0 Release
 
 Spring-shiro<=1.5.1
 
+## 场景一
+
 看本篇之前可以看看上一篇[SpringBoot2.3.0以下路由%2e跨目录处理](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot2.3.0%E4%BB%A5%E4%B8%8B%E8%B7%AF%E7%94%B1%252e%E8%B7%A8%E7%9B%AE%E5%BD%95%E5%A4%84%E7%90%86(%E5%8F%AF%E7%94%A8%E4%BA%8E%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)/index.md)
 
 这个绕过主要是利用了 shiro 对 url 中的 ";" 处理来绕过，之后我们配合spring当中低版本下对跨目录的处理来恢复正常请求
@@ -92,3 +94,13 @@ public String getServletPath() {
 也是开头提到的文章提到过哦,里面的值就是之前做处理的部分`org.apache.catalina.connector.CoyoteAdapter#postParseRequest`，具体操作就是url解码后做路径标准化处理，因此最终这个uri的值就变成了`//unauthorize`再经过之后` normalize(decodeAndCleanUriString(request, uri))`处理过后则最终成功拦截
 
 这样就安全了么？并不是的可以看到这里使用decodeAndCleanUriString，做了url解码而本身已经做了一次了，这里就做了两次url解码，因此也可以进行特定配置下绕过，我们下篇在谈
+
+
+
+## 场景二
+
+或者也可以通过`/;abcd/unauthorize`或者`/;/unauthorize`绕过访问
+
+原理一样的只是拓展下payload，毕竟上面这个
+
+第一次处理后变成`//unauthorize`再经过路径标准化后`/unauthorize`，而shiro是直接去掉了`;`后面的部分再做路由拦截
