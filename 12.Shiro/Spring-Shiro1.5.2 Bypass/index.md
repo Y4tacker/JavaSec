@@ -41,3 +41,9 @@ public static String getRequestUri(HttpServletRequest request) {
 看到这里我标注了的，做了url解码操作，因此为什么能绕过就这么简单
 
 ![](img/3.png)
+之后在更高版本下1.5.3是如何修复的呢？其实很简单就是去除了这个有两次url解码的过程
+```java
+public static String getPathWithinApplication(HttpServletRequest request) {
+    return normalize(removeSemicolon(getServletPath(request) + getPathInfo(request)));
+}
+```
