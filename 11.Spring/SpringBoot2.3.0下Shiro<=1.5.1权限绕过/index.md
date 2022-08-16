@@ -90,3 +90,5 @@ public String getServletPath() {
 ```
 
 也是开头提到的文章提到过哦,里面的值就是之前做处理的部分`org.apache.catalina.connector.CoyoteAdapter#postParseRequest`，具体操作就是url解码后做路径标准化处理，因此最终这个uri的值就变成了`//unauthorize`再经过之后` normalize(decodeAndCleanUriString(request, uri))`处理过后则最终成功拦截
+
+这样就安全了么？并不是的可以看到这里使用decodeAndCleanUriString，做了url解码而本身已经做了一次了，这里就做了两次url解码，因此也可以进行特定配置下绕过，我们下篇在谈
