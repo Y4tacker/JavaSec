@@ -228,7 +228,8 @@
 - [Spring下Shiro<1.5.0权限绕过(/unauthorize/)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/SHIRO682/index.md)
 - [CVE-2020-13933特殊场景权限绕过(通过/unauthorize/%3b)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2020-13933%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [SpringBoot2.3.0下Shiro<=1.5.1权限绕过(通过/aa;/%2e%2e/unauthorize绕过对/unauthorize拦截)](https://github.com/Y4tacker/JavaSec/tree/main/11.Spring/SpringBoot2.3.0%E4%B8%8BShiro%3C%3D1.5.1%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)
-- [Spring-Shiro1.5.2 Bypass(通过/unauthorize/a%252Fa绕过对/unauthorize/*的权限限制)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/Spring-Shiro1.5.2%20Bypass/index.md)
+- [Spring-Shiro1.5.2 Bypass(通过/unauthorize/a%252Fa绕过对/unauthorize/*的权限限制)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/Spring-Shiro1.5.2%20Bypass/index.md) 
+
 这里再贴一个小笔记：`Class.forName`不支持原生类型，但其他类型都是ok。`Class.loadClass`不能加载原生类型和数组类型，其他类型也都ok
 
 
