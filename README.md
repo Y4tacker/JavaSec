@@ -267,6 +267,7 @@
 - [freemarker 模板注入](https://www.cnblogs.com/nice0e3/p/16217471.html)
 - [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
 - [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
+- [国产Jfinal用的Enjoy模板引擎主要研究不出网利用](https://y4tacker.github.io/2022/04/14/year/2022/4/Enjoy%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%E5%88%86%E6%9E%90/)
 
 ## 18.各框架对URI处理的特性及Trick
 - [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
