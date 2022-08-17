@@ -273,6 +273,11 @@
 - [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
 - [SpringBoot2.3.0以下路由%2e跨目录处理(可用于权限绕过)](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot2.3.0%E4%BB%A5%E4%B8%8B%E8%B7%AF%E7%94%B1%252e%E8%B7%A8%E7%9B%AE%E5%BD%95%E5%A4%84%E7%90%86(%E5%8F%AF%E7%94%A8%E4%BA%8E%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)/index.md)
 
+## 19.Hacking FernFlower Decompiler
+如何影响idea反编译但不影响代码执行，暂时不想放出来，之后会放出来
+
+
+
 ## 其他分享
 
 - [GadgetInspector源码分析](https://y4tacker.github.io/2022/05/09/year/2022/5/GadgetInspector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
