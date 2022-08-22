@@ -1,6 +1,13 @@
 # Jackson的利用触发及小细节
 
 不会很详细，简单分析一些重要的
+## 触发前提
+满足下面三个条件之一即存在Jackson反序列化漏洞：
+
+调用了ObjectMapper.enableDefaultTyping()函数；
+对要进行反序列化的类的属性使用了值为JsonTypeInfo.Id.CLASS的@JsonTypeInfo注解；
+对要进行反序列化的类的属性使用了值为JsonTypeInfo.Id.MINIMAL_CLASS的@JsonTypeInfo注解；
+
 
 ## 漏洞原理
 
