@@ -300,7 +300,7 @@
 - [如何带依赖打包Jar](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Maven/index.md)
 - [一些Java二次反序列化的点(持续收集)](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/Java%E8%A7%A6%E5%8F%91%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E7%9A%84%E7%82%B9.md)
 - [自己写的OpenRasp分析](https://y4tacker.github.io/2022/05/28/year/2022/5/OpenRasp%E5%88%86%E6%9E%90/)
-- [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://github.com/4ra1n/tomcat-jmxproxy-rce-exp)
+- [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://xz.aliyun.com/t/11450)
 - [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
 - [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
 
