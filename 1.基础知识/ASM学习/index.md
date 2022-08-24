@@ -575,6 +575,8 @@ visitEnd
 | visitModule         | 访问对应的模块                                               |
 | visitTypeAnnotation | 访问类的签名的注解                                           |
 | visitNestHost       | 访问类的nest host；(nest 指的一个共享私有成员变量的包名相同的class集合，nest中有一个host(主类)和多个members(成员类)，jdk11为了提供更大，更广泛的嵌套类型，并且为了补足访问控制检测不足，引进了两个新的class文件属性，nest host 和nest member,nest host中包含了一个nest members列表，用来确定其他静态nest members;nest member中包含了一个nest host属性用来确定它的nesthost;) |
+| visitNestMember     | 访问嵌套类的nest member，只有host class被visited时才能调用该方法 |
+
 
 
 #### ClassWriter类
@@ -692,8 +694,12 @@ ASM部分
 ]
 visitEnd
 ```
-
 具体如何用ASMPrint看看就会了
+visitCode：访问的开始
+visitMaxs：访问的结束
+visitInsn：访问无操作数指令，例如return
+visitLdcInsn：访问ldc指令，也就是访问常量池索引
+visitMethodInsn：访问方法指令，也就是调用某个方法
 
 ### Label类
 
