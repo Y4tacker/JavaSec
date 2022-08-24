@@ -574,7 +574,7 @@ visitEnd
 | visitMethod         | 访问class中方法的信息，返回一个MethodVisitor用于操作字段相关的信息，access为访问修饰符，name为方法名称，signature为方法的签名，可能是null，descriptor为描述信息，exceptions为异常 |
 | visitModule         | 访问对应的模块                                               |
 | visitTypeAnnotation | 访问类的签名的注解                                           |
-
+| visitNestHost       | 访问类的nest host；(nest 指的一个共享私有成员变量的包名相同的class集合，nest中有一个host(主类)和多个members(成员类)，jdk11为了提供更大，更广泛的嵌套类型，并且为了补足访问控制检测不足，引进了两个新的class文件属性，nest host 和nest member,nest host中包含了一个nest members列表，用来确定其他静态nest members;nest member中包含了一个nest host属性用来确定它的nesthost;) |
 
 
 #### ClassWriter类
