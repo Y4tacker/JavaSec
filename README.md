@@ -278,7 +278,8 @@
 如何影响idea反编译但不影响代码执行，暂时不想放出来，之后会放出来
 
 ## 20.ASM与JVM学习
-- [JAVA虚拟机执行模型(关注java1.6之后还引入了栈映射帧，用于加快虚拟机中类验证过程的速度)](https://www.cnblogs.com/coding-way/p/6600647.html)
+- [JAVA虚拟机执行模型(关注引入了栈映射帧，用于加快虚拟机中类验证过程的速度)](https://www.cnblogs.com/coding-way/p/6600647.html)
+- [What is a stack map frame](https://stackoverflow.com/questions/25109942/what-is-a-stack-map-frame)
 
 
 
