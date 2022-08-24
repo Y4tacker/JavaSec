@@ -559,6 +559,22 @@ visitEnd
 
 ![](img/4.png)
 
+#### 常用的Visitor回调事件
+
+
+| 方法名              | 说明                                                         |
+| :------------------ | :----------------------------------------------------------- |
+| visit               | 访问class的头部信息时，version为class版本（编译版本），access为访问修饰符，name为类名称，signature为class的签名，可能是null，superName为超类名称，interfaces为接口的名称 |
+| visitAnnotation     | 访问class的注解信息时，descriptor为签名描述信息，visible为是否运行时可见 |
+| visitAttribute      | 访问该类的属性                                               |
+| visitInnerClass     | 访问class中内部类的信息，而且这个内部类不一定是被访问类的成员（有可能是一段方法中的匿名内部类或者声明在一个方法中的类等等）。name为内部类的名称，outerName为内部类所在类的名称，innerName为内部类的名称 |
+| visitOuterClass     | 访问该类的外部类，仅当类具有封闭类时，才必须调用此方法。owner为拥有该类的class名称，name为包含该类的方法的名称，如果该类未包含在其封闭类的方法中，则返回null，descriptor为签名描述信息 |
+| visitEnd            | 结束访问class时调用                                          |
+| visitField          | 访问class中字段的信息，返回一个FieldVisitor用于操作字段相关的信息，access为访问修饰符，name为类名称，signature为class的签名，可能是null，descriptor为描述信息 |
+| visitMethod         | 访问class中方法的信息，返回一个MethodVisitor用于操作字段相关的信息，access为访问修饰符，name为方法名称，signature为方法的签名，可能是null，descriptor为描述信息，exceptions为异常 |
+| visitModule         | 访问对应的模块                                               |
+| visitTypeAnnotation | 访问类的签名的注解                                           |
+
 
 
 #### ClassWriter类
