@@ -275,6 +275,9 @@
 ## 19.Hacking FernFlower Decompiler
 如何影响idea反编译但不影响代码执行，暂时不想放出来，之后会放出来
 
+## 20.ASM与JVM学习
+- [JAVA虚拟机执行模型](https://www.cnblogs.com/coding-way/p/6600647.html)
+
 
 
 ## 其他分享
