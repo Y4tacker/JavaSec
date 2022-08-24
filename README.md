@@ -110,6 +110,7 @@
 - [Tomcat-Filter型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
 - [Tomcat-Servlet型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
 - [Tomcat-Valve内存马](https://mp.weixin.qq.com/s/x4pxmeqC1DvRi9AdxZ-0Lw)
+- [Tomcat-Upgrade内存马](https://mp.weixin.qq.com/s/RuP8cfjUXnLVJezBBBqsYw)
 - [WebSocket代理内存马](https://github.com/veo/wsMemShell)
 - [Executor内存马的实现](https://mp.weixin.qq.com/s/uHxQf86zHJvg9frTbjdIdA)
 - [浅谈 Java Agent 内存马(网上看到大师傅写的很详细直接搬运工了)](http://wjlshare.com/archives/1582)
