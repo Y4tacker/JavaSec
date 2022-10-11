@@ -313,6 +313,7 @@
 - [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://xz.aliyun.com/t/11450)
 - [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
 - [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
+- [利用JVMTI实现JAR包加密(还没看很牛逼就是了)](https://mp.weixin.qq.com/s/jH8TNvY8bAu0m2kQBvpQyg)
 
 ## 比赛反思
 
