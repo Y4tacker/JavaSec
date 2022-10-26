@@ -129,6 +129,7 @@
 - [Java Instrument插桩技术初体验](https://github.com/Y4tacker/JavaSec/blob/main/6.JavaAgent/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF/JavaInstrument%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF.md)
 - [PreMain之addTransformer与redefineClasses用法学习](https://github.com/Y4tacker/JavaSec/blob/main/6.JavaAgent/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0/PreMain%E4%B9%8BaddTransformer%E4%B8%8EredefineClasses%E7%94%A8%E6%B3%95%E5%AD%A6%E4%B9%A0.md)
 - [AgentMain(JVM启动后动态Instrument)](https://github.com/Y4tacker/JavaSec/blob/main/6.JavaAgent/AgentMain/AgentMain.md)
+- [通过JVMTI实现C/C++的JavaAgent交互](https://luckymrwang.github.io/2020/12/28/%E7%A0%B4%E8%A7%A3-Java-Agent-%E6%8E%A2%E9%92%88%E9%BB%91%E7%A7%91%E6%8A%80/#JVMTIAgent)
 
 后面因为一些原因打算更系统学习，感觉在这里面直接添加有点臃肿，故开了一个新的repo来记录整个学习阶段，移步[RaspLearning](https://github.com/Y4tacker/RaspLearning)
 
@@ -315,6 +316,7 @@
 - [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
 - [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
 - [利用JVMTI实现JAR包加密(还没看很牛逼就是了)](https://mp.weixin.qq.com/s/jH8TNvY8bAu0m2kQBvpQyg)
+- [安全同学讲Maven重打包的故事](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247510513&idx=1&sn=fbcd84ba56d0c04dbd28b42f10f3bfb1&chksm=e92a94fede5d1de8e8301f8efb9db5e3f1a4fc14a5e29be541668d706a77141bbbd8d63db1ac&mpshare=1&scene=1&srcid=1025aCfF1bF9RgdhX85sgkj3&sharer_sharetime=1666696525299&sharer_shareid=4a549281c7d8f067d766da5aff57a064#rd)
 
 ## 比赛反思
 
