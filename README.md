@@ -218,6 +218,7 @@
 
 
 ## 12.Shiro
+- [Shiro另类检测方式](http://www.lmxspace.com/2020/08/24/%E4%B8%80%E7%A7%8D%E5%8F%A6%E7%B1%BB%E7%9A%84shiro%E6%A3%80%E6%B5%8B%E6%96%B9%E5%BC%8F/)
 - [浅谈Shiro执行任意反序列化gadget的方案](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E6%B5%85%E8%B0%88Shiro%E6%89%A7%E8%A1%8C%E4%BB%BB%E6%84%8F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96gadget%E7%9A%84%E6%96%B9%E6%A1%88/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [CVE-2016-6802权限绕过(通过/abc/../y4tacker/admin绕过)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2016-6802%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
