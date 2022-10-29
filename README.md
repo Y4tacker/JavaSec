@@ -268,6 +268,7 @@
 - [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
 - [Apache Spark shell command injection vulnerability via Spark UI(之前很早前在我的各个知识星球分享了)](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-33891/index.md)
 - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
+- [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
 
 ## 17.模板引擎相关
 - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
