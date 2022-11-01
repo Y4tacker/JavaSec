@@ -321,6 +321,7 @@
 - [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
 - [利用JVMTI实现JAR包加密(还没看很牛逼就是了)](https://mp.weixin.qq.com/s/jH8TNvY8bAu0m2kQBvpQyg)
 - [安全同学讲Maven重打包的故事](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247510513&idx=1&sn=fbcd84ba56d0c04dbd28b42f10f3bfb1&chksm=e92a94fede5d1de8e8301f8efb9db5e3f1a4fc14a5e29be541668d706a77141bbbd8d63db1ac&mpshare=1&scene=1&srcid=1025aCfF1bF9RgdhX85sgkj3&sharer_sharetime=1666696525299&sharer_shareid=4a549281c7d8f067d766da5aff57a064#rd)
+- [某软件监控页面RCE漏洞分析(虽然过于简单，但是可以借此了解下OA系统)](https://xz.aliyun.com/t/11778)
 
 ## 比赛反思
 
