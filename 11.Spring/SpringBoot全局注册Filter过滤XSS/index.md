@@ -62,12 +62,10 @@ public class XSSHttpServletRequestWrapper extends HttpServletRequestWrapper {
 
     private HttpServletRequest request;
 
-    private String reqBody;
 
     public XSSHttpServletRequestWrapper(HttpServletRequest request) {
         super(request);
         this.request = request;
-        reqBody = getBodyString();
     }
 
 
@@ -115,7 +113,7 @@ public class XSSHttpServletRequestWrapper extends HttpServletRequestWrapper {
 
     @Override
     public ServletInputStream getInputStream() throws IOException {
-        final ByteArrayInputStream bais = new ByteArrayInputStream(reqBody.getBytes(StandardCharsets.UTF_8));
+        final ByteArrayInputStream bais = new ByteArrayInputStream(getBodyString().getBytes(StandardCharsets.UTF_8));
         return new ServletInputStream() {
             @Override
             public boolean isFinished() {
