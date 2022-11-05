@@ -217,7 +217,7 @@
 
 - [Spring Data MongoDB SpEL表达式注入(CVE-2022-22980)(能看但是有些逻辑还是讲得很混乱总体而已还是好的作为参考即可)](https://xz.aliyun.com/t/11484)
 
-- [SpringBoot全局注册Filter过滤XSS(发现这种方案网上通用的有问题，正在继续研究学习之后重新修改)](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
+- [SpringBoot全局注册Filter过滤XSS](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
 
 
 ## 12.Shiro
