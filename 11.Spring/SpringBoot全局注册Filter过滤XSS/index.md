@@ -85,7 +85,10 @@ public class XSSHttpServletRequestWrapper extends HttpServletRequestWrapper {
 
     @Override
     public String[] getParameterValues(String name) {
-        String[] parameterValues = request.getParameterValues(name);
+        String[] parameterValues = super.getParameterValues(name);
+        if (parameterValues==null)  {
+            return null;
+        }
         for (int i = 0; i < parameterValues.length; i++)
         {
             parameterValues[i] = StringEscapeUtils.escapeHtml4(parameterValues[i]);
