@@ -252,9 +252,9 @@
 ## 14. JSPWebshell
 
 - [JSP-Webshells集合(三梦的总结挺全面的利用点)](https://github.com/threedr3am/JSP-Webshells)
-
 - [JspWebShell新姿势解读](https://y4tacker.github.io/2022/05/16/year/2022/5/JspWebShell%E6%96%B0%E5%A7%BF%E5%8A%BF%E8%A7%A3%E8%AF%BB/)
 - [jsp新webshell的探索之旅](https://y4tacker.github.io/2022/02/03/year/2022/2/jsp%E6%96%B0webshell%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B9%8B%E6%97%85/)
+- [JspWebshell编码混淆篇(unicode和html实体编码那些就懒得写了技术性不强)](https://y4tacker.github.io/2022/11/27/year/2022/11/%E6%B5%85%E8%B0%88JspWebshell%E4%B9%8B%E7%BC%96%E7%A0%81/)
 
 ## 15.Waf
 
