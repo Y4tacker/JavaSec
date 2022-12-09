@@ -4,6 +4,10 @@
 
 环境代码放在仓库同名路径下了
 
+https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%9C%89%E8%B6%A3%E7%9A%84XSS%E4%B9%8BNormalize/HowToXss.txt
+
+你需要下载它，并改后缀为zip自行解压
+
 
 
 ## 代码
