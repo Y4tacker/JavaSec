@@ -298,7 +298,10 @@
 
 
 ## 其他分享
-
+- JMX
+  - [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
+  - [一次从jmx到rce](https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247506824&idx=1&sn=1bff6060290c0fdb7fe059cff2c61153&chksm=96d0208da1a7a99b6e61c8e3c332d324c0296bbccf1163cb8a10760e57cd17e150cb23a0e36a&mpshare=1&scene=1&srcid=1220PA2K5MY7dM3gWTr06z4r&sharer_sharetime=1671532238935&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
+  - [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://xz.aliyun.com/t/11450)
 - [GadgetInspector源码分析](https://y4tacker.github.io/2022/05/09/year/2022/5/GadgetInspector%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
 - [CVE-2021-2471 JDBC-XXE漏洞分析](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2021-2471%20JDBC-XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
 - [spring-messaging 远程代码执行漏洞分析](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/spring-messaging%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.md)
@@ -311,7 +314,6 @@
 - [利用TemplatesImpl执行字节码](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81.md)
 - [为什么补丁都喜欢打在resolveClass](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass.md)
 - [Java沙箱绕过](https://www.anquanke.com/post/id/151398)
-- [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
 - [一种普遍存在于java系统的缺陷 - Memory DoS](https://threedr3am.github.io/2021/11/18/%E4%B8%80%E7%A7%8D%E6%99%AE%E9%81%8D%E5%AD%98%E5%9C%A8%E4%BA%8Ejava%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BC%BA%E9%99%B7-Memory%20DoS/#more)
 - [如何关闭百度的Rasp](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E7%9A%84Rasp/index.md)
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
@@ -320,7 +322,6 @@
 - [如何带依赖打包Jar](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Maven/index.md)
 - [一些Java二次反序列化的点(持续收集)](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/Java%E8%A7%A6%E5%8F%91%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E7%9A%84%E7%82%B9.md)
 - [自己写的OpenRasp分析](https://y4tacker.github.io/2022/05/28/year/2022/5/OpenRasp%E5%88%86%E6%9E%90/)
-- [tomcat-jmxproxy-rce-exp(挺骚的感觉留个后门啥的不错)](https://xz.aliyun.com/t/11450)
 - [Apache Unomi 表达式注入攻防](https://github.com/1135/unomi_exploit)
 - [JEXL3表达式注入](https://xz.aliyun.com/t/8099)
 - [利用JVMTI实现JAR包加密(还没看很牛逼就是了)](https://mp.weixin.qq.com/s/jH8TNvY8bAu0m2kQBvpQyg)
