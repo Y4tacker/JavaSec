@@ -340,6 +340,7 @@
 - [MRCTF2022(关键词:Kryo反序列化、Rome二次反序列化、内存马、Bypass SerialKiller黑名单-找替代类)](https://y4tacker.github.io/2022/04/24/year/2022/4/2022MRCTF-Java%E9%83%A8%E5%88%86/)
 - [GoogleCTF2022(关键词：Log4j2、Bundle、ReDoS)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/2022GooGleCTF/index.md)
 - [UIUCTF2022-Spoink(关键词：Pebble最新模板注入Bypass、Spring中无路由上传文件处理)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
+- [TetCTF2023&Liferay(CVE-2019-16891)(Pre-Auth RCE)](https://y4tacker.github.io/2023/01/03/year/2023/TetCTF2023-Liferay-CVE-2019-16891-Pre-Auth-RCE/)
 
 ## 环境
 
