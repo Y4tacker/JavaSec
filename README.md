@@ -46,7 +46,7 @@
 
 很早前学了，后面补上，更多是说一点关键的东西，不会很详细，好吧这里再拓展成反序列化专区好了
 
-如果想系统学习的话这部分还是更推荐p牛的Java安全漫谈，我只是简单写写便于自己复习而已
+如果想系统学习的话这部分还是更推荐p牛的Java安全漫谈(https://github.com/phith0n/JavaThings)，我只是简单写写便于自己复习而已
 
 - [Java反序列化之URLDNS](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS.md)
 - [CommonsCollections1笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections1/CommonsCollections1.md)
