@@ -300,6 +300,7 @@
 
 
 ## 其他分享
+- [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
 - JMX
   - [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
   - [一次从jmx到rce](https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247506824&idx=1&sn=1bff6060290c0fdb7fe059cff2c61153&chksm=96d0208da1a7a99b6e61c8e3c332d324c0296bbccf1163cb8a10760e57cd17e150cb23a0e36a&mpshare=1&scene=1&srcid=1220PA2K5MY7dM3gWTr06z4r&sharer_sharetime=1671532238935&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
