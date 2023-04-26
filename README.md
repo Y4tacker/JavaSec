@@ -97,7 +97,8 @@
 - [2021L3HCTF中关于Fastjson1.2.68的骚操作](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E5%85%B6%E4%BB%96/L3HCTF%202021%20Official%20Write%20Up.pdf)
 - [一些有趣的Trick](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
 - [fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
-
+- [FastJson与原生反序列化(一)](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
+- [FastJson与原生反序列化(二)](https://y4tacker.github.io/2023/04/26/year/2023/4/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-%E4%BA%8C/)
 
 
 ## 4.Weblogic专区(暂时不想看)
