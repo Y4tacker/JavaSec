@@ -101,7 +101,7 @@
 - [FastJson与原生反序列化(二)](https://y4tacker.github.io/2023/04/26/year/2023/4/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-%E4%BA%8C/)
 
 
-## 4.Weblogic专区(暂时不想看)
+## 4.Weblogic专区(虽然也挖了一堆，暂时不想写)
 
 - [T3协议学习](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0.md)
 - [CVE-2015-4852复现分析](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90.md)
@@ -276,6 +276,7 @@
 - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
 - [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
 - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
+- [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
 
 ## 17.模板引擎相关
 - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
