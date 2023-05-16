@@ -186,6 +186,7 @@
   - [Make JDBC Attacks Brilliant Again 番外篇(作为上面Postgresql的拓展)](https://tttang.com/archive/1462/)
 
 - [Hive-RCE](https://github.com/Y4tacker/hue-hive-rce)
+- [2023BalckHat Asia上补充关于informix-sqli、db2、cloudspanner、avatica、snowflake的利用姿势](https://i.blackhat.com/Asia-23/AS-23-Yuanzhen-A-new-attack-interface-in-Java.pdf)
 
 ## 10.关于JNDI的整理
 
