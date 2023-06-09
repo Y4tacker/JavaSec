@@ -225,6 +225,8 @@
 
 - [SpringBoot全局注册Filter过滤XSS](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
 
+
+
 ## 12.Shiro
 
 - [Shiro RememberMe 漏洞检测的探索之路(长亭的一些总结非常不错)](https://stack.chaitin.com/techblog/detail?id=39)
@@ -263,6 +265,8 @@
 - [jsp新webshell的探索之旅](https://y4tacker.github.io/2022/02/03/year/2022/2/jsp%E6%96%B0webshell%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B9%8B%E6%97%85/)
 - [JspWebshell编码混淆篇(unicode和html实体编码那些就懒得写了技术性不强)](https://y4tacker.github.io/2022/11/27/year/2022/11/%E6%B5%85%E8%B0%88JspWebshell%E4%B9%8B%E7%BC%96%E7%A0%81/)
 
+
+
 ## 15.Waf
 
 - [Java文件上传大杀器-绕waf(针对commons-fileupload组件)](https://y4tacker.github.io/2022/02/25/year/2022/2/Java%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%A7%E6%9D%80%E5%99%A8-%E7%BB%95waf(%E9%92%88%E5%AF%B9commons-fileupload%E7%BB%84%E4%BB%B6)/)
@@ -273,6 +277,8 @@
 - [Java反序列化脏数据新姿势-对大师傅的姿势补充(个人的小研究)](https://y4tacker.github.io/2022/02/05/year/2022/2/%E5%AF%B9Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%95WAF%E6%96%B0%E5%A7%BF%E5%8A%BF%E7%9A%84%E8%A1%A5%E5%85%85/)
 - [Fastjson词法引擎绕waf](https://y4tacker.github.io/2022/03/30/year/2022/3/%E6%B5%85%E8%B0%88Fastjson%E7%BB%95waf/)
 - [RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://h1pmnh.github.io/post/writeup_spring_el_waf_bypass/)
+
+
 
 ## 16.漏洞复现
 
@@ -302,15 +308,25 @@
 
 
 
-## 17.模板引擎表达式相关
+## 17.模板引擎+表达式相关
 
-- [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
-- [freemarker 模板注入](https://www.cnblogs.com/nice0e3/p/16217471.html)
-- [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
-- [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
-- [国产Jfinal用的Enjoy模板引擎主要研究不出网利用](https://y4tacker.github.io/2022/04/14/year/2022/4/Enjoy%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%E5%88%86%E6%9E%90/)
+- 模板引擎
+
+  - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
+
+  - [freemarker 模板注入](https://www.cnblogs.com/nice0e3/p/16217471.html)
+
+  - [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
+
+  - [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
+
+  - [国产Jfinal用的Enjoy模板引擎主要研究不出网利用](https://y4tacker.github.io/2022/04/14/year/2022/4/Enjoy%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%E5%88%86%E6%9E%90/)
 
 
+- 表达式
+  - [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
+  - [一种新型Java一句话木马的实现](https://yzddmr6.com/posts/%E4%B8%80%E7%A7%8D%E6%96%B0%E5%9E%8BJava%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC%E7%9A%84%E5%AE%9E%E7%8E%B0/)
+  - 
 
 ## 18.各框架对URI处理的特性及Trick
 
@@ -358,7 +374,6 @@
 - [如何关闭百度的Rasp](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%85%B3%E9%97%AD%E7%99%BE%E5%BA%A6%E7%9A%84Rasp/index.md)
 - [漫谈 JEP 290](https://paper.seebug.org/1689/#_1)
 - [Java Web —— 从内存中Dump JDBC数据库明文密码(还挺好玩的)](https://mp.weixin.qq.com/s/QCfqO2BJuhSOr58rldZzxA)
-- [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
 - [如何带依赖打包Jar](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Maven/index.md)
 - [一些Java二次反序列化的点(持续收集)](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/Java%E8%A7%A6%E5%8F%91%E4%BA%8C%E6%AC%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E7%9A%84%E7%82%B9.md)
 - [自己写的OpenRasp分析](https://y4tacker.github.io/2022/05/28/year/2022/5/OpenRasp%E5%88%86%E6%9E%90/)
