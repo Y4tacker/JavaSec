@@ -80,7 +80,7 @@
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
 
-- Jackson()
+- Jackson
 
   - [Jackson的利用触发及小细节(比较鸡肋仅作为学习了解)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E7%9A%84%E5%88%A9%E7%94%A8%E8%A7%A6%E5%8F%91/index.md)
 
