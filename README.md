@@ -110,23 +110,47 @@
 
 - [Weblogic SSRF Involving Deserialized JDBC Connection](https://pyn3rd.github.io/2022/06/18/Weblogic-SSRF-Involving-Deserialized-JDBC-Connection/)
 
+
+
 ## 5.内存马学习专区
-- [Shell中的幽灵王者—JAVAWEB 内存马 【认知篇】](https://mp.weixin.qq.com/s/NKq4BZ8fLK7bsGSK5UhoGQ)
-- [JavaWeb与Tomcat介绍](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat%E4%BB%8B%E7%BB%8D/Tomcat%E4%BB%8B%E7%BB%8D.md)
-- [Tomcat-Listener型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Listener%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Listener%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
-- [Tomcat-Filter型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
-- [Tomcat-Servlet型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
-- [Tomcat-Valve内存马](https://mp.weixin.qq.com/s/x4pxmeqC1DvRi9AdxZ-0Lw)
-- [Tomcat-Upgrade内存马](https://mp.weixin.qq.com/s/RuP8cfjUXnLVJezBBBqsYw)
-- [WebSocket代理内存马](https://github.com/veo/wsMemShell)
-- [Executor内存马的实现](https://mp.weixin.qq.com/s/uHxQf86zHJvg9frTbjdIdA)
-- [浅谈 Java Agent 内存马(网上看到大师傅写的很详细直接搬运工了)](http://wjlshare.com/archives/1582)
-- [SpringBoot内存马学习-通过添加新路由](https://github.com/Y4tacker/JavaSec/tree/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E9%92%88%E5%AF%B9springboot%E7%9A%84controller%E5%86%85%E5%AD%98%E9%A9%AC)
-- [利用intercetor注入Spring内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E5%88%A9%E7%94%A8intercetor%E6%B3%A8%E5%85%A5Spring%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
-- [Timer型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Timer%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
-- [看不见的Jsp-Webshell(有点像平时CTF里面php的不死马的效果)](https://mp.weixin.qq.com/s/1ZiLD396088TxiW_dUOFsQ)
-- [看不见的 Jsp-WebShell 第二式增强之无痕](https://mp.weixin.qq.com/s/7b3Fyu_K6ZRgKlp6RkdYoA)
-- [Spring cloud gateway通过SPEL注入内存马](https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/)
+
+- 基础知识
+
+  - [Shell中的幽灵王者—JAVAWEB 内存马 【认知篇】](https://mp.weixin.qq.com/s/NKq4BZ8fLK7bsGSK5UhoGQ)
+
+  - [JavaWeb与Tomcat介绍](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat%E4%BB%8B%E7%BB%8D/Tomcat%E4%BB%8B%E7%BB%8D.md)
+
+  - [Tomcat-Listener型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Listener%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Listener%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
+
+  - [Tomcat-Filter型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
+
+  - [Tomcat-Servlet型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/Tomcat-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC.md)
+
+  - [Tomcat-Valve内存马](https://mp.weixin.qq.com/s/x4pxmeqC1DvRi9AdxZ-0Lw)
+
+  - [Tomcat-Upgrade内存马](https://mp.weixin.qq.com/s/RuP8cfjUXnLVJezBBBqsYw)
+
+  - [WebSocket代理内存马](https://github.com/veo/wsMemShell)
+
+  - [Executor内存马的实现](https://mp.weixin.qq.com/s/uHxQf86zHJvg9frTbjdIdA)
+
+  - [浅谈 Java Agent 内存马(网上看到大师傅写的很详细直接搬运工了)](http://wjlshare.com/archives/1582)
+
+  - [SpringBoot内存马学习-通过添加新路由](https://github.com/Y4tacker/JavaSec/tree/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E9%92%88%E5%AF%B9springboot%E7%9A%84controller%E5%86%85%E5%AD%98%E9%A9%AC)
+
+  - [利用intercetor注入Spring内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/%E5%88%A9%E7%94%A8intercetor%E6%B3%A8%E5%85%A5Spring%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
+
+  - [Timer型内存马](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Tomcat/Timer%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC/index.md)
+
+  - [看不见的Jsp-Webshell(有点像平时CTF里面php的不死马的效果)](https://mp.weixin.qq.com/s/1ZiLD396088TxiW_dUOFsQ)
+
+  - [看不见的 Jsp-WebShell 第二式增强之无痕](https://mp.weixin.qq.com/s/7b3Fyu_K6ZRgKlp6RkdYoA)
+
+  - [Spring cloud gateway通过SPEL注入内存马](https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/)
+
+
+- Tools
+  - [一款支持高度自定义的 Java 内存马生成工具](https://github.com/pen4uin/java-memshell-generator)
 
 
 
