@@ -80,28 +80,53 @@
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
 
-- [Jackson的利用触发及小细节](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E7%9A%84%E5%88%A9%E7%94%A8%E8%A7%A6%E5%8F%91/index.md)
-- [Jackson原生反序列化Gadgets](https://xz.aliyun.com/t/12485#toc-5)
-  - [Jackson构造过程会触发利用导致中断可通过重写类解决(附上demo学习)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96Gadget/Jackson.txt(%E6%94%B9zip%E5%90%8E%E7%BC%80%E8%A7%A3%E5%8E%8B).txt)
-- [Fastjson基本用法](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
-- [Fastjson1.1.15-1.2.4与BCEL字节码加载](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD.md)
-- [Fastjson1.22-1.24反序列化分析之JNDI](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.22-1.24/Fastjson1.22-1.24%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%86%E6%9E%90%E4%B9%8BJNDI/Fastjson1.22-1.24.md)
-- [Fastjson1.22-1.24反序列化分析之TemplateImpl](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.22-1.24/Fastjson1.22-1.24%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%86%E6%9E%90%E4%B9%8BTemplateImpl/Fastjson1.22-1.24.md)
-- [Fastjson1.2.25-1.2.41补丁绕过(用L;绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.41%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.41%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
-- [Fastjson1.2.25-1.2.42补丁绕过(双写L;绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.42%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.42%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
-- [Fastjson1.2.25-1.2.43补丁绕过(用左中括号绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
-- [Fastjson1.2.25-1.2.45补丁绕过(mybatis的3.x版本且<3.5.0、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
-- [Fastjson1.2.25-1.2.47绕过](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType.md)
-- [Fastjson1.2.48-1.2.68反序列化漏洞](https://www.anquanke.com/post/id/232774)
-- [Fastjson1.2.68不使用ref引用，不用parseObject触发get方法](https://su18.org/post/fastjson-1.2.68/#getter-%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
-- [关于blackhat2021披露的fastjson1.2.68链的一些细节，防止公众号以后找不到同目录下有备份](https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247484866&idx=1&sn=23fb7897f6e54cdf61031a65c602487d&scene=21#wechat_redirect)
-- [2021L3HCTF中关于Fastjson1.2.68的骚操作](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E5%85%B6%E4%BB%96/L3HCTF%202021%20Official%20Write%20Up.pdf)
-- [一些有趣的Trick](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
-- [fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
-- [FastJson与原生反序列化(一)](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
-- [FastJson与原生反序列化(二)](https://y4tacker.github.io/2023/04/26/year/2023/4/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-%E4%BA%8C/)
-- [Fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
-- [Fastjson与原生反序列化](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
+- Jackson()
+
+  - [Jackson的利用触发及小细节(比较鸡肋仅作为学习了解)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E7%9A%84%E5%88%A9%E7%94%A8%E8%A7%A6%E5%8F%91/index.md)
+
+  - [Jackson原生反序列化Gadgets(实用)](https://xz.aliyun.com/t/12485#toc-5)
+    - [Jackson构造过程会触发利用导致中断可通过重写类解决(附上demo学习)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96Gadget/Jackson.txt(%E6%94%B9zip%E5%90%8E%E7%BC%80%E8%A7%A3%E5%8E%8B).txt)
+
+- Fastjson
+
+  - [Fastjson基本用法](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Fastjson%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
+
+  - [Fastjson1.1.15-1.2.4与BCEL字节码加载](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD/Fastjson1.1.15-1.2.4%E4%B8%8EBCEL%E5%AD%97%E8%8A%82%E7%A0%81%E5%8A%A0%E8%BD%BD.md)
+
+  - [Fastjson1.22-1.24反序列化分析之JNDI](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.22-1.24/Fastjson1.22-1.24%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%86%E6%9E%90%E4%B9%8BJNDI/Fastjson1.22-1.24.md)
+
+  - [Fastjson1.22-1.24反序列化分析之TemplateImpl](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Fastjson1.22-1.24/Fastjson1.22-1.24%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%86%E6%9E%90%E4%B9%8BTemplateImpl/Fastjson1.22-1.24.md)
+
+  - [Fastjson1.2.25-1.2.41补丁绕过(用L;绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.41%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.41%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
+
+  - [Fastjson1.2.25-1.2.42补丁绕过(双写L;绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.42%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.42%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
+
+  - [Fastjson1.2.25-1.2.43补丁绕过(用左中括号绕过、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.43%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
+
+  - [Fastjson1.2.25-1.2.45补丁绕过(mybatis的3.x版本且<3.5.0、需要开启autotype)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87/Fastjson1.2.25-1.2.45%E8%A1%A5%E4%B8%81%E7%BB%95%E8%BF%87.md)
+
+  - [Fastjson1.2.25-1.2.47绕过](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/Bypass/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType/Fastjson1.2.25-1.2.47%E7%BB%95%E8%BF%87%E6%97%A0%E9%9C%80AutoType.md)
+
+  - [Fastjson1.2.48-1.2.68反序列化漏洞](https://www.anquanke.com/post/id/232774)
+
+  - [Fastjson1.2.68不使用ref引用，不用parseObject触发get方法](https://su18.org/post/fastjson-1.2.68/#getter-%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8)
+
+  - [关于blackhat2021披露的fastjson1.2.68链的一些细节，防止公众号以后找不到同目录下有备份](https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247484866&idx=1&sn=23fb7897f6e54cdf61031a65c602487d&scene=21#wechat_redirect)
+
+  - [2021L3HCTF中关于Fastjson1.2.68的骚操作](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E5%85%B6%E4%BB%96/L3HCTF%202021%20Official%20Write%20Up.pdf)
+
+  - [一些有趣的Trick](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
+
+  - [fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
+
+  - [FastJson与原生反序列化(一)](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
+
+  - [FastJson与原生反序列化(二)](https://y4tacker.github.io/2023/04/26/year/2023/4/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-%E4%BA%8C/)
+
+  - [Fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
+
+  - [Fastjson与原生反序列化](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
+
 
 
 ## 4.Weblogic专区(虽然也挖了一堆，暂时不想写)
