@@ -327,6 +327,7 @@
   - [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
 
   - [国产Jfinal用的Enjoy模板引擎主要研究不出网利用](https://y4tacker.github.io/2022/04/14/year/2022/4/Enjoy%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%E5%88%86%E6%9E%90/)
+  - [Beetl3.15.0以下模板注入(高版本仍然有办法Rce)](https://gitee.com/xiandafu/beetl/issues/I6RUIP)
 
 
 - 表达式
