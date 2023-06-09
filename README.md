@@ -300,22 +300,37 @@
 
 - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
 
-## 17.模板引擎相关
+
+
+## 17.模板引擎表达式相关
+
 - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
 - [freemarker 模板注入](https://www.cnblogs.com/nice0e3/p/16217471.html)
 - [pebble模板注入](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
 - [thymeleaf模板注入](https://xz.aliyun.com/t/10514)
 - [国产Jfinal用的Enjoy模板引擎主要研究不出网利用](https://y4tacker.github.io/2022/04/14/year/2022/4/Enjoy%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%E5%88%86%E6%9E%90/)
 
+
+
 ## 18.各框架对URI处理的特性及Trick
+
 - [Tomcat URL解析差异性导致的安全问题(网上看到的主要关注HttpServletRequest中几个解析URL的函数这个问题)](https://xz.aliyun.com/t/7544)
 - [Tomcat中url解析特性](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%ADurl%E8%A7%A3%E6%9E%90%E7%89%B9%E6%80%A7/index.md)
 - [SpringBoot2.3.0以下路由%2e跨目录处理(可用于权限绕过)](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot2.3.0%E4%BB%A5%E4%B8%8B%E8%B7%AF%E7%94%B1%252e%E8%B7%A8%E7%9B%AE%E5%BD%95%E5%A4%84%E7%90%86(%E5%8F%AF%E7%94%A8%E4%BA%8E%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)/index.md)
 
-## 19.Hacking FernFlower Decompiler(准备上议题后放)
-如何影响idea反编译但不影响代码执行，暂时不想放出来，之后会放出来
+
+
+## 19.Hessian反序列化
+
+- [Hessian 反序列化知一二](https://su18.org/post/hessian/)
+
+- [hessian-only-jdk利用补充](https://github.com/waderwu/My-CTF-Challenges/blob/master/0ctf-2022/hessian-onlyJdk/writeup/readme.md)
+- [hessian-onlyjdk-jdk11+jdk.jfr.internal.Utils利用补充](https://guokeya.github.io/post/psaIZKtC4/)
+
+
 
 ## 20.ASM与JVM学习
+
 - [JAVA虚拟机执行模型(关注引入了栈映射帧，用于加快虚拟机中类验证过程的速度)](https://www.cnblogs.com/coding-way/p/6600647.html)
 - [What is a stack map frame](https://stackoverflow.com/questions/25109942/what-is-a-stack-map-frame)
   - 这里比较有意思的是：Java 1.7引入了此选项以加速类验证。框架分为两部分：变量类型和堆栈类型。第一帧由方法类型描述。在每个GOTO / JUMP调用之后，您需要提供堆栈映射框架的更新描述。为了节省空间，可以使用SAME，APPEND等选项，也可以通过指定变量类型的FULL数组再次描述所有变量。
@@ -354,6 +369,8 @@
 - [某软件监控页面RCE漏洞分析(虽然过于简单，但是可以借此了解下OA系统)](https://xz.aliyun.com/t/11778)
 - [JDK-Xalan的XSLT整数截断漏洞利用构造](https://mp.weixin.qq.com/s/xxAtjFvk9RxWiY-pwGf8Ow)
 
+
+
 ## 比赛反思
 
 特地加了一栏吧，希望从比赛当中了解Java相关的东西学习一些新的点！
@@ -366,6 +383,8 @@
 - [GoogleCTF2022(关键词：Log4j2、Bundle、ReDoS)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/3/2022GooGleCTF/index.md)
 - [UIUCTF2022-Spoink(关键词：Pebble最新模板注入Bypass、Spring中无路由上传文件处理)](https://github.com/Y4tacker/JavaSec/blob/main/%E6%AF%94%E8%B5%9B%E5%8F%8D%E6%80%9D/2022/8/uiuctf-pebble/index.md)
 - [TetCTF2023&Liferay(CVE-2019-16891)(Pre-Auth RCE)](https://y4tacker.github.io/2023/01/03/year/2023/TetCTF2023-Liferay-CVE-2019-16891-Pre-Auth-RCE/)
+
+
 
 ## 环境
 
@@ -391,12 +410,15 @@
 * 本工具中所涉及的漏洞均为网上已公开。
 
 
+
 ## 优质博客
+
 - [Y4tacker(自己的能不写吗)](https://y4tacker.github.io/)
 - [三梦](https://threedr3am.github.io/)
 - [su18](https://su18.org/)
 - [landgrey](https://landgrey.me/)
 - [回忆飘如雪](https://gv7.me/)
+
 
 
 ## 更多
