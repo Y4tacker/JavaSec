@@ -96,21 +96,14 @@
 - [关于blackhat2021披露的fastjson1.2.68链的一些细节，防止公众号以后找不到同目录下有备份](https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247484866&idx=1&sn=23fb7897f6e54cdf61031a65c602487d&scene=21#wechat_redirect)
 - [2021L3HCTF中关于Fastjson1.2.68的骚操作](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E5%85%B6%E4%BB%96/L3HCTF%202021%20Official%20Write%20Up.pdf)
 - [一些有趣的Trick](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson专区/%E6%9C%89%E8%B6%A3Trick/FastJson%20Trick.md)
-<<<<<<< Updated upstream
 - [fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
 - [FastJson与原生反序列化(一)](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
 - [FastJson与原生反序列化(二)](https://y4tacker.github.io/2023/04/26/year/2023/4/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-%E4%BA%8C/)
+- [Fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
+- [Fastjson与原生反序列化](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
 
 
 ## 4.Weblogic专区(虽然也挖了一堆，暂时不想写)
-=======
-- [Fastjson低版本不出网利用(常规很简单的炒陈饭看看就行)](https://mp.weixin.qq.com/s?__biz=MzAwNzk0NTkxNw==&mid=2247486057&idx=1&sn=6799b8b77f058247705beaa6995dcb82&chksm=9b7721bbac00a8adc3ca7b23590bcb7493fc93091eaf76efe4662b7d6f86068e38d20338c3c1&mpshare=1&scene=2&srcid=1109kLt9Pm0fZdiqQ8zbB0IX&sharer_sharetime=1667995572392&sharer_shareid=917ce1404b071ce27556675ad135266f#rd)
-
-- [Fastjson与原生反序列化](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
-
-## 4.Weblogic专区(暂时不想看)
->>>>>>> Stashed changes
-
 - [T3协议学习](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0.md)
 - [CVE-2015-4852复现分析](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/CVE-2015-4852%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90.md)
 - [Weblogic使用ClassLoader和RMI来回显命令执行结果](https://xz.aliyun.com/t/7228)
@@ -232,8 +225,10 @@
 
 - [SpringBoot全局注册Filter过滤XSS](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
 
-
 ## 12.Shiro
+
+- [Shiro RememberMe 漏洞检测的探索之路(长亭的一些总结非常不错)](https://stack.chaitin.com/techblog/detail?id=39)
+
 - [Shiro另类检测方式](http://www.lmxspace.com/2020/08/24/%E4%B8%80%E7%A7%8D%E5%8F%A6%E7%B1%BB%E7%9A%84shiro%E6%A3%80%E6%B5%8B%E6%96%B9%E5%BC%8F/)
 - [浅谈Shiro执行任意反序列化gadget的方案](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E6%B5%85%E8%B0%88Shiro%E6%89%A7%E8%A1%8C%E4%BB%BB%E6%84%8F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96gadget%E7%9A%84%E6%96%B9%E6%A1%88/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
@@ -280,12 +275,29 @@
 - [RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://h1pmnh.github.io/post/writeup_spring_el_waf_bypass/)
 
 ## 16.漏洞复现
-- [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
-- [Apache Spark shell command injection vulnerability via Spark UI(之前很早前在我的各个知识星球分享了)](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-33891/index.md)
-- [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
-- [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
-- [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
-- [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
+
+- Apache
+
+  - [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
+
+  - [Apache Spark shell command injection vulnerability via Spark UI(之前很早前在我的各个知识星球分享了)](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-33891/index.md)
+
+  - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
+
+  - [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
+  - [Log4j2-RCE分析](http://blog.gm7.org/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/02.%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/01.Java%E5%AE%89%E5%85%A8/03.%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/06.log4j2_rce%E5%88%86%E6%9E%90.html#%E5%A4%8D%E7%8E%B0)
+
+- Oracle
+
+  - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
+
+  - [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
+
+- Nacos
+
+  - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
+
+- [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
 
 ## 17.模板引擎相关
 - [velocity 模板注入](https://www.cnblogs.com/nice0e3/p/16218857.html)
@@ -311,9 +323,6 @@
 
 
 ## 其他分享
-- [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
-- Nacos
-  - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
 - JMX
   - [JMX RMI攻击利用](https://github.com/k1n9/k1n9.github.io/blob/aeeb609fe6a25d67bc2dc5f990a501368fb25409/_posts/2017-08-24-attack-jmx-rmi.md)
   - [一次从jmx到rce](https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247506824&idx=1&sn=1bff6060290c0fdb7fe059cff2c61153&chksm=96d0208da1a7a99b6e61c8e3c332d324c0296bbccf1163cb8a10760e57cd17e150cb23a0e36a&mpshare=1&scene=1&srcid=1220PA2K5MY7dM3gWTr06z4r&sharer_sharetime=1671532238935&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
@@ -325,7 +334,6 @@
 - [Java “后反序列化漏洞” 利用思路](https://paper.seebug.org/1133/)
 - [关于Servlet的线程安全问题](https://y4tacker.github.io/2022/02/03/year/2022/2/Servlet%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98/)
 - [BypassSM](https://github.com/Y4tacker/JavaSec/blob/main/其他/BypassSM/bypasssm.md)
-- [Log4j2-RCE分析](http://blog.gm7.org/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/02.%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/01.Java%E5%AE%89%E5%85%A8/03.%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/06.log4j2_rce%E5%88%86%E6%9E%90.html#%E5%A4%8D%E7%8E%B0)
 - [Spring Boot FatJar任意写目录漏洞导致Getshell](https://www.cnblogs.com/wh4am1/p/14681335.html)
 - [利用TemplatesImpl执行字节码](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81/%E5%88%A9%E7%94%A8TemplatesImpl%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81.md)
 - [为什么补丁都喜欢打在resolveClass](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A1%A5%E4%B8%81%E5%96%9C%E6%AC%A2%E6%89%93%E5%9C%A8resolveClass.md)
