@@ -324,9 +324,15 @@
 
 
 - 表达式
-  - [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
-  - [一种新型Java一句话木马的实现](https://yzddmr6.com/posts/%E4%B8%80%E7%A7%8D%E6%96%B0%E5%9E%8BJava%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC%E7%9A%84%E5%AE%9E%E7%8E%B0/)
-  - 
+
+  - EL表达式
+
+    - [普通EL表达式命令回显的简单研究](https://forum.butian.net/share/886)
+
+    - [一种新型Java一句话木马的实现](https://yzddmr6.com/posts/%E4%B8%80%E7%A7%8D%E6%96%B0%E5%9E%8BJava%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC%E7%9A%84%E5%AE%9E%E7%8E%B0/)
+    - [el表达式绕waf的trick](https://github.com/Y4tacker/JavaSec/blob/main/17.%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E%2B%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9B%B8%E5%85%B3/el%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%BB%95waf%E7%9A%84trick/index.md)
+
+  
 
 ## 18.各框架对URI处理的特性及Trick
 
