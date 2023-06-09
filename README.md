@@ -286,6 +286,7 @@
 
   - [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
   - [Log4j2-RCE分析](http://blog.gm7.org/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/02.%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/01.Java%E5%AE%89%E5%85%A8/03.%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/06.log4j2_rce%E5%88%86%E6%9E%90.html#%E5%A4%8D%E7%8E%B0)
+  - [Apache Flink RCE via jar/plan API Endpoint in JDK8](https://mp.weixin.qq.com/s?__biz=MzkyNDA5NjgyMg==&mid=2247495227&idx=1&sn=5ab9bcc3d89d57ff9799f88c3363814c&chksm=c1d9ae62f6ae2774dd25902c116f6c24f3e5bbf68836f676c25aac53f2c6b771b4a3823c3e7e&mpshare=1&scene=1&srcid=0325kmXWImZrXe0btPMEsJDY&sharer_sharetime=1679735505328&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
 
 - Oracle
 
