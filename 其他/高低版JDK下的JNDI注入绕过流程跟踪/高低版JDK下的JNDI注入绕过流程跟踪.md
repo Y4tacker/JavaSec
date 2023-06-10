@@ -1,8 +1,8 @@
-# 高低版JDK下的JNDI注入绕过流程跟踪(jdk8u191+)
+# 高低版JDK下的JNDI注入绕过流程跟踪
 
 ## Rmi
 
-服务端本地`ClassPath`中存在恶意`Factory`类可被利用来作为`Reference Factory`进行攻击利用。该恶意`Factory`类必须实现`javax.naming.spi.ObjectFactory`接口，实现该接口的`getObjectInstance()`方法，网上说是``org.apache.naming.factory.BeanFactory`类,该类的`getObjectInstance()`函数中会通过反射的方式实例化`Reference`所指向的任意`Bean Class`，并且会调用`setter`方法为所有的属性赋值。而该`Bean Class`的类名、属性、属性值，全都来自于`Reference`对象，均是攻击者可控的。
+服务端本地`ClassPath`中存在恶意`Factory`类可被利用来作为`Reference Factory`进行攻击利用。该恶意`Factory`类必须实现`javax.naming.spi.ObjectFactory`接口，实现该接口的`getObjectInstance()`方法，网上说是`org.apache.naming.factory.BeanFactory`类,该类的`getObjectInstance()`函数中会通过反射的方式实例化`Reference`所指向的任意`Bean Class`，并且会调用`setter`方法为所有的属性赋值。而该`Bean Class`的类名、属性、属性值，全都来自于`Reference`对象，均是攻击者可控的。
 
 ### 依赖
 
