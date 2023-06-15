@@ -58,13 +58,13 @@
 - [CommonsCollections6-Shiro1.2.4笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections6-Shiro1.2.4/CommonsCollections6-Shiro1.2.4.md)
 - [CommonsCollections7笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections7/CommonsCollections7.md)
 - [使用TemplatesImpl改造CommonsCollections2](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2.md)
+- [网上看到的套娃CommonsCollections11](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections11/CommonsCollections11.md)
 - [CommonsBeanutils1笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsBeanutils1/CommonsBeanutils1%E7%AC%94%E8%AE%B0.md)
 - [CommonsBeanutils1-Shiro(无CC依赖)](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsBeanutils1-Shiro(%E6%97%A0CC%E4%BE%9D%E8%B5%96)/CommonsBeanutils1-Shiro(%E6%97%A0CC%E4%BE%9D%E8%B5%96).md)
 - [FileUpload1-写文件\删除文件](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/FileUpload/index.md)
 - [C3P0利用链简单分析](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/C3P0/C3P0.md)
 - [C3P0Tomcat不出网利用(思路就是之前高版本JNDI注入的思路)](http://www.yulegeyu.com/2021/10/10/JAVA%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BC3P0%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/)
-- [反制Ysoserial0.0.6版本-JRMP(打个标签weblogic搞定后看看)](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP.md)
-- [网上看到的神秘套娃CommonsCollections11](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections11/CommonsCollections11.md)
+- [反制Ysoserial0.0.6版本-JRMP](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP/%E5%8F%8D%E5%88%B6Ysoserial0.0.6%E7%89%88%E6%9C%AC-JRMP.md)
 - [SnakeYAML反序列化及可利用Gadget](https://y4tacker.github.io/2022/02/08/year/2022/2/SnakeYAML%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%8F%8A%E5%8F%AF%E5%88%A9%E7%94%A8Gadget%E5%88%86%E6%9E%90/)
 - [SnakeYAML出网探测Gadget(自己瞎琢磨出来的，不过在1.7以下版本就不行)](https://y4tacker.github.io/2022/02/08/year/2022/2/SnakeYAML%E5%AE%9E%E7%8E%B0Gadget%E6%8E%A2%E6%B5%8B/)
 - [XStream反序列化学习](https://y4tacker.github.io/2022/02/10/year/2022/2/XStream%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
@@ -75,6 +75,11 @@
 - [反序列化在渗透测试当中值得关注的点](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%BD%93%E4%B8%AD%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%E7%9A%84%E7%82%B9/index.md)
 - [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
   - [对URLDNS探测class的补充(为什么本地明明没有这个类却有"DNS解析")](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/URLDNS%E6%8E%A2%E6%B5%8Bclass%E7%9A%84%E8%A1%A5%E5%85%85/index.md)
+- Hessian反序列化
+  - [Hessian 反序列化知一二](https://su18.org/post/hessian/)
+  
+  - [hessian-only-jdk利用补充](https://github.com/waderwu/My-CTF-Challenges/blob/master/0ctf-2022/hessian-onlyJdk/writeup/readme.md)
+  - [hessian-onlyjdk-jdk11+jdk.jfr.internal.Utils利用补充](https://guokeya.github.io/post/psaIZKtC4/)
 
 ## 3.Fastjson/Jackson专区
 
@@ -401,16 +406,11 @@
 
 
 
-## 19.Hessian反序列化
-
-- [Hessian 反序列化知一二](https://su18.org/post/hessian/)
-
-- [hessian-only-jdk利用补充](https://github.com/waderwu/My-CTF-Challenges/blob/master/0ctf-2022/hessian-onlyJdk/writeup/readme.md)
-- [hessian-onlyjdk-jdk11+jdk.jfr.internal.Utils利用补充](https://guokeya.github.io/post/psaIZKtC4/)
 
 
 
-## 20.ASM与JVM学习
+
+## 19.ASM与JVM学习
 
 - [JAVA虚拟机执行模型(关注引入了栈映射帧，用于加快虚拟机中类验证过程的速度)](https://www.cnblogs.com/coding-way/p/6600647.html)
 - [What is a stack map frame](https://stackoverflow.com/questions/25109942/what-is-a-stack-map-frame)
