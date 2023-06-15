@@ -127,7 +127,8 @@
 
   - [Fastjson与原生反序列化](https://y4tacker.github.io/2023/03/20/year/2023/3/FastJson%E4%B8%8E%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/)
 
-
+- 其他
+  - [Java JSON解析特性分析](https://javasec.org/javaweb/JSON/FEATURE.html)
 
 ## 4.Weblogic专区(虽然也挖了一堆，暂时不想写)
 - [T3协议学习](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0.md)
@@ -223,6 +224,8 @@
 - [探寻Tomcat文件上传流量层面绕waf新姿势](https://y4tacker.github.io/2022/06/19/year/2022/6/%E6%8E%A2%E5%AF%BBTomcat%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2%E7%BB%95waf%E6%96%B0%E5%A7%BF%E5%8A%BF/)
 
 - [Tomcat上传.war触发JNDI](https://github.com/Y4tacker/JavaSec/blob/main/8.%E5%85%B3%E4%BA%8ETomcat%E7%9A%84%E4%B8%80%E4%BA%9B%E5%88%86%E4%BA%AB/Tomcat%E4%B8%8A%E4%BC%A0.war%E8%A7%A6%E5%8F%91JNDI/index.md)
+
+- [Servlet的线程安全问题](https://y4tacker.github.io/2022/02/03/year/2022/2/Servlet%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98/)
 
 
 
@@ -341,28 +344,25 @@
 - Apache
 
   - [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
-
   - [Apache Spark shell command injection vulnerability via Spark UI(之前很早前在我的各个知识星球分享了)](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-33891/index.md)
-
   - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
-
   - [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
   - [Log4j2-RCE分析](http://blog.gm7.org/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/02.%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/01.Java%E5%AE%89%E5%85%A8/03.%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/06.log4j2_rce%E5%88%86%E6%9E%90.html#%E5%A4%8D%E7%8E%B0)
   - [Apache Flink RCE via jar/plan API Endpoint in JDK8](https://mp.weixin.qq.com/s?__biz=MzkyNDA5NjgyMg==&mid=2247495227&idx=1&sn=5ab9bcc3d89d57ff9799f88c3363814c&chksm=c1d9ae62f6ae2774dd25902c116f6c24f3e5bbf68836f676c25aac53f2c6b771b4a3823c3e7e&mpshare=1&scene=1&srcid=0325kmXWImZrXe0btPMEsJDY&sharer_sharetime=1679735505328&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
   - [Apache Dubbo 反序列化漏洞（CVE-2023-23638）分析及利用探索](https://yyhylh.github.io/2023/04/08/Apache%20dubbo%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%EF%BC%88CVE-2023-23638%EF%BC%89%E5%88%86%E6%9E%90%E5%8F%8A%E5%88%A9%E7%94%A8%E6%8E%A2%E7%B4%A2/)
   - [Apache Dubbo反序列化漏洞（CVE-2023-23638）完整利用及工程化实践](https://yyhylh.github.io/2023/05/11/Apache%20Dubbo%20%EF%BC%88CVE-2023-23638%EF%BC%89%E5%AE%8C%E6%95%B4%E5%88%A9%E7%94%A8%E5%8F%8A%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/)
-
 - Oracle
 
   - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
 
   - [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
-
 - Nacos
 
   - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
-
+- 其他
 - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
+  - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
+
 
 
 
