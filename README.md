@@ -364,9 +364,13 @@
 - Nacos
 
   - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
+    - [Nacos 多次打非完全体方案(这人也没完全考虑到容错，但是网上暂时只有这人的，实际上在构建WriteRequest缺少setOperation)](https://github.com/c0olw/NacosRce)
+- Smartbi
+- [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
 - 其他
-- [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
-  - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
+  - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
+    - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
+
 
 
 
