@@ -252,6 +252,7 @@
 
 - [Hive-RCE](https://github.com/Y4tacker/hue-hive-rce)
 - [2023BalckHat Asia上补充关于informix-sqli、db2、cloudspanner、avatica、snowflake的利用姿势](https://i.blackhat.com/Asia-23/AS-23-Yuanzhen-A-new-attack-interface-in-Java.pdf)
+- [JDBC利用链结合原生反序列化的思路](https://mogwailabs.de/en/blog/2023/04/look-mama-no-templatesimpl/)
 
 ## 10.关于JNDI的整理
 
