@@ -308,7 +308,7 @@
 - [CVE-2020-13933特殊场景权限绕过(通过/unauthorize/%3b)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2020-13933%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [SpringBoot2.3.0下Shiro<=1.5.1权限绕过(通过/aa;/%2e%2e/unauthorize绕过对/unauthorize拦截，当然也可以不用目录穿越/;y4tacker/unauthorize也可以)](https://github.com/Y4tacker/JavaSec/tree/main/11.Spring/SpringBoot2.3.0%E4%B8%8BShiro%3C%3D1.5.1%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)
 - [Spring-Shiro1.5.2 Bypass(通过/unauthorize/a%252Fa绕过对/unauthorize/*的权限限制)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/Spring-Shiro1.5.2%20Bypass/index.md) 
--  [记一次 Shiro 的实战利用(突破限制shiro利用payload的长度，这种方式不能很好对抗检测文件落地，其实也可以配合上下文一些无害属性多次set写入加载)](https://mp.weixin.qq.com/s/w9sMhMrCy1pofOV-h94qbQ)
+-  [记一次 Shiro 的实战利用(突破限制shiro 550利用payload的长度，这种方式不能很好对抗检测文件落地，其实也可以配合上下文一些无害属性多次set写入加载)](https://mp.weixin.qq.com/s/w9sMhMrCy1pofOV-h94qbQ)
 
 
 
