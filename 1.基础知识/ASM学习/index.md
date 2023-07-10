@@ -92,7 +92,7 @@ class文件固定的文件头，为固定值`0xcafebabe`
 
 ### constant_pool_count
 
-这里是`0x00001e4`
+这里是`0x0014`
 
 常量池计数器的值等于常量池总数+1,注意的是`long`和`double`类型的常量池对象占用两个常量位
 
