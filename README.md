@@ -182,7 +182,7 @@
 
 
 - Tools
-  - [一款支持高度自定义的 Java 内存马生成工具](https://github.com/pen4uin/java-memshell-generator)
+  - [一款支持高度自定义的 Java 内存马生成工具(配合这个学习别人的内存马构造)](https://github.com/pen4uin/java-memshell-generator)
 
 
 
