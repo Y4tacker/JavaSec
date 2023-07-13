@@ -369,7 +369,8 @@
     - [Nacos 多次打非完全体方案(这人也没完全考虑到容错，但是网上暂时只有这人的，实际上在构建WriteRequest缺少setOperation)(慎用！别把别人打崩了！)](https://github.com/c0olw/NacosRce)
    
 - Adobe
-  - [CVE-2023-29298: Adobe ColdFusion Access Control Bypass](https://www.rapid7.com/blog/post/2023/07/11/cve-2023-29298-adobe-coldfusion-access-control-bypass/) 
+  - [CVE-2023-29298: Adobe ColdFusion Access Control Bypass](https://www.rapid7.com/blog/post/2023/07/11/cve-2023-29298-adobe-coldfusion-access-control-bypass/)
+  - [Analysis CVE-2023-29300: Adobe ColdFusion Pre-Auth RCE](https://blog.projectdiscovery.io/adobe-coldfusion-rce/)
 - Smartbi
 	- [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
 
