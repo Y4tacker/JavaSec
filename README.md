@@ -290,7 +290,7 @@
 
 - [SpringBoot全局注册Filter过滤XSS](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
 
-
+- [Springboot devtools反序列化(难点在于secret的获取，当然比如有actuator端点暴露情况下就会变得任意)](https://novysodope.github.io/2022/05/11/77/)
 
 ## 12.Shiro
 
