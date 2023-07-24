@@ -19,7 +19,7 @@ spring.h2.console.setting.web-allow-others=true
 
 ![](img/2.png)
 
-通过使用RUNSCRIPT命令，h2最终会调用org.h2.command.dml.RunScriptCommand#execute来执行邪恶的sql。
+通过使用RUNSCRIPT命令，h2最终会调用org.h2.command.dml.RunScriptCommand#execute来执行恶意的sql语句。
 
 ![](img/3.png)
 
