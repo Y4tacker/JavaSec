@@ -28,6 +28,7 @@
 - [ClassLoader(类加载机制)](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/ClassLoader(%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6)/ClassLoader(%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6).md)
 - [SPI学习](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/SPI/SPI.md)
 - [JavaAgent](http://wjlshare.com/archives/1582)
+- [Java9模块化特性](https://developer.aliyun.com/article/618778)
 - [JMX](https://zhuanlan.zhihu.com/p/166530442)
   - [JMX补充学习这哥们写的不错](https://github.com/ZhangZiSheng001/02-jmx-demo)
 - [JDWP远程执行命令](https://www.mi1k7ea.com/2021/08/06/%E6%B5%85%E6%9E%90JDWP%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/)
