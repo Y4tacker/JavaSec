@@ -79,7 +79,7 @@ String url    = "jdbc:h2:mem:test;MODE=MSSQLServer;init=CREATE ALIAS T5 AS '" + 
 <dependency>
 <groupId>com.h2database</groupId>
 <artifactId>h2</artifactId>
-<version>1.4.196</version>
+<version>1.4.197</version>
 </dependency>
 ```
 
