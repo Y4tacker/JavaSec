@@ -319,9 +319,9 @@
 ## 13.回显相关技术学习
 
 - [通杀漏洞利用回显方法-linux平台](https://www.00theway.org/2020/01/17/java-god-s-eye/)
-
 - [linux下java反序列化通杀回显方法的低配版实现](https://xz.aliyun.com/t/7307)
 - [Tomcat中一种半通用回显方法](https://xz.aliyun.com/t/7348)
+- [半自动化挖掘request实现多种中间件回显](https://gv7.me/articles/2020/semi-automatic-mining-request-implements-multiple-middleware-echo/)
 
 
 
