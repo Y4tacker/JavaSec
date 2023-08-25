@@ -378,6 +378,7 @@
   - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
   - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
   - [Metabase-Pre auth RCE](https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/)
+  - [Ivanti Sentry Authentication Bypass](https://www.horizon3.ai/ivanti-sentry-authentication-bypass-cve-2023-38035-deep-dive/)
 
 
 
