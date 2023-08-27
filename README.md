@@ -76,6 +76,7 @@
 - [反序列化在渗透测试当中值得关注的点](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%BD%93%E4%B8%AD%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%E7%9A%84%E7%82%B9/index.md)
 - [构造java探测class反序列化gadget](https://mp.weixin.qq.com/s/KncxkSIZ7HVXZ0iNAX8xPA)
   - [对URLDNS探测class的补充(为什么本地明明没有这个类却有"DNS解析")](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/URLDNS%E6%8E%A2%E6%B5%8Bclass%E7%9A%84%E8%A1%A5%E5%85%85/index.md)
+- [利用Swing构造反序列化SSRF/RCE(JDK CVE-2023-21939)](https://github.com/Y4Sec-Team/CVE-2023-21939)
 - Hessian反序列化
   - [Hessian 反序列化知一二](https://su18.org/post/hessian/)
   
