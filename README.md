@@ -138,6 +138,7 @@
   - [Java JSON解析特性分析](https://javasec.org/javaweb/JSON/FEATURE.html)
   - [黑盒判断目标的fastjson版本](https://mp.weixin.qq.com/s/jbkN86qq9JxkGNOhwv9nxA)
   - [fastjson探测class/如何判断是fastjson、jackson、gson](https://github.com/safe6Sec/Fastjson)
+  - [记一次 Fastjson Gadget 寻找](https://mp.weixin.qq.com/s/dJkZuf6Ho6EK71bbnXI0EA)
 
 ## 4.Weblogic专区(虽然也挖了一堆，暂时不想写)
 - [T3协议学习](https://github.com/Y4tacker/JavaSec/blob/main/4.Weblogic专区/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0/T3%E5%8D%8F%E8%AE%AE%E5%AD%A6%E4%B9%A0.md)
