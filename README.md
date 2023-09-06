@@ -369,6 +369,8 @@
   - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
   - [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
   - [Oracle Access Manager Pre-Auth RCE (CVE-2021–35587 Analysis)](https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316)
+- Spring
+  - [Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - Nacos
 
   - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
