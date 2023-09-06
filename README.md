@@ -58,6 +58,7 @@
 - [CommonsCollections6-HashMap笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections6-HashMap/CommonsCollections6-HashMap.md)
 - [CommonsCollections6-Shiro1.2.4笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections6-Shiro1.2.4/CommonsCollections6-Shiro1.2.4.md)
 - [CommonsCollections7笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections7/CommonsCollections7.md)
+- [CommonCollectionsWithoutChainedTransformer](https://github.com/Y4tacker/JavaSec/blob/main/2.%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%93%E5%8C%BA/CommonCollectionsWithoutChainedTransformer/index.md)
 - [使用TemplatesImpl改造CommonsCollections2](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2/%E4%BD%BF%E7%94%A8TemplatesImpl%E6%94%B9%E9%80%A0CommonsCollections2.md)
 - [网上看到的套娃CommonsCollections11](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections11/CommonsCollections11.md)
 - [CommonsBeanutils1笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsBeanutils1/CommonsBeanutils1%E7%AC%94%E8%AE%B0.md)
