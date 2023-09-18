@@ -94,6 +94,7 @@
 
   - [Jackson原生反序列化Gadgets(实用)](https://xz.aliyun.com/t/12485#toc-5)
     - [Jackson构造过程会触发利用导致中断可通过重写类解决(附上demo学习)](https://github.com/Y4tacker/JavaSec/blob/main/3.FastJson%E4%B8%93%E5%8C%BA/Jackson%E5%8E%9F%E7%94%9F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96Gadget/Jackson.txt(%E6%94%B9zip%E5%90%8E%E7%BC%80%E8%A7%A3%E5%8E%8B).txt)
+    - [从JSON1链中学习处理JACKSON链的不稳定性(使用JdkDynamicAopProxy让触发更稳定)](https://xz.aliyun.com/t/12846#toc-4)
 
 - Fastjson
 
