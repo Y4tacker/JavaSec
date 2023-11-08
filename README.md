@@ -38,6 +38,7 @@
 - [JSTL(看菜鸟教程即可)](https://www.runoob.com/jsp/jsp-jstl.html)
 - [JEP290基础概念](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/JEP290%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.md)
 - [Java中的XXE](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%E4%B8%AD%E7%9A%84XXE/index.md)
+  - [XML外部实体注入（XXE）攻击方式汇总(关于XXE可以延伸继续看看)](https://tttang.com/archive/1813/)
 - [通过反射扫描被注解修饰的类](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E6%89%AB%E6%8F%8F%E8%A2%AB%E6%B3%A8%E8%A7%A3%E4%BF%AE%E9%A5%B0%E7%9A%84%E7%B1%BB/index.md)
 - [低版本下Java文件系统00截断](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E4%BD%8E%E7%89%88%E6%9C%AC%E4%B8%8BJava%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F00%E6%88%AA%E6%96%AD/index.md)
 - [有趣的XSS之Normalize](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%9C%89%E8%B6%A3%E7%9A%84XSS%E4%B9%8BNormalize/index.md)
