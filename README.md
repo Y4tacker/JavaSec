@@ -390,6 +390,7 @@
   - [Metabase-Pre auth RCE](https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/)
   - [Ivanti Sentry Authentication Bypass](https://www.horizon3.ai/ivanti-sentry-authentication-bypass-cve-2023-38035-deep-dive/)
   - [UNAUTHENTICATED SERVER SIDE REQUEST FORGERY & CRLF INJECTION IN GEOSERVER WMS(CRLF注入的好例子)](https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms)
+  - [JetBrains TeamCity 任意代码执行漏洞分析(CVE-2023-42793)](https://forum.butian.net/share/2514)
 
 
 
