@@ -470,7 +470,7 @@
 - [安全同学讲Maven重打包的故事](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247510513&idx=1&sn=fbcd84ba56d0c04dbd28b42f10f3bfb1&chksm=e92a94fede5d1de8e8301f8efb9db5e3f1a4fc14a5e29be541668d706a77141bbbd8d63db1ac&mpshare=1&scene=1&srcid=1025aCfF1bF9RgdhX85sgkj3&sharer_sharetime=1666696525299&sharer_shareid=4a549281c7d8f067d766da5aff57a064#rd)
 - [某软件监控页面RCE漏洞分析(虽然过于简单，但是可以借此了解下OA系统)](https://xz.aliyun.com/t/11778)
 - [JDK-Xalan的XSLT整数截断漏洞利用构造](https://mp.weixin.qq.com/s/xxAtjFvk9RxWiY-pwGf8Ow)
-
+- [某Cloud系统漏洞分析](https://forum.butian.net/share/2529)
 
 
 ## 比赛反思
