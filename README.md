@@ -367,6 +367,7 @@
   - [Apache Flink RCE via jar/plan API Endpoint in JDK8](https://mp.weixin.qq.com/s?__biz=MzkyNDA5NjgyMg==&mid=2247495227&idx=1&sn=5ab9bcc3d89d57ff9799f88c3363814c&chksm=c1d9ae62f6ae2774dd25902c116f6c24f3e5bbf68836f676c25aac53f2c6b771b4a3823c3e7e&mpshare=1&scene=1&srcid=0325kmXWImZrXe0btPMEsJDY&sharer_sharetime=1679735505328&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
   - [Apache Dubbo 反序列化漏洞（CVE-2023-23638）分析及利用探索](https://yyhylh.github.io/2023/04/08/Apache%20dubbo%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%EF%BC%88CVE-2023-23638%EF%BC%89%E5%88%86%E6%9E%90%E5%8F%8A%E5%88%A9%E7%94%A8%E6%8E%A2%E7%B4%A2/)
   - [Apache Dubbo反序列化漏洞（CVE-2023-23638）完整利用及工程化实践](https://yyhylh.github.io/2023/05/11/Apache%20Dubbo%20%EF%BC%88CVE-2023-23638%EF%BC%89%E5%AE%8C%E6%95%B4%E5%88%A9%E7%94%A8%E5%8F%8A%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/)
+  - [Apache Airflow: Bypass permission verification to view task instances of other dags(CVE-2023-42663)](https://hackerone.com/reports/2208656)
 - Oracle
   - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
   - [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
