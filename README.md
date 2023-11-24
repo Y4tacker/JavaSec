@@ -386,13 +386,14 @@
 - Smartbi
 	- [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
 
-- 其他
+- Others
   - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
   - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
   - [Metabase-Pre auth RCE](https://blog.assetnote.io/2023/07/22/pre-auth-rce-metabase/)
   - [Ivanti Sentry Authentication Bypass](https://www.horizon3.ai/ivanti-sentry-authentication-bypass-cve-2023-38035-deep-dive/)
   - [UNAUTHENTICATED SERVER SIDE REQUEST FORGERY & CRLF INJECTION IN GEOSERVER WMS(CRLF注入的好例子)](https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms)
   - [JetBrains TeamCity 任意代码执行漏洞分析(CVE-2023-42793)](https://forum.butian.net/share/2514)
+  - [SysAid On-Prem Software(CVE-2023-47246)](https://forum.butian.net/share/2577)
 
 
 
