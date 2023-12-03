@@ -370,6 +370,7 @@
   - [Apache Dubbo反序列化漏洞（CVE-2023-23638）完整利用及工程化实践](https://yyhylh.github.io/2023/05/11/Apache%20Dubbo%20%EF%BC%88CVE-2023-23638%EF%BC%89%E5%AE%8C%E6%95%B4%E5%88%A9%E7%94%A8%E5%8F%8A%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/)
   - [Apache Airflow: Bypass permission verification to view task instances of other dags(CVE-2023-42663)](https://hackerone.com/reports/2208656)
   - [Apache Jackrabbit RMI 远程代码执行漏洞分析(CVE-2023-37895)(这个漏洞适合了解RMI攻击的基础)](https://xz.aliyun.com/t/13118)
+  - [Apache ActiveMQ Jolokia远程代码执行不依赖JDK打法](https://y4tacker.github.io/2023/11/30/year/2023/11/Apache-ActiveMQ-Jolokia%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E4%B8%8D%E4%BE%9D%E8%B5%96JDK%E6%89%93%E6%B3%95/)
 - Oracle
   - [Oracle E-Business Suite Unauthenticated RCE](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-21587/index.md)
   - [Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera](https://blog.assetnote.io/2023/04/30/rce-oracle-opera/)
