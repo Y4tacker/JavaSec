@@ -396,6 +396,7 @@
   - [UNAUTHENTICATED SERVER SIDE REQUEST FORGERY & CRLF INJECTION IN GEOSERVER WMS(CRLF注入的好例子)](https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms)
   - [JetBrains TeamCity 任意代码执行漏洞分析(CVE-2023-42793)](https://forum.butian.net/share/2514)
   - [SysAid On-Prem Software(CVE-2023-47246)](https://forum.butian.net/share/2577)
+  - [CrushFTP Unauthenticated Remote Code Execution(CVE-2023-43177)](https://y4tacker.github.io/2023/12/10/year/2023/12/CrushFTP-Unauthenticated-Remote-Code-Execution-CVE-2023-43177/)
 
 
 
