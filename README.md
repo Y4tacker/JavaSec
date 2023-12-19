@@ -477,6 +477,7 @@
 - [某软件监控页面RCE漏洞分析(虽然过于简单，但是可以借此了解下OA系统)](https://xz.aliyun.com/t/11778)
 - [JDK-Xalan的XSLT整数截断漏洞利用构造](https://mp.weixin.qq.com/s/xxAtjFvk9RxWiY-pwGf8Ow)
 - [某Cloud系统漏洞分析](https://forum.butian.net/share/2529)
+- [任意文件下载漏洞的利用思考(总结非常细！)](https://mp.weixin.qq.com/s/3y62xuQJAj2gmtBSKvHHug)
 
 
 ## 比赛反思
