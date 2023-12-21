@@ -276,6 +276,7 @@
 
 
 ## 11.Spring
+-[浅谈Spring与安全约束SecurityConstraint](https://forum.butian.net/index.php/share/2283)
 
 - [SpirngBoot下结合Tomcat实现无OOB方式下的回显](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/springboot-tomcat%E5%9B%9E%E6%98%BE/index.md)
 
