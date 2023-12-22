@@ -442,6 +442,7 @@
 
 ## 19.ASM与JVM学习
 
+- [目前看到关于ASM框架最详细的学习教程](https://lsieun.github.io/java/asm/)
 - [JAVA虚拟机执行模型(关注引入了栈映射帧，用于加快虚拟机中类验证过程的速度)](https://www.cnblogs.com/coding-way/p/6600647.html)
 - [What is a stack map frame](https://stackoverflow.com/questions/25109942/what-is-a-stack-map-frame)
   - 这里比较有意思的是：Java 1.7引入了此选项以加速类验证。框架分为两部分：变量类型和堆栈类型。第一帧由方法类型描述。在每个GOTO / JUMP调用之后，您需要提供堆栈映射框架的更新描述。为了节省空间，可以使用SAME，APPEND等选项，也可以通过指定变量类型的FULL数组再次描述所有变量。
