@@ -385,7 +385,7 @@
 - Nacos
 
   - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
-    - [Nacos 多次打非完全体方案(这人也没完全考虑到容错，但是网上暂时只有这人的，实际上在构建WriteRequest缺少setOperation)(慎用！别把别人打崩了！)](https://github.com/c0olw/NacosRce)
+    - [Nacos 多次打非完美方案(这人也没完全考虑到容错，但是网上暂时只有这人的，实际上在构建WriteRequest缺少setOperation)(慎用！别把别人打崩了！)](https://github.com/c0olw/NacosRce)
    
 - Adobe
   - [CVE-2023-29298: Adobe ColdFusion Access Control Bypass](https://www.rapid7.com/blog/post/2023/07/11/cve-2023-29298-adobe-coldfusion-access-control-bypass/)
