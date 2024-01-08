@@ -367,6 +367,7 @@
   - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
   - [Apache Commons Text 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-42889/index.md)
   - [Log4j2-RCE分析](http://blog.gm7.org/%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/02.%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/01.Java%E5%AE%89%E5%85%A8/03.%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/06.log4j2_rce%E5%88%86%E6%9E%90.html#%E5%A4%8D%E7%8E%B0)
+    - [Log4j2不出网检测(靠类型转换、危害有限思路值得学习)](https://cloud.tencent.com/developer/article/2036012)
   - [Apache Flink RCE via jar/plan API Endpoint in JDK8](https://mp.weixin.qq.com/s?__biz=MzkyNDA5NjgyMg==&mid=2247495227&idx=1&sn=5ab9bcc3d89d57ff9799f88c3363814c&chksm=c1d9ae62f6ae2774dd25902c116f6c24f3e5bbf68836f676c25aac53f2c6b771b4a3823c3e7e&mpshare=1&scene=1&srcid=0325kmXWImZrXe0btPMEsJDY&sharer_sharetime=1679735505328&sharer_shareid=19374164c9d8647c6159e09a97bb1208#rd)
   - [Apache Dubbo 反序列化漏洞（CVE-2023-23638）分析及利用探索](https://yyhylh.github.io/2023/04/08/Apache%20dubbo%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%EF%BC%88CVE-2023-23638%EF%BC%89%E5%88%86%E6%9E%90%E5%8F%8A%E5%88%A9%E7%94%A8%E6%8E%A2%E7%B4%A2/)
   - [Apache Dubbo反序列化漏洞（CVE-2023-23638）完整利用及工程化实践](https://yyhylh.github.io/2023/05/11/Apache%20Dubbo%20%EF%BC%88CVE-2023-23638%EF%BC%89%E5%AE%8C%E6%95%B4%E5%88%A9%E7%94%A8%E5%8F%8A%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%AE%9E%E8%B7%B5/)
