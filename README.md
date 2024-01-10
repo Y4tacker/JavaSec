@@ -278,36 +278,23 @@
 ## 11.Spring
 - [浅谈SpringWeb请求解析过程(很不错的文章把低版本一些绕过的特性基本都提到了)](https://forum.butian.net/share/2214)
 - [浅谈Spring与安全约束SecurityConstraint](https://forum.butian.net/index.php/share/2283)
-
 - [SpirngBoot下结合Tomcat实现无OOB方式下的回显](https://github.com/Y4tacker/JavaSec/blob/main/5.%E5%86%85%E5%AD%98%E9%A9%AC%E5%AD%A6%E4%B9%A0/Spring/springboot-tomcat%E5%9B%9E%E6%98%BE/index.md)
-
 - [低版本SpringBoot-SpEL表达式注入漏洞复现分析](https://y4tacker.github.io/2022/02/07/year/2022/2/%E4%BD%8E%E7%89%88%E6%9C%ACSpringBoot-SpEL%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E5%88%86%E6%9E%90/)
-
 - [SpringCloud-SnakeYAML-RCE(高版本不可用)](https://y4tacker.github.io/2022/02/08/year/2022/2/SpringCloud-SnakeYAML-RCE/)
-
 - [Spring Boot Vulnerability Exploit Check List](https://github.com/LandGrey/SpringBootVulExploit)
-
 - [SSRF to Rce with Jolokia and Mbeans](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/SSRF%20to%20RCE%20with%20Jolokia%20and%20MBeans%20%E2%80%A2%20Think%20Love%20Share.pdf)
-
 - [CVE-2022-22947 SpringCloudGateWay 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/CVE-2022-22947%20SpringCloudGateWay%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/index.md)
-
 - [Spring Cloud Function-SPEL(利用面不大)](https://hosch3n.github.io/2022/03/26/SpringCloudFunction%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/)
-
 - [SpringMVC框架任意代码执行漏洞(CVE-2010-1622)分析](http://rui0.cn/archives/1158)
-
 - [Spring Beans RCE分析(CVE-2022-22965)(我还是喜欢叫Spring4shell，自己懒得写了，这篇还可以，稍微注意下AccessLogValve这个类WBS)](https://xz.aliyun.com/t/11129)
-
 - [Spring Data MongoDB SpEL表达式注入(CVE-2022-22980)(能看但是有些逻辑还是讲得很混乱总体而已还是好的作为参考即可)](https://xz.aliyun.com/t/11484)
-
 - [SpringBoot全局注册Filter过滤XSS](https://github.com/Y4tacker/JavaSec/blob/main/11.Spring/SpringBoot%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8CFilter%E8%BF%87%E6%BB%A4XSS/index.md)
-
 - [Springboot devtools反序列化(难点在于secret的获取，当然比如有actuator端点暴露情况下就会变得容易)](https://novysodope.github.io/2022/05/11/77/)
 - [浅谈Spring中的Controller参数的验证机制(注意Hibernate Validator的正确配置)](https://forum.butian.net/share/2538)
 
 ## 12.Shiro
 
 - [Shiro RememberMe 漏洞检测的探索之路(长亭的一些总结非常不错)](https://stack.chaitin.com/techblog/detail?id=39)
-
 - [Shiro另类检测方式](http://www.lmxspace.com/2020/08/24/%E4%B8%80%E7%A7%8D%E5%8F%A6%E7%B1%BB%E7%9A%84shiro%E6%A3%80%E6%B5%8B%E6%96%B9%E5%BC%8F/)
 - [浅谈Shiro执行任意反序列化gadget的方案](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/%E6%B5%85%E8%B0%88Shiro%E6%89%A7%E8%A1%8C%E4%BB%BB%E6%84%8F%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96gadget%E7%9A%84%E6%96%B9%E6%A1%88/index.md)
 - [CVE-2010-3863权限绕过(通过/./admin绕过/admin,/abc/../admin)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2010-3863%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
@@ -321,7 +308,7 @@
 - [CVE-2020-13933特殊场景权限绕过(通过/unauthorize/%3b)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/CVE-2020-13933%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87/index.md)
 - [SpringBoot2.3.0下Shiro<=1.5.1权限绕过(通过/aa;/%2e%2e/unauthorize绕过对/unauthorize拦截，当然也可以不用目录穿越/;y4tacker/unauthorize也可以)](https://github.com/Y4tacker/JavaSec/tree/main/11.Spring/SpringBoot2.3.0%E4%B8%8BShiro%3C%3D1.5.1%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87)
 - [Spring-Shiro1.5.2 Bypass(通过/unauthorize/a%252Fa绕过对/unauthorize/*的权限限制)](https://github.com/Y4tacker/JavaSec/blob/main/12.Shiro/Spring-Shiro1.5.2%20Bypass/index.md) 
--  [记一次 Shiro 的实战利用(突破限制shiro 550利用payload的长度，这种方式不能很好对抗检测文件落地，其实也可以配合上下文一些无害属性多次set写入加载)](https://mp.weixin.qq.com/s/w9sMhMrCy1pofOV-h94qbQ)
+- [记一次 Shiro 的实战利用(突破限制shiro 550利用payload的长度，这种方式不能很好对抗检测文件落地，其实也可以配合上下文一些无害属性多次set写入加载)](https://mp.weixin.qq.com/s/w9sMhMrCy1pofOV-h94qbQ)
 
 
 
@@ -335,7 +322,6 @@
 - [半自动化挖掘request实现多种中间件回显](https://gv7.me/articles/2020/semi-automatic-mining-request-implements-multiple-middleware-echo/)
 
 
-
 ## 14. JSPWebshell
 
 - [JSP-Webshells集合(三梦的总结挺全面的利用点)](https://github.com/threedr3am/JSP-Webshells)
@@ -344,11 +330,9 @@
 - [JspWebshell编码混淆篇(unicode和html实体编码那些就懒得写了技术性不强)](https://y4tacker.github.io/2022/11/27/year/2022/11/%E6%B5%85%E8%B0%88JspWebshell%E4%B9%8B%E7%BC%96%E7%A0%81/)
 
 
-
 ## 15.Waf
 
 - [Java文件上传大杀器-绕waf(针对commons-fileupload组件)](https://y4tacker.github.io/2022/02/25/year/2022/2/Java%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%A7%E6%9D%80%E5%99%A8-%E7%BB%95waf(%E9%92%88%E5%AF%B9commons-fileupload%E7%BB%84%E4%BB%B6)/)
-
 - [探寻Java文件上传流量层面waf绕过姿势系列一](https://y4tacker.github.io/2022/06/19/year/2022/6/%E6%8E%A2%E5%AF%BBTomcat%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2%E7%BB%95waf%E6%96%B0%E5%A7%BF%E5%8A%BF/)
 - [探寻Java文件上传流量层面waf绕过姿势系列二](https://y4tacker.github.io/2022/06/21/year/2022/6/%E6%8E%A2%E5%AF%BBJava%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%B5%81%E9%87%8F%E5%B1%82%E9%9D%A2waf%E7%BB%95%E8%BF%87%E5%A7%BF%E5%8A%BF%E7%B3%BB%E5%88%97%E4%BA%8C/)
 - [Java反序列化数据绕WAF之加大量脏数据 | 回忆飘如雪 (gv7.me)](https://gv7.me/articles/2021/java-deserialize-data-bypass-waf-by-adding-a-lot-of-dirty-data/)
@@ -357,11 +341,9 @@
 - [RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://h1pmnh.github.io/post/writeup_spring_el_waf_bypass/)
 
 
-
 ## 16.漏洞复现
 
 - Apache
-
   - [Apache Commons Configuration 远程代码执行(虽然是配置文件RCE但也有学习意义)](https://xz.aliyun.com/t/11527)
   - [Apache Spark shell command injection vulnerability via Spark UI(之前很早前在我的各个知识星球分享了)](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-33891/index.md)
   - [Apache Commons JXPath 远程代码执行](https://github.com/Y4tacker/JavaSec/blob/main/16.%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/CVE-2022-41852/index.md)
@@ -384,16 +366,13 @@
 - Spring
   - [Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - Nacos
-
   - [Aliababa Nacos hessian JRaft反序列化(文章里提到的只能打一次有误，后经过研究可以打多次)](https://y4er.com/posts/nacos-hessian-rce/ )
     - [Nacos 多次打非完美方案(这人也没完全考虑到容错，但是网上暂时只有这人的，实际上在构建WriteRequest缺少setOperation)(慎用！别把别人打崩了！)](https://github.com/c0olw/NacosRce)
-   
 - Adobe
   - [CVE-2023-29298: Adobe ColdFusion Access Control Bypass](https://www.rapid7.com/blog/post/2023/07/11/cve-2023-29298-adobe-coldfusion-access-control-bypass/)
   - [Analysis CVE-2023-29300: Adobe ColdFusion Pre-Auth RCE](https://blog.projectdiscovery.io/adobe-coldfusion-rce/)
 - Smartbi
 	- [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
-
 - Others
   - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
   - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
