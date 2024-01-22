@@ -383,7 +383,7 @@
   - [SysAid On-Prem Software(CVE-2023-47246)](https://forum.butian.net/share/2577)
   - [CrushFTP Unauthenticated Remote Code Execution(CVE-2023-43177)](https://y4tacker.github.io/2023/12/10/year/2023/12/CrushFTP-Unauthenticated-Remote-Code-Execution-CVE-2023-43177/)
   - [MCMS属性覆盖全版本Bypass分析(又又又是一个属性覆盖带来的漏洞)](https://y4tacker.github.io/2023/12/28/year/2023/12/%E5%8F%88%E5%8F%88%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B1%9E%E6%80%A7%E8%A6%86%E7%9B%96%E5%B8%A6%E6%9D%A5%E7%9A%84%E6%BC%8F%E6%B4%9E/)
-
+  - [Atlassian Confluence-Remote Code Execution(CVE-2023-22527)](https://blog.projectdiscovery.io/atlassian-confluence-ssti-remote-code-execution/)
 
 
 ## 17.模板引擎+表达式相关
