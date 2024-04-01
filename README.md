@@ -189,6 +189,7 @@
   - [看不见的 Jsp-WebShell 第二式增强之无痕](https://mp.weixin.qq.com/s/7b3Fyu_K6ZRgKlp6RkdYoA)
 
   - [Spring cloud gateway通过SPEL注入内存马](https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/)
+    - [Java安全攻防之Spring Cloud Gateway攻击Redis](https://mp.weixin.qq.com/s/6U1KaLrrtq2dxg55IYASFg)
 
 
 - Tools
