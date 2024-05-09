@@ -375,7 +375,12 @@
   - [CVE-2023-29298: Adobe ColdFusion Access Control Bypass](https://www.rapid7.com/blog/post/2023/07/11/cve-2023-29298-adobe-coldfusion-access-control-bypass/)
   - [Analysis CVE-2023-29300: Adobe ColdFusion Pre-Auth RCE](https://blog.projectdiscovery.io/adobe-coldfusion-rce/)
 - Smartbi
-	- [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
+  - [浅析Smartbi逻辑漏洞](https://y4tacker.github.io/2023/07/05/year/2023/7/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E/)
+- CrushFTP
+  - [CrushFTP Unauthenticated Remote Code Execution(CVE-2023-43177)](https://y4tacker.github.io/2023/12/10/year/2023/12/CrushFTP-Unauthenticated-Remote-Code-Execution-CVE-2023-43177/)
+  - [浅析CrushFTP之VFS逃逸](https://y4tacker.github.io/2024/04/23/year/2024/4/%E6%B5%85%E6%9E%90CrushFTP%E4%B9%8BVFS%E9%80%83%E9%80%B8/)
+  - [CrushFTP Unauthenticated Remote Code Execution(CVE-2024-4040)](https://attackerkb.com/topics/20oYjlmfXa/cve-2024-4040/rapid7-analysis)
+  - [CrushFTP后利用提权分析(CVE-2024-4040)](https://y4tacker.github.io/2024/04/25/year/2024/4/CrushFTP%E5%90%8E%E5%88%A9%E7%94%A8%E6%8F%90%E6%9D%83%E5%88%86%E6%9E%90-CVE-2024-4040/)
 - Others
   - [HtmlUnit-RCE](https://siebene.github.io/2022/12/30/HtmlUnit-RCE/)
   - [openfire鉴权绕过漏洞原理解析(主要是学习jetty对%u002e请求的解析支持)](https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w)
@@ -384,7 +389,6 @@
   - [UNAUTHENTICATED SERVER SIDE REQUEST FORGERY & CRLF INJECTION IN GEOSERVER WMS(CRLF注入的好例子)](https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms)
   - [JetBrains TeamCity 任意代码执行漏洞分析(CVE-2023-42793)](https://forum.butian.net/share/2514)
   - [SysAid On-Prem Software(CVE-2023-47246)](https://forum.butian.net/share/2577)
-  - [CrushFTP Unauthenticated Remote Code Execution(CVE-2023-43177)](https://y4tacker.github.io/2023/12/10/year/2023/12/CrushFTP-Unauthenticated-Remote-Code-Execution-CVE-2023-43177/)
   - [MCMS属性覆盖全版本Bypass分析(又又又是一个属性覆盖带来的漏洞)](https://y4tacker.github.io/2023/12/28/year/2023/12/%E5%8F%88%E5%8F%88%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B1%9E%E6%80%A7%E8%A6%86%E7%9B%96%E5%B8%A6%E6%9D%A5%E7%9A%84%E6%BC%8F%E6%B4%9E/)
   - [Atlassian Confluence-Remote Code Execution(CVE-2023-22527)](https://blog.projectdiscovery.io/atlassian-confluence-ssti-remote-code-execution/)
   - [Jenkins文件读取漏洞拾遗（CVE-2024-23897）](https://www.leavesongs.com/PENETRATION/jenkins-cve-2024-23897.html)
