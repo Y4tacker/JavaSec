@@ -17,7 +17,7 @@
 <br/>
 知识星球试运营，后面主要会发一些应急漏洞的分析(前提我会😜) 
 
-![Bug Hunter](https://github.com/Y4tacker/JavaSec/assets/56486273/08eab771-b1cd-4d97-a3a9-173b78fdc997)
+<img src="https://github.com/Y4tacker/JavaSec/assets/56486273/08eab771-b1cd-4d97-a3a9-173b78fdc997" align="center"></img>
 
 
 ## 1.基础篇
