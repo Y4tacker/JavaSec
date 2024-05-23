@@ -16,6 +16,7 @@
 
 <br/>
 知识星球试运营，后面主要会发一些应急漏洞的分析(前提我会😜) 
+Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分自己觉得不那么有意思的漏洞可能只会发在星球中
 
 <img src="https://github.com/Y4tacker/JavaSec/assets/56486273/08eab771-b1cd-4d97-a3a9-173b78fdc997" align="center"></img>
 
