@@ -394,6 +394,7 @@ Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分�
   - [Ivanti Sentry Authentication Bypass](https://www.horizon3.ai/ivanti-sentry-authentication-bypass-cve-2023-38035-deep-dive/)
   - [UNAUTHENTICATED SERVER SIDE REQUEST FORGERY & CRLF INJECTION IN GEOSERVER WMS(CRLF注入的好例子)](https://www.synacktiv.com/advisories/unauthenticated-server-side-request-forgery-crlf-injection-in-geoserver-wms)
   - [JetBrains TeamCity 任意代码执行漏洞分析(CVE-2023-42793)](https://forum.butian.net/share/2514)
+  - [JetBrains TeamCity权限绕过(CVE-2024-23917)(这篇文章还讲解了一些容器与SpringBoot的流程知识)](https://blog.0daylabs.com/2024/05/27/jetbrains-teamcity-auth-bypass/)
   - [SysAid On-Prem Software(CVE-2023-47246)](https://forum.butian.net/share/2577)
   - [MCMS属性覆盖全版本Bypass分析(又又又是一个属性覆盖带来的漏洞)](https://y4tacker.github.io/2023/12/28/year/2023/12/%E5%8F%88%E5%8F%88%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B1%9E%E6%80%A7%E8%A6%86%E7%9B%96%E5%B8%A6%E6%9D%A5%E7%9A%84%E6%BC%8F%E6%B4%9E/)
   - [Atlassian Confluence-Remote Code Execution(CVE-2023-22527)](https://blog.projectdiscovery.io/atlassian-confluence-ssti-remote-code-execution/)
