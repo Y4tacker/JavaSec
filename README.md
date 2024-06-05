@@ -14,14 +14,6 @@
 
 <p align="right">2021年10月18日，梦的开始</p>
 
-<br/>
-知识星球试运营，后面主要会发一些应急漏洞的分析(前提我会😜) 
-
-Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分自己觉得不那么有意思的漏洞可能只会发在星球中，谁让我喜欢为爱发电呢 
-
-<img src="https://github.com/Y4tacker/JavaSec/assets/56486273/08eab771-b1cd-4d97-a3a9-173b78fdc997" align="center"></img>
-
-
 ## 1.基础篇
 
 - [Java反射](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8F%8D%E5%B0%84/%E5%8F%8D%E5%B0%84.md)
@@ -483,6 +475,7 @@ Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分�
 - [JDK-Xalan的XSLT整数截断漏洞利用构造](https://mp.weixin.qq.com/s/xxAtjFvk9RxWiY-pwGf8Ow)
 - [某Cloud系统漏洞分析](https://forum.butian.net/share/2529)
 - [任意文件下载漏洞的利用思考(总结非常细！)](https://mp.weixin.qq.com/s/3y62xuQJAj2gmtBSKvHHug)
+- [jdk新入口挖掘(新的toString链)](https://xz.aliyun.com/t/14732)
 
 
 ## 比赛反思
@@ -532,6 +525,17 @@ Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分�
 - [su18](https://su18.org/)
 - [landgrey](https://landgrey.me/)
 - [回忆飘如雪](https://gv7.me/)
+
+
+## 知识星球
+
+<br/>
+知识星球试运营，后面主要会发一些应急漏洞的分析(前提我会😜) 
+
+Ps:想不想进随意，大部分漏洞我都会发在博客当中，少部分自己觉得不那么有意思的漏洞可能只会发在星球中，谁让我喜欢为爱发电呢 
+
+<img src="https://github.com/Y4tacker/JavaSec/assets/56486273/08eab771-b1cd-4d97-a3a9-173b78fdc997" align="center"></img>
+
 
 
 
