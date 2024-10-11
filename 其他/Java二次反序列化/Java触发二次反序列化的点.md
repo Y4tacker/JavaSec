@@ -313,3 +313,8 @@ public class DemoTest {
 ```
 
 具体分析见https://y4tacker.github.io/2022/02/06/year/2022/2/c3p0%E7%9A%84%E4%B8%89%E4%B8%AAgadget%E7%9A%84%E5%AD%A6%E4%B9%A0/#hex%E5%BA%8F%E5%88%97%E5%8C%96%E5%AD%97%E8%8A%82%E5%8A%A0%E8%BD%BD%E5%99%A8
+
+
+##  org.pac4j.core.profile.InternalAttributeHandler#restore
+使用{#sb64}rO0ABXN...serizalized_object_in_base64...，隐藏TemplatesImpl，可惜不是通用的
+参考链接：https://securitylab.github.com/advisories/GHSL-2022-085_pac4j/
