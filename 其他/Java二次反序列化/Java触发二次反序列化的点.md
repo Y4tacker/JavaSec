@@ -317,4 +317,5 @@ public class DemoTest {
 
 ##  org.pac4j.core.profile.InternalAttributeHandler#restore
 使用{#sb64}rO0ABXN...serizalized_object_in_base64...，隐藏TemplatesImpl，可惜不是通用的
+另外很可惜的是高版本还做了删除，具体可以看公告：https://github.com/pac4j/pac4j/blob/1c198f3fbadc4e8c94bc953327e4e2a38c888525/documentation/blog/what_s_new_in_pac4j_v4_1.md?plain=1#L16
 参考链接：https://securitylab.github.com/advisories/GHSL-2022-085_pac4j/
