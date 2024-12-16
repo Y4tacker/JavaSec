@@ -225,7 +225,7 @@
 - [S2-045学习(通过container获取全局共享的OgnlUtil实例来清除SecurityMemberAccess当中属性的限制)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-045%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 - [S2-057学习(突破#context被删除限制，从attr作用域获取context对象)](https://github.com/Y4tacker/JavaSec/blob/main/7.Struts2%E4%B8%93%E5%8C%BA/S2-057%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/index.md)
 - [S2-066学习(变量覆盖的有趣的例子)](https://y4tacker.github.io/2023/12/09/year/2023/12/Apache-Struts2-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%88%86%E6%9E%90-S2-066/)
-
+- [S2-067学习](https://y4tacker.github.io/2024/12/16/year/2024/12/Apache-Struts2-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E9%80%BB%E8%BE%91%E7%BB%95%E8%BF%87-CVE-2024-53677-S2-067/)
 
 ## 8.关于Tomcat的一些小研究
 
