@@ -38,6 +38,7 @@
 - [Java中的XXE](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Java%E4%B8%AD%E7%9A%84XXE/index.md)
   - [XML 相关漏洞风险研究(关于XML结构方面的介绍可以看看这篇文章，浅显易懂)](https://evilpan.com/2024/06/02/xml-vulnerabilities/) 
   - [XML外部实体注入（XXE）攻击方式汇总(关于XXE可以延伸继续看看)](https://tttang.com/archive/1813/)
+  - [No-FTP:高版本JDK如何通过XXE-OOB读取多行文件(Windows)](https://y4tacker.github.io/2025/11/10/year/2025/11/No-FTP-%E9%AB%98%E7%89%88%E6%9C%ACJDK%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87XXE-OOB%E8%AF%BB%E5%8F%96%E5%A4%9A%E8%A1%8C%E6%96%87%E4%BB%B6/)
   - [绕过WAF保护的XXE(一些通用的流量混淆方式)](https://xz.aliyun.com/t/4059?accounttraceid=04ba92e87b2342b9a14daca5812cc52aoxob&time__1311=n4mx0DnDBiitiQo4GNulxU2nD9iBDc70ZAnYD)
 - [通过反射扫描被注解修饰的类](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E6%89%AB%E6%8F%8F%E8%A2%AB%E6%B3%A8%E8%A7%A3%E4%BF%AE%E9%A5%B0%E7%9A%84%E7%B1%BB/index.md)
 - [低版本下Java文件系统00截断](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E4%BD%8E%E7%89%88%E6%9C%AC%E4%B8%8BJava%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F00%E6%88%AA%E6%96%AD/index.md)
