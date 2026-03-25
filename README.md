@@ -79,6 +79,21 @@
 
 如果想系统学习CC链、CB链的话这部分还是推荐p牛的[Java安全漫谈](https://github.com/phith0n/JavaThings)，我只是简单写写便于自己复习而已(这部分看我下面的share并不适合新人，过了这么久看过网上很多文章还是觉得P牛写的更适合新人)
 
+### 2.1 反序列化基础技术补充（建议先补理论再看链子）
+
+- **官方机制与防护入口（必修）**
+  - [Java Object Serialization Specification](https://docs.oracle.com/en/java/javase/22/docs/specs/serialization/index.html)（序列化协议、`readObject/writeObject`、`serialVersionUID`等基础语义）
+  - [JEP 290: Filter Incoming Serialization Data](https://openjdk.org/jeps/290)（全局/上下文过滤器设计思路）
+- **漏洞定义与防御基线（必修）**
+  - [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html)（风险定义、常见后果与缓解建议）
+  - [OWASP Deserialization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)（工程侧防护 checklist）
+- **工具与实践（建议配合靶场）**
+  - [ysoserial](https://github.com/frohoff/ysoserial)（理解 gadget chain 构造与触发路径的经典工具）
+
+### 2.2 建议学习顺序（反序列化）
+
+1. 先读序列化规范 -> 2. 理解 `ObjectInputStream` 触发路径 -> 3. 学 URLDNS/CC 等入门链 -> 4. 学 JEP 290 与白名单过滤 -> 5. 再看特定框架（Hessian/XStream/SnakeYAML）利用。
+
 - [Java 反序列化取经路(强推)](https://su18.org/post/ysuserial/)
 - [Java反序列化之URLDNS](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS.md)
 - [CommonsCollections1笔记](https://github.com/Y4tacker/JavaSec/blob/main/2.反序列化专区/CommonsCollections1/CommonsCollections1.md)
@@ -119,6 +134,21 @@
 ## 3.Fastjson/Jackson专区
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
+
+### 3.1 JSON反序列化基础技术补充（Fastjson / Jackson）
+
+- **Jackson（必修）**
+  - [Jackson Polymorphic Deserialization CVE Criteria](https://github.com/FasterXML/jackson/wiki/Jackson-Polymorphic-Deserialization-CVE-Criteria)（官方维护者对“可利用条件”的边界说明）
+  - [Jackson Polymorphic Deserialization Docs](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)（`@JsonTypeInfo` 与 Default Typing 的行为）
+- **Fastjson（必修）**
+  - [fastjson2 官方仓库](https://github.com/alibaba/fastjson2)（默认安全策略与新版本能力演进）
+  - [fastjson2 features_cn 文档](https://github.com/alibaba/fastjson2/blob/main/docs/features_cn.md)（了解 AutoType 等特性开关，避免误配）
+- **通用风险视角（建议）**
+  - [OWASP API Security Top 10](https://owasp.org/API-Security/)（将 JSON 反序列化问题放到 API 风险体系中看）
+
+### 3.2 建议学习顺序（Fastjson / Jackson）
+
+1. 先搞清楚类型系统与自动类型机制 -> 2. 看历史漏洞成因与补丁策略 -> 3. 再学利用链触发细节 -> 4. 最后沉淀黑/白盒识别与加固 checklist。
 
 - Jackson
 
