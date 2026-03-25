@@ -16,6 +16,34 @@
 
 ## 1.基础篇
 
+### 1.1 Java安全基础技术补充（建议优先掌握）
+
+- **JVM 规范与字节码基础（必修）**
+  - [The Java Virtual Machine Specification (Java SE 17)](https://docs.oracle.com/javase/specs/jvms/se17/html/)（官方 JVM 规范，理解类加载、字节码验证、方法调用语义）
+  - [Java Platform, Standard Edition VM Guide (JDK 17)](https://docs.oracle.com/en/java/javase/17/vm/index.html)（JVM 调优与运行机制入门）
+- **Java语言与并发内存模型（必修）**
+  - [Java Language Specification](https://docs.oracle.com/javase/specs/)（语言行为、反射/泛型/异常等语义来源）
+  - [JEP 290: Filter Incoming Serialization Data](https://openjdk.org/jeps/290)（反序列化防护基础，Java 安全核心知识点）
+- **常见漏洞知识体系（必修）**
+  - [OWASP Top 10: 2021](https://owasp.org/Top10/2021/)（Web 应用通用风险基线）
+  - [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html)（Java 反序列化高频风险权威定义）
+  - [OWASP: XML External Entity Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)（XXE 防护建议，可对应本仓库 XXE 学习）
+- **Java Web 运行时与组件安全（必修）**
+  - [Jakarta Servlet Specification](https://jakarta.ee/specifications/servlet/)（理解 Filter/Servlet/Listener 生命周期，对内存马与链路分析非常关键）
+  - [Apache Tomcat Documentation](https://tomcat.apache.org/tomcat-9.0-doc/)（容器行为与安全配置参考）
+- **依赖与供应链安全（建议尽早）**
+  - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)（Java 依赖漏洞扫描基础工具）
+  - [Maven: Introduction to the Dependency Mechanism](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)（理解传递依赖，定位 gadget 来源）
+- **编码防护与审计基线（建议配合实战）**
+  - [OWASP Java Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet.html)
+  - [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)（建立 Java 代码审计检查项）
+
+### 1.2 建议学习顺序（面向 Java 安全）
+
+1. JVM/JLS 基础 -> 2. 类加载与反射/动态代理 -> 3. 序列化与 JEP 290 -> 4. Servlet/Tomcat 生命周期 -> 5. 常见漏洞体系（OWASP/CWE）-> 6. 依赖与供应链安全。
+
+---
+
 - [Java反射](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8F%8D%E5%B0%84/%E5%8F%8D%E5%B0%84.md)
   - [补充:通过反射修改用final static修饰的变量](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E4%BF%AE%E6%94%B9%E7%94%A8final%E4%BF%AE%E9%A5%B0%E7%9A%84%E5%8F%98%E9%87%8F)
 - [Java动态代理](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86.md)
