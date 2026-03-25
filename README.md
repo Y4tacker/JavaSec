@@ -16,6 +16,34 @@
 
 ## 1.基础篇
 
+### 1.1 Java安全基础技术补充（建议优先掌握）
+
+- **JVM 规范与字节码基础（必修）**
+  - [The Java Virtual Machine Specification (Java SE 17)](https://docs.oracle.com/javase/specs/jvms/se17/html/)（官方 JVM 规范，理解类加载、字节码验证、方法调用语义）
+  - [Java Platform, Standard Edition VM Guide (JDK 17)](https://docs.oracle.com/en/java/javase/17/vm/index.html)（JVM 调优与运行机制入门）
+- **Java语言与并发内存模型（必修）**
+  - [Java Language Specification](https://docs.oracle.com/javase/specs/)（语言行为、反射/泛型/异常等语义来源）
+  - [JEP 290: Filter Incoming Serialization Data](https://openjdk.org/jeps/290)（反序列化防护基础，Java 安全核心知识点）
+- **常见漏洞知识体系（必修）**
+  - [OWASP Top 10: 2021](https://owasp.org/Top10/2021/)（Web 应用通用风险基线）
+  - [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html)（Java 反序列化高频风险权威定义）
+  - [OWASP: XML External Entity Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)（XXE 防护建议，可对应本仓库 XXE 学习）
+- **Java Web 运行时与组件安全（必修）**
+  - [Jakarta Servlet Specification](https://jakarta.ee/specifications/servlet/)（理解 Filter/Servlet/Listener 生命周期，对内存马与链路分析非常关键）
+  - [Apache Tomcat Documentation](https://tomcat.apache.org/tomcat-9.0-doc/)（容器行为与安全配置参考）
+- **依赖与供应链安全（建议尽早）**
+  - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)（Java 依赖漏洞扫描基础工具）
+  - [Maven: Introduction to the Dependency Mechanism](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)（理解传递依赖，定位 gadget 来源）
+- **编码防护与审计基线（建议配合实战）**
+  - [OWASP Java Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet.html)
+  - [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)（建立 Java 代码审计检查项）
+
+### 1.2 建议学习顺序（面向 Java 安全）
+
+1. JVM/JLS 基础 -> 2. 类加载与反射/动态代理 -> 3. 序列化与 JEP 290 -> 4. Servlet/Tomcat 生命周期 -> 5. 常见漏洞体系（OWASP/CWE）-> 6. 依赖与供应链安全。
+
+---
+
 - [Java反射](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8F%8D%E5%B0%84/%E5%8F%8D%E5%B0%84.md)
   - [补充:通过反射修改用final static修饰的变量](https://github.com/Y4tacker/JavaSec/tree/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E4%BF%AE%E6%94%B9%E7%94%A8final%E4%BF%AE%E9%A5%B0%E7%9A%84%E5%8F%98%E9%87%8F)
 - [Java动态代理](https://github.com/Y4tacker/JavaSec/blob/main/1.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86.md)
@@ -50,6 +78,21 @@
 很早前学了，后面补上，更多是说一点关键的东西，不会很详细，好吧这里再拓展成反序列化专区好了
 
 如果想系统学习CC链、CB链的话这部分还是推荐p牛的[Java安全漫谈](https://github.com/phith0n/JavaThings)，我只是简单写写便于自己复习而已(这部分看我下面的share并不适合新人，过了这么久看过网上很多文章还是觉得P牛写的更适合新人)
+
+### 2.1 反序列化基础技术补充（建议先补理论再看链子）
+
+- **官方机制与防护入口（必修）**
+  - [Java Object Serialization Specification](https://docs.oracle.com/en/java/javase/22/docs/specs/serialization/index.html)（序列化协议、`readObject/writeObject`、`serialVersionUID`等基础语义）
+  - [JEP 290: Filter Incoming Serialization Data](https://openjdk.org/jeps/290)（全局/上下文过滤器设计思路）
+- **漏洞定义与防御基线（必修）**
+  - [CWE-502: Deserialization of Untrusted Data](https://cwe.mitre.org/data/definitions/502.html)（风险定义、常见后果与缓解建议）
+  - [OWASP Deserialization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)（工程侧防护 checklist）
+- **工具与实践（建议配合靶场）**
+  - [ysoserial](https://github.com/frohoff/ysoserial)（理解 gadget chain 构造与触发路径的经典工具）
+
+### 2.2 建议学习顺序（反序列化）
+
+1. 先读序列化规范 -> 2. 理解 `ObjectInputStream` 触发路径 -> 3. 学 URLDNS/CC 等入门链 -> 4. 学 JEP 290 与白名单过滤 -> 5. 再看特定框架（Hessian/XStream/SnakeYAML）利用。
 
 - [Java 反序列化取经路(强推)](https://su18.org/post/ysuserial/)
 - [Java反序列化之URLDNS](https://github.com/Y4tacker/JavaSec/blob/main/%E5%85%B6%E4%BB%96/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8BURLDNS.md)
@@ -91,6 +134,21 @@
 ## 3.Fastjson/Jackson专区
 
 可以对比jackson简单学习下，这里我也会简单提一下jackson的一些利用，当然不会很详细，但是会简单列出一些触发原理，而且有些payload是共通的，这里也不以收集各个依赖下利用的payload为主
+
+### 3.1 JSON反序列化基础技术补充（Fastjson / Jackson）
+
+- **Jackson（必修）**
+  - [Jackson Polymorphic Deserialization CVE Criteria](https://github.com/FasterXML/jackson/wiki/Jackson-Polymorphic-Deserialization-CVE-Criteria)（官方维护者对“可利用条件”的边界说明）
+  - [Jackson Polymorphic Deserialization Docs](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)（`@JsonTypeInfo` 与 Default Typing 的行为）
+- **Fastjson（必修）**
+  - [fastjson2 官方仓库](https://github.com/alibaba/fastjson2)（默认安全策略与新版本能力演进）
+  - [fastjson2 features_cn 文档](https://github.com/alibaba/fastjson2/blob/main/docs/features_cn.md)（了解 AutoType 等特性开关，避免误配）
+- **通用风险视角（建议）**
+  - [OWASP API Security Top 10](https://owasp.org/API-Security/)（将 JSON 反序列化问题放到 API 风险体系中看）
+
+### 3.2 建议学习顺序（Fastjson / Jackson）
+
+1. 先搞清楚类型系统与自动类型机制 -> 2. 看历史漏洞成因与补丁策略 -> 3. 再学利用链触发细节 -> 4. 最后沉淀黑/白盒识别与加固 checklist。
 
 - Jackson
 
