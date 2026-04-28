@@ -37,6 +37,8 @@
 - **编码防护与审计基线（建议配合实战）**
   - [OWASP Java Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet.html)
   - [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)（建立 Java 代码审计检查项）
+- **blackhat conference**
+  - [A New Threat Posed by ghost Bits in Java](https://i.blackhat.com/Asia-26/Presentations/Asia-26-Bai-Cast-Attack-Ghost-Bits-4.23.pdf)
 
 ### 1.2 建议学习顺序（面向 Java 安全）
 
